@@ -11,49 +11,31 @@
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 
-- [What's Included](#whats-included)
-- [Quick Start](#quick-start)
-- [Features](#features)
-- [Repository Structure](#repository-structure)
-- [Design Styles Covered](#design-styles-covered)
-- [Presentation Formats](#presentation-formats)
-- [Usage Examples](#usage-examples)
-- [Best Practices](#best-practices)
-- [Contributing](#contributing)
-- [License](#license)
-- [Resources](#resources)
+* **Complete Prompts Library (150+ prompts)**
+    * [Editorial & Business Styles](#-editorial--business-styles)
+    * [Pop, Youth & Street Styles](#-pop-youth--street-styles)
+    * [Typography & Font-Driven Styles](#-typography--font-driven-styles)
+    * [Artistic & Avant-Garde Styles](#-artistic--avant-garde-styles)
+    * [Professional & Premium Styles](#-professional--premium-styles)
+    * [Sports & High-Energy Styles](#-sports--high-energy-styles)
+    * [Core Generation Prompts](#-core-generation-prompts)
+    * [Data Visualization Prompts](#-data-visualization-prompts)
+    * [Content Adaptation Prompts](#-content-adaptation-prompts)
+    * [Advanced Workflow Prompts](#-advanced-workflow-prompts)
 
----
+* **Quick Reference Guide**
+    * [Decision tree for choosing styles](#-decision-tree-for-choosing-styles)
+    * [3-step prompt formula](#-3-step-prompt-formula)
+    * [Common prompts by situation](#-common-prompts-by-situation)
+    * [Style checklists](#-style-checklists)
+    * [Pro tips & best practices](#-pro-tips--best-practices)
 
-## What's Included
-
-This repository contains:
-
-- **Complete Prompts Library** (150+ prompts)
-  - Editorial & Business Styles
-  - Pop, Youth & Street Styles
-  - Typography & Font-Driven Styles
-  - Artistic & Avant-Garde Styles
-  - Professional & Premium Styles
-  - Sports & High-Energy Styles
-  - Core Generation Prompts
-  - Data Visualization Prompts
-  - Content Adaptation Prompts
-  - Advanced Workflow Prompts
-
-- **Quick Reference Guide**
-  - Decision tree for choosing styles
-  - 3-step prompt formula
-  - Common prompts by situation
-  - Style checklists
-  - Pro tips & best practices
-
-- **Additional Resources**
-  - Contributing guidelines
-  - License information
-  - Link to original sources
+* **Additional Resources**
+    * [Contributing guidelines](CONTRIBUTING.md)
+    * [License information](LICENSE)
+    * [Link to original sources](RESOURCES.md)
 
 ---
 
