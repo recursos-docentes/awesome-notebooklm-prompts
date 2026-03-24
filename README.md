@@ -31,29 +31,29 @@
 
 This repository contains:
 
-- **Complete Prompts Library** (150+ prompts)
-  - Editorial & Business Styles
-  - Pop, Youth & Street Styles
-  - Typography & Font-Driven Styles
-  - Artistic & Avant-Garde Styles
-  - Professional & Premium Styles
-  - Sports & High-Energy Styles
-  - Core Generation Prompts
-  - Data Visualization Prompts
-  - Content Adaptation Prompts
-  - Advanced Workflow Prompts
+- [**Complete Prompts Library** (150+ prompts)](notebooklm_complete_prompts.md)
+  - [Editorial & Business Styles](notebooklm_complete_prompts.md#editorial--business-styles)
+  - [Pop, Youth & Street Styles](notebooklm_complete_prompts.md#pop-youth--street-styles)
+  - [Typography & Font-Driven Styles](notebooklm_complete_prompts.md#typography--font-driven-styles)
+  - [Artistic & Avant-Garde Styles](notebooklm_complete_prompts.md#artistic--avant-garde-styles)
+  - [Professional & Premium Styles](notebooklm_complete_prompts.md#professional--premium-styles)
+  - [Sports & High-Energy Styles](notebooklm_complete_prompts.md#sports--high-energy-styles)
+  - [Core Generation Prompts](notebooklm_complete_prompts.md#core-presentation-generation-prompts)
+  - [Data Visualization Prompts](notebooklm_complete_prompts.md#data-visualization--infographic-prompts)
+  - [Content Adaptation Prompts](notebooklm_complete_prompts.md#content-adaptation-prompts)
+  - [Advanced Workflow Prompts](notebooklm_complete_prompts.md#advanced-workflow-prompts)
 
-- **Quick Reference Guide**
-  - Decision tree for choosing styles
-  - 3-step prompt formula
-  - Common prompts by situation
-  - Style checklists
-  - Pro tips & best practices
+- [**Quick Reference Guide**](notebooklm_quick_reference.md)
+  - [Decision tree for choosing styles](notebooklm_quick_reference.md#quick-decision-tree-choose-your-style)
+  - [3-step prompt formula](notebooklm_quick_reference.md#fastest-path-3-step-prompt-formula)
+  - [Common prompts by situation](notebooklm_quick_reference.md#common-prompts-by-situation)
+  - [Style checklists](notebooklm_quick_reference.md#style-checklists)
+  - [Pro tips & best practices](notebooklm_quick_reference.md#pro-tips-for-better-outputs)
 
 - **Additional Resources**
-  - Contributing guidelines
-  - License information
-  - Link to original sources
+  - [Contributing guidelines](CONTRIBUTING.md)
+  - [License information](LICENSE)
+  - [Link to original sources](RESOURCES.md)
 
 ---
 
