@@ -11,47 +11,65 @@
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
-* **Complete Prompts Library (150+ prompts)**
-    * [Editorial & Business Styles](#-editorial--business-styles)
-    * [Pop, Youth & Street Styles](#-pop-youth--street-styles)
-    * [Typography & Font-Driven Styles](#-typography--font-driven-styles)
-    * [Artistic & Avant-Garde Styles](#-artistic--avant-garde-styles)
-    * [Professional & Premium Styles](#-professional--premium-styles)
-    * [Sports & High-Energy Styles](#-sports--high-energy-styles)
-    * [Core Generation Prompts](#-core-generation-prompts)
-    * [Data Visualization Prompts](#-data-visualization-prompts)
-    * [Content Adaptation Prompts](#-content-adaptation-prompts)
-    * [Advanced Workflow Prompts](#-advanced-workflow-prompts)
+- [What's Included](#whats-included)
+- [Quick Start](#quick-start)
+- [Features](#features)
+- [Repository Structure](#repository-structure)
+- [Design Styles Covered](#design-styles-covered)
+- [Presentation Formats](#presentation-formats)
+- [Usage Examples](#usage-examples)
+- [Best Practices](#best-practices)
+- [Contributing](#contributing)
+- [License](#license)
+- [Resources](#resources)
 
-* **Quick Reference Guide**
-    * [Decision tree for choosing styles](#-decision-tree-for-choosing-styles)
-    * [3-step prompt formula](#-3-step-prompt-formula)
-    * [Common prompts by situation](#-common-prompts-by-situation)
-    * [Style checklists](#-style-checklists)
-    * [Pro tips & best practices](#-pro-tips--best-practices)
+---
 
-* **Additional Resources**
-    * [Contributing guidelines](CONTRIBUTING.md)
-    * [License information](LICENSE)
-    * [Link to original sources](RESOURCES.md)
+## What's Included
+
+This repository contains:
+
+- **Complete Prompts Library** (150+ prompts)
+  - Editorial & Business Styles
+  - Pop, Youth & Street Styles
+  - Typography & Font-Driven Styles
+  - Artistic & Avant-Garde Styles
+  - Professional & Premium Styles
+  - Sports & High-Energy Styles
+  - Core Generation Prompts
+  - Data Visualization Prompts
+  - Content Adaptation Prompts
+  - Advanced Workflow Prompts
+
+- **Quick Reference Guide**
+  - Decision tree for choosing styles
+  - 3-step prompt formula
+  - Common prompts by situation
+  - Style checklists
+  - Pro tips & best practices
+
+- **Additional Resources**
+  - Contributing guidelines
+  - License information
+  - Link to original sources
 
 ---
 
 ## Quick Start
 
 ### For Complete Beginners
-1. Open `QUICK_REFERENCE.md`
+1. Open [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md)
 2. Find your presentation type in the "Quick Decision Tree"
 3. Use the "3-Step Prompt Formula"
 4. Copy the example prompt
 5. Paste into NotebookLM + your sources
 
 ### For Experienced Users
-1. Browse `COMPLETE_PROMPTS.md` by style
+1. Browse [`notebooklm_complete_prompts.md`](notebooklm_complete_prompts.md) by style
 2. Mix and match prompts from different sections
-3. Use `QUICK_REFERENCE.md` for iterative refinement
+3. Use [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md) for iterative refinement
 
 ### Basic Formula
 ```
@@ -120,14 +138,14 @@ awesome-notebooklm-prompts/
 ├── README.md                          # You are here
 ├── CONTRIBUTING.md                    # How to contribute
 ├── LICENSE                            # MIT License
-├── COMPLETE_PROMPTS.md                # All 150+ prompts organized by category
-├── QUICK_REFERENCE.md                 # Quick-start guide with checklists
+├── notebooklm_complete_prompts.md     # All 150+ prompts organized by category
+├── notebooklm_quick_reference.md      # Quick-start guide with checklists
 ├── RESOURCES.md                       # Links to original sources
 └── examples/
-    ├── academic-presentation.md       # Example: Conference talk
-    ├── sales-pitch.md                 # Example: Investor pitch
-    ├── training-deck.md               # Example: Educational presentation
-    └── executive-summary.md           # Example: 5-minute executive brief
+    ├── academic-conference-presentation.md # Example: Conference talk
+    ├── investor-pitch-deck.md              # Example: Investor pitch
+    ├── training-deck.md                    # Example: Educational presentation (Coming Soon)
+    └── executive-summary.md                # Example: 5-minute executive brief (Coming Soon)
 ```
 
 ---
@@ -135,29 +153,29 @@ awesome-notebooklm-prompts/
 ## Design Styles Covered
 
 ### Editorial & Business
-- [x] Modern Newspaper
-- [x] Sharp-Edged Minimalism
-- [x] Yellow × Black Editorial
-- [x] Black × Orange Creative Agency
-- [x] For Seminar Use (Minimal Text)
+- [x] [Modern Newspaper](notebooklm_complete_prompts.md#modern-newspaper-style)
+- [x] [Sharp-Edged Minimalism](notebooklm_complete_prompts.md#sharp-edged-minimalism)
+- [x] [Yellow × Black Editorial](notebooklm_complete_prompts.md#yellow--black-editorial)
+- [x] [Black × Orange Creative Agency](notebooklm_complete_prompts.md#black--orange-creative-agency)
+- [x] [For Seminar Use (Minimal Text)](notebooklm_complete_prompts.md#for-seminar-use-minimal-text)
 
 ### Pop, Youth & Street
-- [x] Manga Style
-- [x] Magazine Style (Mature-Cute Editorial)
-- [x] Pink Street-Style
-- [x] Digital / Neo / Pop
-- [x] Neo-Retro Dev Deck / Pixel-Infographic
+- [x] [Manga Style](notebooklm_complete_prompts.md#manga-style)
+- [x] [Magazine Style (Mature-Cute Editorial)](notebooklm_complete_prompts.md#magazine-style-mature-cute-editorial)
+- [x] [Pink Street-Style](notebooklm_complete_prompts.md#pink-street-style)
+- [x] [Digital / Neo / Pop](notebooklm_complete_prompts.md#digital--neo--pop)
+- [x] [Neo-Retro Dev Deck / Pixel-Infographic](notebooklm_complete_prompts.md#neo-retro-dev-deck--pixel-infographic-editorial)
 
 ### Typography & Artistic
-- [x] Mincho Font + Handwritten Mix
-- [x] Deformed Flat Persona
-- [x] Royal Blue × Red Watercolor
-- [x] Classic / Pop (Sculpture × Vaporwave)
-- [x] Tech / Art / Neon (Constructivism)
+- [x] [Mincho Font + Handwritten Mix](notebooklm_complete_prompts.md#mincho-font--handwritten-mix)
+- [x] [Deformed Flat Persona](notebooklm_complete_prompts.md#deformed-flat-persona)
+- [x] [Royal Blue × Red Watercolor](notebooklm_complete_prompts.md#royal-blue--red-watercolor)
+- [x] [Classic / Pop (Sculpture × Vaporwave)](notebooklm_complete_prompts.md#classic--pop-sculpture--vaporwave)
+- [x] [Tech / Art / Neon (Constructivism)](notebooklm_complete_prompts.md#tech--art--neon-constructivism)
 
 ### Professional & Premium
-- [x] Studio / Mockup / Premium
-- [x] Sports / Athletic / Energy
+- [x] [Studio / Mockup / Premium](notebooklm_complete_prompts.md#studio--mockup--premium)
+- [x] [Sports / Athletic / Energy](notebooklm_complete_prompts.md#sports--athletic--energy)
 - [x] Anti-Gravity / Living Artifact
 - [x] And more...
 
@@ -169,12 +187,12 @@ awesome-notebooklm-prompts/
 
 | Format | Best For | Typical Slides | Priority |
 |--------|----------|---|---|
-| **Academic** | Conference talks, thesis defenses, research presentations | 15–25 | Methodology rigor |
-| **Business** | Quarterly reviews, strategic planning, board meetings | 8–12 | Strategic decisions |
-| **Investor** | Fundraising pitches, partnership proposals | 10–15 | Story + urgency |
-| **Client** | Proposals, project reports, recommendations | 12–20 | Results + next steps |
-| **Education** | Lectures, workshops, training sessions | 20–40 | Progressive learning |
-| **Lightning** | 5–10 minute showcases, ignite talks | 5–12 | One idea, max impact |
+| [**Academic**](notebooklm_complete_prompts.md#academic--research-presentations) | Conference talks, thesis defenses, research presentations | 15–25 | Methodology rigor |
+| [**Business**](notebooklm_complete_prompts.md#business--executive-presentations) | Quarterly reviews, strategic planning, board meetings | 8–12 | Strategic decisions |
+| [**Investor**](notebooklm_complete_prompts.md#investor--pitch-decks) | Fundraising pitches, partnership proposals | 10–15 | Story + urgency |
+| [**Client**](notebooklm_complete_prompts.md#client--proposal-presentations) | Proposals, project reports, recommendations | 12–20 | Results + next steps |
+| [**Education**](notebooklm_complete_prompts.md#education--training-presentations) | Lectures, workshops, training sessions | 20–40 | Progressive learning |
+| [**Lightning**](notebooklm_complete_prompts.md#lightning-talks--short-presentations) | 5–10 minute showcases, ignite talks | 5–12 | One idea, max impact |
 
 ---
 
@@ -192,7 +210,7 @@ Use clear data visualization for complex concepts."
 
 **Best Style:** Sharp-Edged Minimalism or Tech/Art/Neon
 
-→ *See `/examples/academic-presentation.md` for full walkthrough*
+→ *See `examples/academic-conference-presentation.md` for full walkthrough*
 
 ### Example 2: Product Pitch Deck
 **Challenge:** Need urgency, emotion, AND credibility
@@ -207,7 +225,7 @@ Use data and proof points. Include financial projections."
 
 **Best Style:** Neo-Retro Dev Deck or Sports/Athletic
 
-→ *See `/examples/sales-pitch.md` for full walkthrough*
+→ *See `examples/investor-pitch-deck.md` for full walkthrough*
 
 ### Example 3: Quick Executive Summary
 **Challenge:** Key decision-makers, minimal time
@@ -221,7 +239,7 @@ Use key numbers prominently. One idea per slide."
 
 **Best Style:** Premium/Studio Mockup
 
-→ *See `/examples/executive-summary.md` for full walkthrough*
+→ *See `examples/executive-summary.md` (Coming Soon) for full walkthrough*
 
 ### Example 4: Educational Training Module
 **Challenge:** Learning objectives + engagement
@@ -236,7 +254,7 @@ Magazine Style for engagement."
 
 **Best Style:** Magazine Style or Digital/Neo/Pop
 
-→ *See `/examples/training-deck.md` for full walkthrough*
+→ *See `examples/training-deck.md` (Coming Soon) for full walkthrough*
 
 ---
 
@@ -290,7 +308,7 @@ Artistic/Conceptual?          → Tech/Art/Neon or Watercolor/Artistic
 Minimal/Professional?         → Sharp-Edged Minimalism or Studio/Premium
 ```
 
-👉 **See `QUICK_REFERENCE.md` for the complete decision tree**
+👉 **See [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md) for the complete decision tree**
 
 ---
 
@@ -401,7 +419,7 @@ This project is licensed under the **MIT License** - see `LICENSE` file for deta
 **A:** Yes! These prompts work with NotebookLM, but many also work with other presentation AI tools.
 
 ### Q: How do I choose between styles?
-**A:** Use the Quick Decision Tree in `QUICK_REFERENCE.md` based on your presentation type and audience.
+**A:** Use the Quick Decision Tree in [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md) based on your presentation type and audience.
 
 ### Q: Can I mix styles?
 **A:** Absolutely! Combine elements from different styles. That's where creativity happens.
@@ -450,8 +468,8 @@ If this repository helps you create better presentations, please:
 
 | Resource | Link |
 |----------|------|
-| Complete Prompts | [`COMPLETE_PROMPTS.md`](COMPLETE_PROMPTS.md) |
-| Quick Reference | [`QUICK_REFERENCE.md`](QUICK_REFERENCE.md) |
+| Complete Prompts | [`notebooklm_complete_prompts.md`](notebooklm_complete_prompts.md) |
+| Quick Reference | [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md) |
 | Contributing Guide | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | External Resources | [`RESOURCES.md`](RESOURCES.md) |
 | License | [`LICENSE`](LICENSE) |
