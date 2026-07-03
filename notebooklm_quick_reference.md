@@ -1,670 +1,660 @@
-# NOTEBOOKLM SLIDE PROMPTS - QUICK REFERENCE GUIDE
-
-A practical quick-start guide for applying NotebookLM prompts. Perfect for creators who need slide decks fast.
-
+# PROMPTS DE DIAPOSITIVAS DE NOTEBOOKLM - GUÍA DE REFERENCIA RÁPIDA
+ 
+Una guía práctica de inicio rápido para aplicar prompts de NotebookLM. Ideal para creadores que necesitan decks de diapositivas rápido.
+ 
 ---
-
-## QUICK DECISION TREE: Choose Your Style
-
+ 
+## ÁRBOL DE DECISIÓN RÁPIDO: elegí tu estilo
+ 
 ```
-START HERE: What's your presentation type?
-
-1. BUSINESS/CORPORATE?
+EMPEZÁ ACÁ: ¿Cuál es tu tipo de presentación?
+ 
+1. ¿NEGOCIOS/CORPORATIVA?
    → Sharp-Edged Minimalism
    → Premium/Studio Mockup
    → Modern Newspaper
-
-2. CREATIVE/STARTUP?
+ 
+2. ¿CREATIVA/STARTUP?
    → Neo-Retro Dev Deck
    → Digital/Neo/Pop
    → Classic/Pop
-
-3. ACADEMIC/RESEARCH?
+ 
+3. ¿ACADÉMICA/INVESTIGACIÓN?
    → Sharp-Edged Minimalism
    → Tech/Art/Neon
    → Modern Newspaper
-
-4. EDUCATION/TRAINING?
+ 
+4. ¿EDUCACIÓN/CAPACITACIÓN?
    → Magazine Style
    → Digital/Neo/Pop
    → Manga Style
-
-5. FASHION/LIFESTYLE?
+ 
+5. ¿MODA/ESTILO DE VIDA?
    → Magazine Style
    → Pink Street-Style
    → Yellow × Black Editorial
-
-6. HIGH ENERGY/SPORTS?
+ 
+6. ¿ALTA ENERGÍA/DEPORTES?
    → Sports/Athletic/Energy
    → Neo-Retro Dev Deck
-   → Bright Pop Colors
-
-7. ARTISTIC/CONCEPTUAL?
+   → Colores pop brillantes
+ 
+7. ¿ARTÍSTICA/CONCEPTUAL?
    → Tech/Art/Neon
    → Sculpture/Pop Art/Vaporwave
-   → Watercolor/Artistic
-
-8. MINIMAL/PROFESSIONAL?
+   → Acuarela/artístico
+ 
+8. ¿MINIMALISTA/PROFESIONAL?
    → Sharp-Edged Minimalism
    → Studio/Premium
    → Modern Newspaper
 ```
-
+ 
 ---
-
-## FASTEST PATH: 3-STEP PROMPT FORMULA
-
-For quick, professional results, use this formula:
-
-**STEP 1: FOUNDATION**
+ 
+## EL CAMINO MÁS RÁPIDO: FÓRMULA DE PROMPT EN 3 PASOS
+ 
+Para resultados rápidos y profesionales, usá esta fórmula:
+ 
+**PASO 1: BASE**
 ```
-"Create a [NUMBER]-slide presentation on [TOPIC] for [AUDIENCE]"
-
-Example:
-"Create a 10-slide presentation on AI in healthcare for hospital administrators"
+"Creá una presentación de [NÚMERO] diapositivas sobre [TEMA] para [AUDIENCIA]"
+ 
+Ejemplo:
+"Creá una presentación de 10 diapositivas sobre IA en el sector salud para 
+administradores hospitalarios"
 ```
-
-**STEP 2: STYLE**
+ 
+**PASO 2: ESTILO**
 ```
-"Use a [STYLE] aesthetic with [COLOR PALETTE] colors"
-
-Example:
-"Use a sharp-edged minimalist aesthetic with white background and black/blue accents"
+"Usá una estética [ESTILO] con colores [PALETA DE COLORES]"
+ 
+Ejemplo:
+"Usá una estética minimalista de bordes definidos con fondo blanco y acentos 
+negro/azul"
 ```
-
-**STEP 3: CONTENT DIRECTION**
+ 
+**PASO 3: DIRECCIÓN DEL CONTENIDO**
 ```
-"Emphasize [KEY MESSAGE] and include [VISUAL APPROACH]"
-
-Example:
-"Emphasize cost savings and include simple charts showing ROI comparisons"
+"Enfatizá [MENSAJE CLAVE] e incluí [ENFOQUE VISUAL]"
+ 
+Ejemplo:
+"Enfatizá el ahorro de costos e incluí gráficos simples que muestren 
+comparaciones de ROI"
 ```
-
-**FULL EXAMPLE:**
+ 
+**EJEMPLO COMPLETO:**
 ```
-"Create a 10-slide presentation on AI in healthcare for hospital administrators.
-Use a sharp-edged minimalist aesthetic with white background and black/blue accents.
-Emphasize cost savings and include simple charts showing ROI comparisons."
+"Creá una presentación de 10 diapositivas sobre IA en el sector salud para 
+administradores hospitalarios.
+Usá una estética minimalista de bordes definidos con fondo blanco y acentos negro/azul.
+Enfatizá el ahorro de costos e incluí gráficos simples que muestren comparaciones de ROI."
 ```
-
+ 
 ---
-
-## BY CONTENT TYPE
-
-### Research Paper → Slides
-**Challenge**: Dense technical content
-**Best Style**: Sharp-Edged Minimalism or Tech/Art/Neon
-**Quick Prompt**:
+ 
+## POR TIPO DE CONTENIDO
+ 
+### Artículo de investigación → Diapositivas
+**Desafío**: contenido técnico denso
+**Mejor estilo**: Sharp-Edged Minimalism o Tech/Art/Neon
+**Prompt rápido**:
 ```
-"Convert these research findings into 8 slides for [AUDIENCE].
-Focus on: methodology (1 slide), key findings (3 slides), implications (2 slides), conclusion (2 slides).
-Use clear data visualization for complex concepts."
+"Convertí estos hallazgos de investigación en 8 diapositivas para [AUDIENCIA].
+Enfocate en: metodología (1 diapositiva), hallazgos clave (3 diapositivas), 
+implicaciones (2 diapositivas), conclusión (2 diapositivas).
+Usá visualización de datos clara para los conceptos complejos."
 ```
-
-### Long Document → Slides
-**Challenge**: Too much content, need to prioritize
-**Best Style**: Modern Newspaper or Digital/Neo/Pop
-**Quick Prompt**:
+ 
+### Documento largo → Diapositivas
+**Desafío**: demasiado contenido, hay que priorizar
+**Mejor estilo**: Modern Newspaper o Digital/Neo/Pop
+**Prompt rápido**:
 ```
-"Identify the 7 most important ideas from this document and create presentation slides.
-For each idea: slide title (6 words max), one key evidence point, one visual direction."
+"Identificá las 7 ideas más importantes de este documento y creá diapositivas de presentación.
+Para cada idea: título de diapositiva (máximo 6 palabras), un punto de evidencia clave, 
+una dirección visual."
 ```
-
-### Sales Pitch → Slides
-**Challenge**: Need urgency + emotion + credibility
-**Best Style**: Neo-Retro Dev Deck or Sports/Athletic
-**Quick Prompt**:
+ 
+### Pitch de ventas → Diapositivas
+**Desafío**: necesita urgencia + emoción + credibilidad
+**Mejor estilo**: Neo-Retro Dev Deck o Sports/Athletic
+**Prompt rápido**:
 ```
-"Create a sales pitch deck (12 slides):
-Problem statement (1), solution overview (2), market opportunity (2), social proof/results (3),
-competitive advantage (2), ask/CTA (2).
-Include specific numbers and customer testimonials."
+"Creá un pitch deck de ventas (12 diapositivas):
+Planteamiento del problema (1), resumen de la solución (2), oportunidad de mercado (2), 
+prueba social/resultados (3), ventaja competitiva (2), pedido/CTA (2).
+Incluí números específicos y testimonios de clientes."
 ```
-
-### Training/Education → Slides
-**Challenge**: Learning objectives + engagement
-**Best Style**: Magazine Style or Digital/Neo/Pop
-**Quick Prompt**:
+ 
+### Capacitación/Educación → Diapositivas
+**Desafío**: objetivos de aprendizaje + participación
+**Mejor estilo**: Magazine Style o Digital/Neo/Pop
+**Prompt rápido**:
 ```
-"Create a training presentation (20 slides) with:
-Learning objectives (1), content modules (15), checkpoints/quizzes (2), summary (1), next steps (1).
-Include interactive elements and visual breaks between sections."
+"Creá una presentación de capacitación (20 diapositivas) con:
+Objetivos de aprendizaje (1), módulos de contenido (15), puntos de control/pruebas (2), 
+resumen (1), próximos pasos (1).
+Incluí elementos interactivos y pausas visuales entre secciones."
 ```
-
-### Conference Talk → Slides
-**Challenge**: Academic credibility + engagement
-**Best Style**: Sharp-Edged Minimalism or Modern Newspaper
-**Quick Prompt**:
+ 
+### Charla en conferencia → Diapositivas
+**Desafío**: credibilidad académica + participación
+**Mejor estilo**: Sharp-Edged Minimalism o Modern Newspaper
+**Prompt rápido**:
 ```
-"Create a 20-minute conference talk (15 slides):
-Introduction/hook (1), background (2), methodology (2), results (4), implications (3),
-questions/discussion (2), references (1).
-Emphasize novel findings and clear takeaways."
+"Creá una charla de conferencia de 20 minutos (15 diapositivas):
+Introducción/gancho (1), antecedentes (2), metodología (2), resultados (4), 
+implicaciones (3), preguntas/discusión (2), referencias (1).
+Enfatizá los hallazgos novedosos y las conclusiones claras."
 ```
-
-### Executive Summary → Slides
-**Challenge**: Key decisions, minimal time
-**Best Style**: Premium/Studio Mockup or Sharp-Edged Minimalism
-**Quick Prompt**:
+ 
+### Resumen ejecutivo → Diapositivas
+**Desafío**: decisiones clave, poco tiempo
+**Mejor estilo**: Premium/Studio Mockup o Sharp-Edged Minimalism
+**Prompt rápido**:
 ```
-"Create a 5-minute executive summary (8 slides):
-Current situation (1), problem/opportunity (1), solution (1), results/impact (2),
-recommendation (1), next steps (1), investment/resources (1).
-Use key numbers prominently."
+"Creá un resumen ejecutivo de 5 minutos (8 diapositivas):
+Situación actual (1), problema/oportunidad (1), solución (1), resultados/impacto (2),
+recomendación (1), próximos pasos (1), inversión/recursos (1).
+Usá los números clave de forma prominente."
 ```
-
-### Product Launch → Slides
-**Challenge**: Excitement + clarity
-**Best Style**: Neo-Retro Dev Deck or Sports/Athletic
-**Quick Prompt**:
+ 
+### Lanzamiento de producto → Diapositivas
+**Desafío**: entusiasmo + claridad
+**Mejor estilo**: Neo-Retro Dev Deck o Sports/Athletic
+**Prompt rápido**:
 ```
-"Create a product launch deck (15 slides):
-Problem it solves (1), unveil/reveal (2), key features (3), benefits (2),
-market opportunity (2), pricing/availability (2), call to action (2), thank you (1).
-Design for both internal team and potential customers."
+"Creá un deck de lanzamiento de producto (15 diapositivas):
+Problema que resuelve (1), revelación/presentación (2), funcionalidades clave (3), 
+beneficios (2), oportunidad de mercado (2), precio/disponibilidad (2), 
+llamado a la acción (2), agradecimiento (1).
+Diseñalo tanto para el equipo interno como para potenciales clientes."
 ```
-
+ 
 ---
-
-## STYLE CHECKLISTS
-
+ 
+## CHECKLISTS DE ESTILO
+ 
 ### Sharp-Edged Minimalism ✓
-- [ ] Grid-based layout with clear alignment
-- [ ] Generous negative space (40%+ empty space)
-- [ ] Section numbers in top-left corner
-- [ ] Limited color palette (max 3 colors)
-- [ ] Thin, precise lines and borders
-- [ ] Bold typography hierarchy
-- [ ] One idea per slide
-- [ ] Clean photography (if any)
-
+- [ ] Diseño basado en grilla con alineación clara
+- [ ] Espacio negativo generoso (más del 40% de espacio vacío)
+- [ ] Números de sección en la esquina superior izquierda
+- [ ] Paleta de colores limitada (máximo 3 colores)
+- [ ] Líneas y bordes finos y precisos
+- [ ] Jerarquía tipográfica en negrita
+- [ ] Una idea por diapositiva
+- [ ] Fotografía limpia (si la hay)
 ### Modern Newspaper ✓
-- [ ] Asymmetrical, off-center title placement
-- [ ] Large headline dominating slide (30-50%)
-- [ ] Extreme size jump between headline and body
-- [ ] Yellow or red accent color on white
-- [ ] Monochrome photography with blown-out backgrounds
-- [ ] Fluorescent highlights on key numbers
-- [ ] Energy and movement in layout
-- [ ] Current affairs/news-style tone
-
+- [ ] Ubicación asimétrica y descentrada del título
+- [ ] Titular grande que domina la diapositiva (30-50%)
+- [ ] Salto de tamaño extremo entre el titular y el cuerpo
+- [ ] Color de acento amarillo o rojo sobre blanco
+- [ ] Fotografía monocromática con fondos sobreexpuestos
+- [ ] Resaltados fluorescentes en números clave
+- [ ] Energía y movimiento en el diseño
+- [ ] Tono de estilo noticioso/actualidad
 ### Digital/Neo/Pop ✓
-- [ ] Organic, cloud-like shapes (not rectangles)
-- [ ] Bright, high-saturation colors
-- [ ] SNS/social media aesthetic
-- [ ] Mix of flat illustrations and photos
-- [ ] Hand-drawn elements (arrows, highlights)
-- [ ] Playful spacing and tilted elements
-- [ ] Emoji or pop icons integrated
-- [ ] Friendly, approachable tone
-
+- [ ] Formas orgánicas tipo nube (no rectángulos)
+- [ ] Colores brillantes de alta saturación
+- [ ] Estética de redes sociales
+- [ ] Mezcla de ilustraciones planas y fotos
+- [ ] Elementos hechos a mano (flechas, resaltados)
+- [ ] Espaciado lúdico y elementos inclinados
+- [ ] Emojis o íconos pop integrados
+- [ ] Tono amigable y cercano
 ### Neo-Retro Dev Deck ✓
-- [ ] Cream/off-white grid paper background
-- [ ] High-contrast color blocks with black borders
-- [ ] Pixel art or 8-bit style icons
-- [ ] Thick borders and lines
-- [ ] Stacked modular blocks
-- [ ] Retro computer manual aesthetic
-- [ ] Opinionated, slightly rebellious tone
-- [ ] Developer/tech audience flavor
-
+- [ ] Fondo de papel cuadriculado color crema/blanco roto
+- [ ] Bloques de color de alto contraste con bordes negros
+- [ ] Íconos estilo pixel art o 8-bit
+- [ ] Bordes y líneas gruesas
+- [ ] Bloques modulares apilados
+- [ ] Estética de manual de computación retro
+- [ ] Tono con opinión propia, levemente rebelde
+- [ ] Toque orientado a audiencia de desarrolladores/tech
 ### Premium/Studio Mockup ✓
-- [ ] Device mockups (iPhone, MacBook, iPad)
-- [ ] Clean, high-resolution visuals
-- [ ] Electric purple and acid yellow accents
-- [ ] Black or white dominant backgrounds
-- [ ] Card-based UI layouts
-- [ ] Refined, polished feel
-- [ ] Subtle reflections and depth
-- [ ] Tech-forward, premium tone
-
+- [ ] Mockups de dispositivos (iPhone, MacBook, iPad)
+- [ ] Visuales limpios y de alta resolución
+- [ ] Acentos en violeta eléctrico y amarillo ácido
+- [ ] Fondos predominantemente negros o blancos
+- [ ] Diseños de UI basados en tarjetas
+- [ ] Sensación refinada y pulida
+- [ ] Reflejos sutiles y profundidad
+- [ ] Tono premium, orientado a la tecnología
 ### Tech/Art/Neon ✓
-- [ ] Warm gray/beige background (like blueprint paper)
-- [ ] Neon yellow accents
-- [ ] Thin architectural drawing lines
-- [ ] Monochrome cut-out photography
-- [ ] Triple collage layouts
-- [ ] Wire frame / line art elements
-- [ ] Intellectual, avant-garde tone
-- [ ] Constructivist design philosophy
-
+- [ ] Fondo gris cálido/beige (tipo papel de plano)
+- [ ] Acentos en amarillo neón
+- [ ] Líneas finas de dibujo arquitectónico
+- [ ] Fotografía monocromática recortada
+- [ ] Diseños de collage triple
+- [ ] Elementos tipo wireframe / line art
+- [ ] Tono intelectual, vanguardista
+- [ ] Filosofía de diseño constructivista
 ### Magazine Style ✓
-- [ ] Large subject photo (center)
-- [ ] Soft, matte color palette
-- [ ] Hand-drawn speech bubbles
-- [ ] Numbered sections (NO.1, NO.2)
-- [ ] Asymmetric text placement
-- [ ] Crop mark lines in corners
-- [ ] Elegant, sophisticated tone
-- [ ] Trend-forward layout
-
+- [ ] Foto grande del sujeto (centro)
+- [ ] Paleta de colores suave y mate
+- [ ] Globos de diálogo hechos a mano
+- [ ] Secciones numeradas (NO.1, NO.2)
+- [ ] Ubicación de texto asimétrica
+- [ ] Líneas de marca de recorte en las esquinas
+- [ ] Tono elegante y sofisticado
+- [ ] Diseño con tendencia a la moda
 ### Sports/Athletic/Energy ✓
-- [ ] Black background with white text
-- [ ] Neon accent colors (lime, orange)
-- [ ] Bold italic typography
-- [ ] Dynamic action photography
-- [ ] Diagonal/skewed layouts
-- [ ] Speed indicators (motion lines, arrows)
-- [ ] Powerful, competitive tone
-- [ ] High contrast and impact
-
+- [ ] Fondo negro con texto blanco
+- [ ] Colores de acento neón (lima, naranja)
+- [ ] Tipografía itálica en negrita
+- [ ] Fotografía de acción dinámica
+- [ ] Diseños diagonales/sesgados
+- [ ] Indicadores de velocidad (líneas de movimiento, flechas)
+- [ ] Tono poderoso y competitivo
+- [ ] Alto contraste e impacto
 ---
-
-## COMMON PROMPTS BY SITUATION
-
-### "I have 30 minutes to present"
-**Prompt**: 
-```
-"Create a lightning talk (8 slides) that can be delivered in 30 minutes.
-One big idea per slide. Strong opening hook. Clear takeaway.
-Include speaker notes with timing."
-```
-
-### "I need to convince my boss"
+ 
+## PROMPTS COMUNES POR SITUACIÓN
+ 
+### "Tengo 30 minutos para presentar"
 **Prompt**:
 ```
-"Create an executive summary deck (10 slides) optimized for decision-makers.
-Lead with the ask/opportunity. Show impact in numbers. Clear next steps.
-Use clean, professional design."
+"Creá una charla relámpago (8 diapositivas) que se pueda dar en 30 minutos.
+Una gran idea por diapositiva. Gancho inicial potente. Conclusión clara.
+Incluí notas del orador con los tiempos."
 ```
-
-### "I'm presenting to developers"
+ 
+### "Necesito convencer a mi jefe"
 **Prompt**:
 ```
-"Create a technical presentation for software engineers.
-Show the architecture, code approach, performance improvements.
-Use diagrams and system architecture visuals.
-Neo-Retro Dev Deck style."
+"Creá un deck de resumen ejecutivo (10 diapositivas) optimizado para quienes toman decisiones.
+Empezá con el pedido/oportunidad. Mostrá el impacto en números. Próximos pasos claros.
+Usá un diseño limpio y profesional."
 ```
-
-### "I need to teach this topic"
+ 
+### "Estoy presentando a desarrolladores"
 **Prompt**:
 ```
-"Create an educational presentation (20 slides) with:
-Clear learning objectives. Progressive disclosure. Interactive checkpoints.
-Visual breaks between sections. Summary and next steps.
-Magazine or Digital/Neo/Pop style."
+"Creá una presentación técnica para ingenieros de software.
+Mostrá la arquitectura, el enfoque de código, las mejoras de rendimiento.
+Usá diagramas y visuales de arquitectura de sistemas.
+Estilo Neo-Retro Dev Deck."
 ```
-
-### "I'm pitching to investors"
+ 
+### "Necesito enseñar este tema"
 **Prompt**:
 ```
-"Create an investor pitch deck (12 slides):
-Problem → Solution → Market → Traction → Ask structure.
-Tell a compelling story. Show urgency and opportunity.
-Use data and proof points. Include financial projections."
+"Creá una presentación educativa (20 diapositivas) con:
+Objetivos de aprendizaje claros. Divulgación progresiva. Puntos de control interactivos.
+Pausas visuales entre secciones. Resumen y próximos pasos.
+Estilo Magazine o Digital/Neo/Pop."
 ```
-
-### "I have messy notes and no time"
+ 
+### "Estoy presentando a inversores"
 **Prompt**:
 ```
-"Create a professional deck from these rough notes.
-Organize into clear narrative flow.
-Apply modern, polished design.
-Make it look intentional, not rushed."
+"Creá un pitch deck para inversores (12 diapositivas):
+Estructura Problema → Solución → Mercado → Tracción → Pedido.
+Contá una historia convincente. Mostrá urgencia y oportunidad.
+Usá datos y puntos de prueba. Incluí proyecciones financieras."
 ```
-
-### "I need this in two styles"
+ 
+### "Tengo notas desordenadas y no tengo tiempo"
 **Prompt**:
 ```
-"Create this deck in two versions:
-
-Version 1 (Professional): Sharp-Edged Minimalism, for internal stakeholders
-Version 2 (Creative): Neo-Retro Dev Deck, for public presentation
-
-Keep core message same, adjust style and emphasis per audience."
+"Creá un deck profesional a partir de estas notas sueltas.
+Organizalo en un flujo narrativo claro.
+Aplicá un diseño moderno y pulido.
+Hacé que se vea intencional, no apurado."
 ```
-
-### "I want this to look like [brand/style]"
+ 
+### "Necesito esto en dos estilos"
 **Prompt**:
 ```
-"Create this presentation matching [specific brand/publication] aesthetic.
-Study their design language and apply it consistently.
-Keep content clear while matching their visual style."
+"Creá este deck en dos versiones:
+ 
+Versión 1 (Profesional): Sharp-Edged Minimalism, para interesados internos
+Versión 2 (Creativa): Neo-Retro Dev Deck, para presentación pública
+ 
+Mantené el mensaje central igual, ajustá el estilo y el énfasis según la audiencia."
 ```
-
+ 
+### "Quiero que se vea como [marca/estilo]"
+**Prompt**:
+```
+"Creá esta presentación siguiendo la estética de [marca/publicación específica].
+Estudiá su lenguaje de diseño y aplicalo de forma consistente.
+Mantené el contenido claro respetando su estilo visual."
+```
+ 
 ---
-
-## ITERATIVE REFINEMENT PROMPTS
-
-Once you have a first draft, use these to improve it:
-
-### Make it Visual
+ 
+## PROMPTS DE REFINAMIENTO ITERATIVO
+ 
+Una vez que tengas un primer borrador, usá estos para mejorarlo:
+ 
+### Hacerlo más visual
 ```
-"Add more visual elements: replace text-heavy sections with diagrams, charts, or infographics.
-Each slide should have a clear visual focal point."
+"Agregá más elementos visuales: reemplazá las secciones con mucho texto por 
+diagramas, gráficos o infografías.
+Cada diapositiva debería tener un punto focal visual claro."
 ```
-
-### Add Data Visualization
+ 
+### Agregar visualización de datos
 ```
-"Take the statistics and data points mentioned and convert them into charts, graphs, 
-or infographic-style visualizations. Make numbers easier to understand visually."
+"Tomá las estadísticas y datos mencionados y convertilos en gráficos, cuadros 
+o visualizaciones estilo infografía. Hacé que los números sean más fáciles de 
+entender visualmente."
 ```
-
-### Improve the Story
+ 
+### Mejorar la historia
 ```
-"Strengthen the narrative arc. Add a hook at the beginning. Create transitions 
-between slides that show how one idea connects to the next."
+"Fortalecé el arco narrativo. Agregá un gancho al principio. Creá transiciones 
+entre diapositivas que muestren cómo una idea se conecta con la siguiente."
 ```
-
-### Make it More Engaging
+ 
+### Hacerlo más atractivo
 ```
-"Add interactive elements: questions for the audience, moments for reflection, 
-or surprising statistics. Keep viewers engaged throughout."
+"Agregá elementos interactivos: preguntas para la audiencia, momentos de 
+reflexión, o estadísticas sorprendentes. Mantené a los espectadores enganchados 
+todo el tiempo."
 ```
-
-### Simplify & Clarify
+ 
+### Simplificar y clarificar
 ```
-"For each slide, identify the ONE most important idea. Remove everything else. 
-Use 6 words or fewer for titles. Use short, punchy bullet points."
+"Para cada diapositiva, identificá la ÚNICA idea más importante. Eliminá todo 
+lo demás. Usá 6 palabras o menos para los títulos. Usá viñetas cortas y contundentes."
 ```
-
-### Match Brand Guidelines
+ 
+### Ajustar a las pautas de marca
 ```
-"Apply [brand name] visual standards throughout:
-Colors: [specify]
-Typography: [specify]
-Logo placement: [specify]
-Tone: [specify]"
+"Aplicá los estándares visuales de [nombre de marca] en todo el deck:
+Colores: [especificar]
+Tipografía: [especificar]
+Ubicación del logo: [especificar]
+Tono: [especificar]"
 ```
-
-### Add Speaker Notes
+ 
+### Agregar notas del orador
 ```
-"Create detailed speaker notes for each slide:
-Key talking points, transition phrases, timing estimates, and what to emphasize."
+"Creá notas del orador detalladas para cada diapositiva:
+Puntos clave a mencionar, frases de transición, estimaciones de tiempo, 
+y qué enfatizar."
 ```
-
-### Create Audience Versions
+ 
+### Crear versiones por audiencia
 ```
-"Create three versions of this deck:
-1. Technical version (for specialists)
-2. Executive version (for decision-makers)
-3. Customer version (for public presentation)"
+"Creá tres versiones de este deck:
+1. Versión técnica (para especialistas)
+2. Versión ejecutiva (para quienes toman decisiones)
+3. Versión para clientes (para presentación pública)"
 ```
-
+ 
 ---
-
-## PRE-PROMPT CHECKLIST
-
-Before you start prompting, prepare:
-
-- [ ] **Gather your source materials**
-  - [ ] Main content/document
-  - [ ] Supporting statistics
-  - [ ] Images or photos
-  - [ ] Brand guidelines (if any)
-  - [ ] Competitor examples (if helpful)
-
-- [ ] **Define your audience**
-  - [ ] Who are they?
-  - [ ] What's their expertise level?
-  - [ ] What do they care about?
-  - [ ] What decision/action do you want?
-
-- [ ] **Clarify your goal**
-  - [ ] What's the main message?
-  - [ ] What should they do after?
-  - [ ] What's the ideal outcome?
-  - [ ] How much time do you have?
-
-- [ ] **Choose your format**
-  - [ ] How many slides?
-  - [ ] What structure? (problem-solution, narrative, etc.)
-  - [ ] What's the time limit?
-  - [ ] Any specific sections needed?
-
-- [ ] **Select your style**
-  - [ ] Professional or creative?
-  - [ ] Minimalist or visual?
-  - [ ] Brand colors/fonts?
-  - [ ] Any specific aesthetic?
-
+ 
+## CHECKLIST PREVIO AL PROMPT
+ 
+Antes de empezar a hacer prompts, preparate con:
+ 
+- [ ] **Reuní tus materiales de origen**
+  - [ ] Documento/contenido principal
+  - [ ] Estadísticas de respaldo
+  - [ ] Imágenes o fotos
+  - [ ] Pautas de marca (si las hay)
+  - [ ] Ejemplos de la competencia (si son útiles)
+- [ ] **Definí tu audiencia**
+  - [ ] ¿Quiénes son?
+  - [ ] ¿Cuál es su nivel de experiencia?
+  - [ ] ¿Qué les importa?
+  - [ ] ¿Qué decisión/acción querés lograr?
+- [ ] **Aclará tu objetivo**
+  - [ ] ¿Cuál es el mensaje principal?
+  - [ ] ¿Qué deberían hacer después?
+  - [ ] ¿Cuál es el resultado ideal?
+  - [ ] ¿Cuánto tiempo tenés?
+- [ ] **Elegí tu formato**
+  - [ ] ¿Cuántas diapositivas?
+  - [ ] ¿Qué estructura? (problema-solución, narrativa, etc.)
+  - [ ] ¿Cuál es el límite de tiempo?
+  - [ ] ¿Se necesitan secciones específicas?
+- [ ] **Seleccioná tu estilo**
+  - [ ] ¿Profesional o creativo?
+  - [ ] ¿Minimalista o visual?
+  - [ ] ¿Colores/fuentes de marca?
+  - [ ] ¿Alguna estética específica?
 ---
-
-## POST-GENERATION CHECKLIST
-
-After NotebookLM generates your deck:
-
-- [ ] **Review content accuracy**
-  - [ ] All claims grounded in sources?
-  - [ ] Statistics correct?
-  - [ ] Quotes accurate?
-  - [ ] No hallucinations?
-
-- [ ] **Check narrative flow**
-  - [ ] Does it tell a clear story?
-  - [ ] Do slides connect logically?
-  - [ ] Is the pacing right?
-  - [ ] Does it have a strong ending?
-
-- [ ] **Verify design consistency**
-  - [ ] Colors consistent throughout?
-  - [ ] Typography hierarchy clear?
-  - [ ] Visual style uniform?
-  - [ ] Alignment and spacing good?
-
-- [ ] **Validate for your audience**
-  - [ ] Right detail level?
-  - [ ] Right terminology/language?
-  - [ ] Engaging enough?
-  - [ ] Clear call-to-action?
-
-- [ ] **Prepare for presentation**
-  - [ ] Speaker notes complete?
-  - [ ] Transitions clear?
-  - [ ] Timing estimates done?
-  - [ ] Q&A preparation done?
-
+ 
+## CHECKLIST POSTERIOR A LA GENERACIÓN
+ 
+Después de que NotebookLM genere tu deck:
+ 
+- [ ] **Revisá la precisión del contenido**
+  - [ ] ¿Todas las afirmaciones están respaldadas por las fuentes?
+  - [ ] ¿Las estadísticas son correctas?
+  - [ ] ¿Las citas son precisas?
+  - [ ] ¿No hay alucinaciones?
+- [ ] **Verificá el flujo narrativo**
+  - [ ] ¿Cuenta una historia clara?
+  - [ ] ¿Las diapositivas se conectan lógicamente?
+  - [ ] ¿El ritmo es adecuado?
+  - [ ] ¿Tiene un cierre potente?
+- [ ] **Verificá la consistencia del diseño**
+  - [ ] ¿Los colores son consistentes en todo el deck?
+  - [ ] ¿La jerarquía tipográfica es clara?
+  - [ ] ¿El estilo visual es uniforme?
+  - [ ] ¿La alineación y el espaciado son buenos?
+- [ ] **Validá según tu audiencia**
+  - [ ] ¿El nivel de detalle es el correcto?
+  - [ ] ¿La terminología/lenguaje es el adecuado?
+  - [ ] ¿Es lo suficientemente atractivo?
+  - [ ] ¿El llamado a la acción es claro?
+- [ ] **Preparate para la presentación**
+  - [ ] ¿Las notas del orador están completas?
+  - [ ] ¿Las transiciones son claras?
+  - [ ] ¿Se hicieron las estimaciones de tiempo?
+  - [ ] ¿Se preparó la sesión de preguntas y respuestas?
 ---
-
-## TIME ESTIMATES (What Takes How Long?)
-
-| Task | Time |
+ 
+## ESTIMACIONES DE TIEMPO (¿Cuánto tarda cada cosa?)
+ 
+| Tarea | Tiempo |
 |------|------|
-| Simple 5-slide deck | 10-15 min |
-| Medium 15-slide deck | 20-30 min |
-| Complex 25-slide deck | 35-45 min |
-| Research → Slides (dense content) | 45-60 min |
-| Multiple audience versions | 30-40 min per version |
-| Full refinement iteration | 15-20 min per round |
-| Adding visuals/icons | 10-15 min |
-| Branding/style polish | 15-20 min |
-
+| Deck simple de 5 diapositivas | 10-15 min |
+| Deck medio de 15 diapositivas | 20-30 min |
+| Deck complejo de 25 diapositivas | 35-45 min |
+| Investigación → Diapositivas (contenido denso) | 45-60 min |
+| Múltiples versiones por audiencia | 30-40 min por versión |
+| Ronda completa de refinamiento | 15-20 min por ronda |
+| Agregar visuales/íconos | 10-15 min |
+| Pulido de marca/estilo | 15-20 min |
+ 
 ---
-
-## COMMON MISTAKES & FIXES
-
-| Problem | Cause | Fix |
+ 
+## ERRORES COMUNES Y SOLUCIONES
+ 
+| Problema | Causa | Solución |
 |---------|-------|-----|
-| Too much text | Unclear prompting | Specify "minimal text" and "6 words max for titles" |
-| Generic design | Vague style request | Pick a specific style and be detailed |
-| Weak narrative | No structure specified | Request specific narrative arc (problem→solution) |
-| Inconsistent style | No visual guidelines | Use specific style template (Sharp-Edged Minimalism, etc.) |
-| Missing context | Unclear audience | Specify audience, their needs, and desired outcome |
-| Bad data viz | Data not visualized well | Request "convert to charts" and specify visualization type |
-| Unfocused message | Too many ideas | Request "identify 5-7 most important ideas" |
-| Unprofessional look | Low-quality images | Upload high-res images, be specific about photo style |
-
+| Demasiado texto | Prompt poco claro | Especificá "texto mínimo" y "máximo 6 palabras para los títulos" |
+| Diseño genérico | Pedido de estilo vago | Elegí un estilo específico y sé detallado |
+| Narrativa débil | No se especificó una estructura | Pedí un arco narrativo específico (problema→solución) |
+| Estilo inconsistente | Sin pautas visuales | Usá una plantilla de estilo específica (Sharp-Edged Minimalism, etc.) |
+| Falta contexto | Audiencia poco clara | Especificá la audiencia, sus necesidades y el resultado deseado |
+| Mala visualización de datos | Los datos no están bien visualizados | Pedí "convertir a gráficos" y especificá el tipo de visualización |
+| Mensaje disperso | Demasiadas ideas | Pedí "identificar las 5-7 ideas más importantes" |
+| Aspecto poco profesional | Imágenes de baja calidad | Subí imágenes en alta resolución, sé específico sobre el estilo de foto |
+ 
 ---
-
-## PROMPTS FOR SPECIFIC PROFESSIONS
-
-### For Product Managers
+ 
+## PROMPTS PARA PROFESIONES ESPECÍFICAS
+ 
+### Para gerentes de producto
 ```
-"Create a product roadmap presentation (12 slides):
-Current state (1), vision (1), roadmap Q1-Q3 (3), key milestones (2),
-resource requirements (2), success metrics (2), next steps (1).
-Use a clean, professional style with visual timeline."
+"Creá una presentación de hoja de ruta de producto (12 diapositivas):
+Estado actual (1), visión (1), hoja de ruta T1-T3 (3), hitos clave (2),
+requisitos de recursos (2), métricas de éxito (2), próximos pasos (1).
+Usá un estilo limpio y profesional con línea de tiempo visual."
 ```
-
-### For Sales Teams
+ 
+### Para equipos de ventas
 ```
-"Create a sales deck (15 slides):
-Problem statement, solution overview, competitive advantage, use case example,
-customer testimonials, pricing/value, call to action.
-Make it energetic and persuasive. Include specific ROI numbers."
+"Creá un deck de ventas (15 diapositivas):
+Planteamiento del problema, resumen de la solución, ventaja competitiva, 
+ejemplo de caso de uso, testimonios de clientes, precio/valor, llamado a la acción.
+Hacelo enérgico y persuasivo. Incluí números específicos de ROI."
 ```
-
-### For Content Creators
+ 
+### Para creadores de contenido
 ```
-"Create a content strategy presentation (12 slides):
-Content pillars (1), audience personas (2), content calendar preview (2),
-distribution strategy (2), success metrics (2), team/resources (1), timeline (2).
-Use Digital/Neo/Pop style."
+"Creá una presentación de estrategia de contenido (12 diapositivas):
+Pilares de contenido (1), personas de audiencia (2), vista previa del calendario 
+de contenido (2), estrategia de distribución (2), métricas de éxito (2), 
+equipo/recursos (1), cronograma (2).
+Usá el estilo Digital/Neo/Pop."
 ```
-
-### For Consultants
+ 
+### Para consultores
 ```
-"Create a consulting proposal deck (15 slides):
-Executive summary, problem diagnosis, proposed solution, implementation plan,
-expected outcomes, team qualifications, timeline, investment, next steps.
-Use Professional/Premium style."
+"Creá un deck de propuesta de consultoría (15 diapositivas):
+Resumen ejecutivo, diagnóstico del problema, solución propuesta, plan de 
+implementación, resultados esperados, calificaciones del equipo, cronograma, 
+inversión, próximos pasos.
+Usá el estilo Professional/Premium."
 ```
-
-### For Educators
+ 
+### Para educadores
 ```
-"Create a lesson presentation (20 slides):
-Learning objectives, introduction, content section 1 (5 slides), checkpoint (1),
-content section 2 (5 slides), checkpoint (1), summary, activity, assessment.
-Use engaging visuals and progressive disclosure."
+"Creá una presentación de clase (20 diapositivas):
+Objetivos de aprendizaje, introducción, sección de contenido 1 (5 diapositivas), 
+punto de control (1), sección de contenido 2 (5 diapositivas), punto de control (1), 
+resumen, actividad, evaluación.
+Usá visuales atractivos y divulgación progresiva."
 ```
-
-### For Researchers
+ 
+### Para investigadores
 ```
-"Create a research presentation (18 slides):
-Context/background (2), literature review (2), research question (1),
-methodology (3), findings (5), implications (2), limitations (1), future work (1), conclusion (1).
-Use clear data visualization for results."
+"Creá una presentación de investigación (18 diapositivas):
+Contexto/antecedentes (2), revisión de literatura (2), pregunta de investigación (1),
+metodología (3), hallazgos (5), implicaciones (2), limitaciones (1), 
+trabajo futuro (1), conclusión (1).
+Usá visualización de datos clara para los resultados."
 ```
-
+ 
 ---
-
-## PRO TIPS FOR BETTER OUTPUTS
-
-### Tip 1: Provide Context
+ 
+## CONSEJOS PROFESIONALES PARA MEJORES RESULTADOS
+ 
+### Consejo 1: proporcioná contexto
 ```
-WEAK: "Create a presentation"
-STRONG: "Create a 12-slide pitch deck for Series B fundraising from VCs 
-interested in AI and healthcare. The audience includes investors with medical 
-and tech expertise. Focus on traction metrics and market opportunity."
+DÉBIL: "Creá una presentación"
+FUERTE: "Creá un pitch deck de 12 diapositivas para una recaudación Serie B 
+de VCs interesados en IA y salud. La audiencia incluye inversores con 
+experiencia médica y tecnológica. Enfocate en las métricas de tracción y 
+la oportunidad de mercado."
 ```
-
-### Tip 2: Show Examples (via reference)
+ 
+### Consejo 2: mostrá ejemplos (por referencia)
 ```
-WEAK: "Make it look professional"
-STRONG: "Create a deck matching the visual style of [specific company's website] 
-or [competitor brand]. Use their color palette, typography approach, and design philosophy."
+DÉBIL: "Hacé que se vea profesional"
+FUERTE: "Creá un deck que coincida con la estética visual del sitio web de 
+[empresa específica] o [marca de la competencia]. Usá su paleta de colores, 
+su enfoque tipográfico y su filosofía de diseño."
 ```
-
-### Tip 3: Be Specific About Visuals
+ 
+### Consejo 3: sé específico sobre los visuales
 ```
-WEAK: "Add some charts"
-STRONG: "Convert the quarterly growth data into a rising bar chart. 
-Show customer acquisition cost as a declining line chart. 
-Use infographic style for market size comparison."
+DÉBIL: "Agregá algunos gráficos"
+FUERTE: "Convertí los datos de crecimiento trimestral en un gráfico de barras 
+ascendente. Mostrá el costo de adquisición de clientes como un gráfico de 
+líneas descendente. Usá estilo infografía para la comparación del tamaño de mercado."
 ```
-
-### Tip 4: Define Success
+ 
+### Consejo 4: definí el éxito
 ```
-WEAK: "Create speaker notes"
-STRONG: "Create speaker notes that include:
-- Key talking point for each slide (1-2 sentences)
-- Transition phrases to next slide
-- Timing estimate (total 15 min for 12 slides = ~90 sec per slide)"
+DÉBIL: "Creá notas del orador"
+FUERTE: "Creá notas del orador que incluyan:
+- Punto clave a mencionar en cada diapositiva (1-2 oraciones)
+- Frases de transición a la siguiente diapositiva
+- Estimación de tiempo (total 15 min para 12 diapositivas = ~90 seg por diapositiva)"
 ```
-
-### Tip 5: Iterate Deliberately
+ 
+### Consejo 5: iterá de forma deliberada
 ```
-WEAK: Keep asking until it's right
-
-STRONG: 
-1. First prompt: Get structure right (narrative arc)
-2. Second prompt: Get visuals right (style and design)
-3. Third prompt: Get messaging right (emphasis and clarity)
-4. Fourth prompt: Get details right (polish and refinement)
+DÉBIL: seguir preguntando hasta que quede bien
+ 
+FUERTE:
+1. Primer prompt: definir bien la estructura (arco narrativo)
+2. Segundo prompt: definir bien los visuales (estilo y diseño)
+3. Tercer prompt: definir bien el mensaje (énfasis y claridad)
+4. Cuarto prompt: definir bien los detalles (pulido y refinamiento)
 ```
-
+ 
 ---
-
-## EXPORTING & USING YOUR SLIDES
-
-### From NotebookLM to PowerPoint/Google Slides
-
-1. **Copy the text version** from NotebookLM
-2. **Create new presentation** in PowerPoint or Google Slides
-3. **Paste content** into slides
-4. **Download/export images** that NotebookLM generated
-5. **Insert images** into corresponding slides
-6. **Apply consistent formatting** in your tool
-
-### File Format Preservation
-
-- Keep source documents linked in your presentation
-- Export slide specs as a reference document
-- Save speaker notes in Notes view
-- Export as PDF for sharing/archival
-
-### Sharing & Presentation
-
-- PDF for read-only sharing
-- PowerPoint for editing/collaboration
-- Google Slides for cloud-based team work
-- Video export if using narration features
-
+ 
+## EXPORTAR Y USAR TUS DIAPOSITIVAS
+ 
+### De NotebookLM a PowerPoint/Google Slides
+ 
+1. **Copiá la versión en texto** de NotebookLM
+2. **Creá una presentación nueva** en PowerPoint o Google Slides
+3. **Pegá el contenido** en las diapositivas
+4. **Descargá/exportá las imágenes** que generó NotebookLM
+5. **Insertá las imágenes** en las diapositivas correspondientes
+6. **Aplicá un formato consistente** en tu herramienta
+### Preservación del formato de archivo
+ 
+- Mantené los documentos de origen enlazados en tu presentación
+- Exportá las especificaciones de diapositivas como documento de referencia
+- Guardá las notas del orador en la vista de Notas
+- Exportá como PDF para compartir/archivar
+### Compartir y presentar
+ 
+- PDF para compartir de solo lectura
+- PowerPoint para edición/colaboración
+- Google Slides para trabajo en equipo basado en la nube
+- Exportación en video si usás funciones de narración
 ---
-
-## CHECKLIST: Am I Ready to Prompt?
-
-**Content Ready?**
-- [ ] Have primary source document
-- [ ] Have supporting materials
-- [ ] Know key statistics/data
-- [ ] Have images/assets
-
-**Audience Clear?**
-- [ ] Know who they are
-- [ ] Know their expertise level
-- [ ] Know what they care about
-- [ ] Know desired outcome
-
-**Goal Defined?**
-- [ ] Main message identified
-- [ ] Call to action clear
-- [ ] Timeline understood
-- [ ] Success metrics defined
-
-**Style Chosen?**
-- [ ] Visual style picked
-- [ ] Colors selected
-- [ ] Tone determined
-- [ ] Format specified
-
-**Structure Clear?**
-- [ ] Number of slides chosen
-- [ ] Main sections identified
-- [ ] Opening and closing planned
-- [ ] Flow/transitions thought through
-
-✓ **YES to all = Ready to prompt!**
-
+ 
+## CHECKLIST: ¿estoy lista para hacer el prompt?
+ 
+**¿Contenido listo?**
+- [ ] Tengo el documento de origen principal
+- [ ] Tengo los materiales de respaldo
+- [ ] Conozco las estadísticas/datos clave
+- [ ] Tengo las imágenes/recursos
+**¿Audiencia clara?**
+- [ ] Sé quiénes son
+- [ ] Conozco su nivel de experiencia
+- [ ] Sé qué les importa
+- [ ] Sé el resultado deseado
+**¿Objetivo definido?**
+- [ ] Identifiqué el mensaje principal
+- [ ] El llamado a la acción es claro
+- [ ] Entiendo el cronograma
+- [ ] Definí las métricas de éxito
+**¿Estilo elegido?**
+- [ ] Elegí el estilo visual
+- [ ] Seleccioné los colores
+- [ ] Determiné el tono
+- [ ] Especifiqué el formato
+**¿Estructura clara?**
+- [ ] Elegí el número de diapositivas
+- [ ] Identifiqué las secciones principales
+- [ ] Planifiqué la apertura y el cierre
+- [ ] Pensé el flujo/las transiciones
+✓ **SÍ a todo = ¡Lista para hacer el prompt!**
+ 
 ---
-
-## LEARNING RESOURCES
-
-- **Practice**: Start with a simple 5-slide deck, then progress to 15+
-- **Experiment**: Try different styles to see what works best
-- **Iterate**: Use refinement prompts to improve outputs
-- **Share**: Show colleagues and get feedback to improve your prompting
-- **Document**: Keep a swipe file of prompts that work well
-
+ 
+## RECURSOS DE APRENDIZAJE
+ 
+- **Practicá**: empezá con un deck simple de 5 diapositivas, y después avanzá a 15+
+- **Experimentá**: probá diferentes estilos para ver qué funciona mejor
+- **Iterá**: usá los prompts de refinamiento para mejorar los resultados
+- **Compartí**: mostrale a tus colegas y recibí feedback para mejorar tus prompts
+- **Documentá**: mantené un archivo de prompts que funcionan bien
 ---
-
-**Quick Links:**
-- Main Prompt Library: See full_notebooklm_complete_prompts.md
-- GitHub Resources: serenakeyitan/awesome-notebookLM-prompts
-- Google Blog: "8 ways to make the most out of Slide Decks in NotebookLM"
-- Official Guide: NotebookLM-guide.com/notebooklm-slide-decks
-
+ 
+**Enlaces rápidos:**
+- Biblioteca principal de prompts: ver full_notebooklm_complete_prompts.md
+- Recursos de GitHub: serenakeyitan/awesome-notebookLM-prompts
+- Blog de Google: "8 formas de aprovechar al máximo los decks de diapositivas en NotebookLM"
+- Guía oficial: NotebookLM-guide.com/notebooklm-slide-decks
 ---
-
-**Version**: 1.0 | **Last Updated**: March 24, 2026
+ 
+**Versión**: 1.0 | **Última actualización**: 24 de marzo de 2026
