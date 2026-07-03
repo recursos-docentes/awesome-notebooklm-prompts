@@ -1,398 +1,450 @@
-# Example: Conference Talk from Research Paper
+# Ejemplo: Charla de Conferencia a partir de un Paper de Investigación
 
-## Situation
+## Situación
+Sos un investigador que acaba de completar un estudio sobre "Aplicaciones de la IA en la Salud" y necesitás presentarlo en una conferencia de informática médica. Contás con:
+- Un paper de investigación terminado (10 páginas)
+- Datos y estadísticas de respaldo
+- Hallazgos preliminares
+- Tiempo limitado (presentación de 20 minutos)
 
-You're a researcher who just completed a study on "AI Applications in Healthcare" and need to present it at a medical informatics conference. You have:
-- A completed research paper (10 pages)
-- Supporting data and statistics
-- Preliminary findings
-- Limited time (20 minutes presentation)
-
-**Challenge:** How do you distill a complex research paper into a compelling 15-20 slide presentation?
-
----
-
-## Goal
-
-Create a conference presentation that:
-- ✅ Hooks the academic audience immediately
-- ✅ Explains methodology clearly (but concisely)
-- ✅ Highlights the most important findings
-- ✅ Shows implications for healthcare
-- ✅ Invites discussion and questions
-- ✅ Looks professional and visually clear
+**Desafío:** ¿Cómo destilar un paper de investigación complejo en una presentación convincente de 15-20 diapositivas?
 
 ---
 
-## Preparation (Before Prompting)
-
-### Materials to Upload to NotebookLM
-1. **Your research paper** (PDF or copy-pasted)
-2. **Data tables/statistics** (as images or tables)
-3. **Study methodology notes** (key points only)
-4. **Preliminary findings** (organized by theme)
-
-### Audience Context
-- Healthcare professionals and IT experts
-- Familiar with research but want practical implications
-- Time-conscious (20 minutes max)
-- Looking for novel approaches and evidence
-
-### Key Message
-"AI can improve healthcare outcomes while reducing costs through [your finding]"
+## Objetivo
+Crear una presentación de conferencia que:
+- ✅ Enganche a la audiencia académica de inmediato
+- ✅ Explique la metodología con claridad (pero de forma concisa)
+- ✅ Destaque los hallazgos más importantes
+- ✅ Muestre las implicancias para la salud
+- ✅ Invite al debate y a las preguntas
+- ✅ Se vea profesional y visualmente clara
 
 ---
 
-## Initial Prompt
+## Preparación (Antes de Escribir el Prompt)
 
-```
-Create a 15-slide academic conference presentation for medical informatics professionals.
+### Materiales para Subir a NotebookLM
+1. **Tu paper de investigación** (PDF o copiado y pegado)
+2. **Tablas de datos/estadísticas** (como imágenes o tablas)
+3. **Notas de metodología del estudio** (solo puntos clave)
+4. **Hallazgos preliminares** (organizados por tema)
 
-Content Structure:
-1. Title/Introduction (1)
-2. Background & Problem (2)
-3. Literature Review (1)
-4. Research Question (1)
-5. Methodology (2)
-6. Key Findings (4)
-7. Implications (2)
-8. Limitations (1)
-9. Questions & Discussion (1)
+### Contexto de la Audiencia
+- Profesionales de la salud y expertos en TI
+- Familiarizados con la investigación, pero buscan implicancias prácticas
+- Con tiempo acotado (20 minutos máximo)
+- En busca de enfoques novedosos y evidencia
 
-Design: Use Sharp-Edged Minimalism with:
-- White background, black text, blue accents
-- Section numbers in top-left corner
-- One key idea per slide (max 6-word titles)
-- Clear data visualization for results
-- Professional photography (if any)
-
-Include speaker notes with:
-- Key talking points per slide
-- Timing estimates (~70 seconds per slide)
-- Transition cues between sections
-- References for each claim
-```
+### Mensaje Clave
+"La IA puede mejorar los resultados en salud mientras reduce costos a través de [tu hallazgo]"
 
 ---
 
-## What You'll Get Back
+## Prompt Inicial
+```
+Crea una presentación académica de 15 diapositivas para una conferencia dirigida a profesionales de informática médica.
 
-NotebookLM will generate:
-- Slide-by-slide titles and content points
-- Specific data visualizations to create
-- Suggestions for speaker notes
-- Structure that flows logically
-- References to your source material
+Estructura del contenido:
+1. Título/Introducción (1)
+2. Contexto y Problema (2)
+3. Revisión de Literatura (1)
+4. Pregunta de Investigación (1)
+5. Metodología (2)
+6. Hallazgos Clave (4)
+7. Implicancias (2)
+8. Limitaciones (1)
+9. Preguntas y Discusión (1)
+
+Diseño: Usa Minimalismo de Bordes Definidos (Sharp-Edged Minimalism) con:
+- Fondo blanco, texto negro, acentos en azul
+- Números de sección en la esquina superior izquierda
+- Una idea clave por diapositiva (títulos de máximo 6 palabras)
+- Visualización de datos clara para los resultados
+- Fotografía profesional (si corresponde)
+
+Incluye notas del orador con:
+- Puntos clave a mencionar por diapositiva
+- Estimaciones de tiempo (~70 segundos por diapositiva)
+- Señales de transición entre secciones
+- Referencias para cada afirmación
+```
+# Ejemplo: Charla de Conferencia a partir de un Paper de Investigación
+ 
+## Situación
+Sos un investigador que acaba de completar un estudio sobre "Aplicaciones de la IA en la Salud" y necesitás presentarlo en una conferencia de informática médica. Contás con:
+- Un paper de investigación terminado (10 páginas)
+- Datos y estadísticas de respaldo
+- Hallazgos preliminares
+- Tiempo limitado (presentación de 20 minutos)
+**Desafío:** ¿Cómo destilar un paper de investigación complejo en una presentación convincente de 15-20 diapositivas?
+ 
+---
+ 
+## Objetivo
+Crear una presentación de conferencia que:
+- ✅ Enganche a la audiencia académica de inmediato
+- ✅ Explique la metodología con claridad (pero de forma concisa)
+- ✅ Destaque los hallazgos más importantes
+- ✅ Muestre las implicancias para la salud
+- ✅ Invite al debate y a las preguntas
+- ✅ Se vea profesional y visualmente clara
+---
+ 
+## Preparación (Antes de Escribir el Prompt)
+ 
+### Materiales para Subir a NotebookLM
+1. **Tu paper de investigación** (PDF o copiado y pegado)
+2. **Tablas de datos/estadísticas** (como imágenes o tablas)
+3. **Notas de metodología del estudio** (solo puntos clave)
+4. **Hallazgos preliminares** (organizados por tema)
+### Contexto de la Audiencia
+- Profesionales de la salud y expertos en TI
+- Familiarizados con la investigación, pero buscan implicancias prácticas
+- Con tiempo acotado (20 minutos máximo)
+- En busca de enfoques novedosos y evidencia
+### Mensaje Clave
+"La IA puede mejorar los resultados en salud mientras reduce costos a través de [tu hallazgo]"
+ 
+---
+ 
+## Prompt Inicial
+```
+Crea una presentación académica de 15 diapositivas para una conferencia dirigida a profesionales de informática médica.
+ 
+Estructura del contenido:
+1. Título/Introducción (1)
+2. Contexto y Problema (2)
+3. Revisión de Literatura (1)
+4. Pregunta de Investigación (1)
+5. Metodología (2)
+6. Hallazgos Clave (4)
+7. Implicancias (2)
+8. Limitaciones (1)
+9. Preguntas y Discusión (1)
+ 
+Diseño: Usa Minimalismo de Bordes Definidos (Sharp-Edged Minimalism) con:
+- Fondo blanco, texto negro, acentos en azul
+- Números de sección en la esquina superior izquierda
+- Una idea clave por diapositiva (títulos de máximo 6 palabras)
+- Visualización de datos clara para los resultados
+- Fotografía profesional (si corresponde)
+ 
+Incluye notas del orador con:
+- Puntos clave a mencionar por diapositiva
+- Estimaciones de tiempo (~70 segundos por diapositiva)
+- Señales de transición entre secciones
+- Referencias para cada afirmación
+```
+ 
+---
+ 
+## Lo Que Vas a Recibir
+NotebookLM generará:
+- Títulos y puntos de contenido diapositiva por diapositiva
+- Visualizaciones de datos específicas para crear
+- Sugerencias para las notas del orador
+- Una estructura que fluye de forma lógica
+- Referencias a tu material fuente
+---
+ 
+## Ejemplo de Resultado (Lo Que Genera NotebookLM)
+```
+DIAPOSITIVA 1: Diapositiva de Título
+Título: "IA en la Salud: Estudio de Resultados Clínicos"
+Subtítulo: [Tu nombre, institución, conferencia]
+Visual: Diseño de título limpio, logo de la institución
+ 
+DIAPOSITIVA 2: Contexto del Problema
+Título: "El Desafío de los Datos en Salud"
+Punto Clave: La salud genera el 30% de los datos del mundo, pero solo el 5% es accionable
+Visual: Gráfico comparativo simple: Datos Generados vs. Datos Usados
+Nota del Orador: Presenta la brecha entre los datos disponibles y los insights obtenidos
+ 
+DIAPOSITIVA 3: Contexto
+Título: "Aplicaciones de la IA en Entornos Clínicos"
+Puntos Clave:
+- Usos actuales de la IA en diagnóstico (imágenes, análisis de ECG)
+- Limitaciones de la revisión manual
+- ¿Por qué ahora? (poder de cómputo, conjuntos de datos, técnicas)
+Visual: Línea de tiempo de la adopción de IA en salud
+Nota del Orador: Posiciona tu investigación dentro de las aplicaciones existentes
+ 
+...continúa para las 15 diapositivas...
+```
+ 
+---
+ 
+## Prompts de Refinamiento
+Después de la generación inicial, usa estos para mejorar:
+ 
+### Refinamiento 1: Fortalecer la Visualización de Datos
+```
+"Para la sección de hallazgos (diapositivas 5-8), describe las visualizaciones de forma más específica:
+- ¿Qué tipo de gráfico es mejor para cada hallazgo?
+- ¿Deberíamos mostrar números absolutos, porcentajes o comparaciones?
+- ¿Cómo podemos hacer que los resultados complejos sean accesibles sin simplificarlos demasiado?"
+```
+ 
+### Refinamiento 2: Agregar Impacto y Contexto
+```
+"Para cada hallazgo clave, agrega:
+1. Por qué este hallazgo es importante (relevancia clínica)
+2. Cómo se compara con los enfoques existentes
+3. Un ejemplo concreto de aplicación
+Incluye contexto que ayude a los clínicos a entender el impacto."
+```
+ 
+### Refinamiento 3: Preparar las Preguntas y Respuestas
+```
+"¿Cuáles son las 5 preguntas más probables que hará la audiencia?
+Para cada una:
+1. Posible pregunta
+2. Respuesta concisa (respaldada por tu investigación)
+3. Evidencia/referencia a la diapositiva
+Enfócate en: limitaciones, reproducibilidad, viabilidad clínica, costo, ética"
+```
+ 
+### Refinamiento 4: Pulir la Narrativa
+```
+"Revisa el flujo narrativo de toda la presentación:
+1. ¿Cuenta una historia coherente?
+2. ¿Son claras las transiciones entre diapositivas?
+3. ¿El cierre ofrece un cierre y próximos pasos?
+4. Agrega frases de transición e indicaciones de tiempo a las notas del orador"
+```
+ 
+---
+ 
+## Consejos Profesionales para Presentaciones Académicas
+ 
+### Hacer ✅
+- **Empezá con el problema** - ¿Por qué debería importarles?
+- **Mostrá la metodología** - Demostrá rigor
+- **Destacá la novedad** - ¿Qué hay de nuevo acá?
+- **Usá los datos de forma efectiva** - Números > palabras
+- **Incluí las limitaciones** - Credibilidad a través de la honestidad
+- **Terminá con las implicancias** - ¿Y entonces? ¿Qué sigue?
+### No Hacer ❌
+- **No amontones texto** - Las diapositivas ilegibles matan el interés
+- **No te saltees la metodología** - A los académicos les importa el rigor
+- **No exageres** - Bajale el tono al lenguaje de marketing
+- **No incluyas datos irrelevantes** - Cada diapositiva debe ganarse su lugar
+- **No te disculpes por las limitaciones** - Abordalas con confianza
+- **No termines abruptamente** - Siempre tené una conclusión clara
 
 ---
-
-## Example Output (What NotebookLM Generates)
-
-```
-SLIDE 1: Title Slide
-Title: "AI in Healthcare: Clinical Outcomes Study"
-Subtitle: [Your name, institution, conference]
-Visual: Clean title layout, institution logo
-
-SLIDE 2: Problem Context
-Title: "The Healthcare Data Challenge"
-Key Point: Healthcare generates 30% of world's data, but only 5% is actionable
-Visual: Simple comparison chart: Data Generated vs Data Used
-Speaker Note: Introduce the gap between data available and insights gained
-
-SLIDE 3: Background
-Title: "AI Applications in Clinical Settings"
-Key Points: 
-- Current AI uses in diagnosis (imaging, ECG analysis)
-- Limitations of manual review
-- Why now? (compute power, datasets, techniques)
-Visual: Timeline of AI adoption in healthcare
-Speaker Note: Position your research within existing applications
-
-...continue for all 15 slides...
-```
-
----
-
-## Refinement Prompts
-
-After the initial generation, use these to improve:
-
-### Refinement 1: Strengthen the Data Visualization
-```
-"For the findings section (slides 5-8), describe the visualizations more specifically:
-- What type of chart is best for each finding?
-- Should we show absolute numbers, percentages, or comparisons?
-- How can we make complex results accessible without simplification?"
-```
-
-### Refinement 2: Add Impact & Context
-```
-"For each key finding, add:
-1. Why this finding matters (clinical relevance)
-2. How it compares to existing approaches
-3. One concrete example of application
-Include context that helps clinicians understand the impact."
-```
-
-### Refinement 3: Prepare for Q&A
-```
-"What are the 5 most likely questions the audience will ask?
-For each:
-1. Potential question
-2. Concise answer (backed by your research)
-3. Evidence/slide reference
-Focus on: limitations, reproducibility, clinical feasibility, cost, ethics"
-```
-
-### Refinement 4: Polish the Narrative
-```
-"Review the entire deck's narrative flow:
-1. Does it tell a coherent story?
-2. Are transitions between slides clear?
-3. Does the ending provide closure and next steps?
-4. Add transition phrases and timing cues to speaker notes"
-```
-
----
-
-## Pro Tips for Academic Presentations
-
-### Do's ✅
-- **Lead with the problem** - Why should they care?
-- **Show the methodology** - Demonstrate rigor
-- **Highlight novelty** - What's new here?
-- **Use data effectively** - Numbers > words
-- **Include limitations** - Credibility through honesty
-- **End with implications** - So what? What's next?
-
-### Don'ts ❌
-- **Don't cram text** - Unreadable slides kill engagement
-- **Don't skip methodology** - Academics care about rigor
-- **Don't oversell** - Tone down marketing language
-- **Don't include irrelevant data** - Every slide should earn its place
-- **Don't apologize for limitations** - Address them confidently
-- **Don't end abruptly** - Always have a clear conclusion
-
----
-
-## Timing Breakdown (20-minute presentation)
-
-| Section | Slides | Time | Notes |
+ 
+## Desglose de Tiempos (presentación de 20 minutos)
+ 
+| Sección | Diapositivas | Tiempo | Notas |
 |---------|--------|------|-------|
-| Introduction | 1 | 1 min | Hook them |
-| Background | 2 | 2 min | Context |
-| Methodology | 2 | 3 min | Show rigor |
-| Findings | 4 | 8 min | The meat |
-| Implications | 2 | 2 min | So what? |
-| Limitations | 1 | 1 min | Be honest |
-| Q&A/Closing | 1 | 3 min | Discussion |
-
+| Introducción | 1 | 1 min | Enganchá a la audiencia |
+| Contexto | 2 | 2 min | Contexto |
+| Metodología | 2 | 3 min | Mostrá rigor |
+| Hallazgos | 4 | 8 min | La parte principal |
+| Implicancias | 2 | 2 min | ¿Y entonces? |
+| Limitaciones | 1 | 1 min | Sé honesto |
+| Preguntas/Cierre | 1 | 3 min | Discusión |
+ 
 ---
-
-## Actual Prompts Used (Real Examples)
-
-### Session 1: Structure
+ 
+## Prompts Reales Utilizados (Ejemplos Reales)
+ 
+### Sesión 1: Estructura
 ```
-"Create a 15-slide academic presentation structure from this research paper.
-
-For each slide:
-- Title (6 words max)
-- Main content (bullet points)
-- What the audience should understand
-- Suggested visual element
-
-Format: Conference talk (20 min, includes Q&A)
-Audience: Healthcare & IT professionals
-Goal: Present novel findings with clinical implications"
+"Crea una estructura de presentación académica de 15 diapositivas a partir de este paper de investigación.
+ 
+Para cada diapositiva:
+- Título (máximo 6 palabras)
+- Contenido principal (viñetas)
+- Qué debería entender la audiencia
+- Elemento visual sugerido
+ 
+Formato: Charla de conferencia (20 min, incluye preguntas y respuestas)
+Audiencia: Profesionales de la salud y de TI
+Objetivo: Presentar hallazgos novedosos con implicancias clínicas"
 ```
-
-### Session 2: Data Visualization
+ 
+### Sesión 2: Visualización de Datos
 ```
-"For the findings section, convert:
-- Table 1: [describe data] → Simple bar/line chart
-- Table 2: [describe data] → Comparison visualization
-- Figure 1: [describe image] → Visual explanation
-
-Make complex results accessible to non-specialists
-Keep design minimalist and clear"
+"Para la sección de hallazgos, convierte:
+- Tabla 1: [describe los datos] → Gráfico simple de barras/líneas
+- Tabla 2: [describe los datos] → Visualización comparativa
+- Figura 1: [describe la imagen] → Explicación visual
+ 
+Haz que los resultados complejos sean accesibles para no especialistas
+Mantén el diseño minimalista y claro"
 ```
-
-### Session 3: Speaker Notes
+ 
+### Sesión 3: Notas del Orador
 ```
-"Create detailed speaker notes for each slide:
-- 2-3 key talking points
-- Approximate speaking time (1:30 per slide)
-- Transition to next slide
-- Pronunciation of key terms
-- Reference to supporting slide number"
+"Crea notas del orador detalladas para cada diapositiva:
+- 2-3 puntos clave a mencionar
+- Tiempo aproximado de exposición (1:30 por diapositiva)
+- Transición a la siguiente diapositiva
+- Pronunciación de términos clave
+- Referencia al número de diapositiva de respaldo"
 ```
-
+ 
 ---
-
-## Common Challenges & Solutions
-
-### Challenge 1: Too Much Content
-**Problem:** Research paper has 50+ findings, need to fit in 15 slides
-
-**Solution:**
+ 
+## Desafíos Comunes y Soluciones
+ 
+### Desafío 1: Demasiado Contenido
+**Problema:** El paper de investigación tiene más de 50 hallazgos, hay que encajarlos en 15 diapositivas
+ 
+**Solución:**
 ```
-"Identify the 3-5 most significant findings that:
-1. Answer your main research question
-2. Have clinical applicability
-3. Show novel contributions
-Focus the presentation on these core findings.
-Save detailed results for question discussion."
+"Identifica los 3-5 hallazgos más significativos que:
+1. Respondan tu pregunta principal de investigación
+2. Tengan aplicabilidad clínica
+3. Muestren contribuciones novedosas
+Enfoca la presentación en estos hallazgos centrales.
+Guarda los resultados detallados para la discusión de preguntas."
 ```
-
-### Challenge 2: Explaining Complex Methodology
-**Problem:** Study design is complex, but you only have 2 slides
-
-**Solution:**
+ 
+### Desafío 2: Explicar una Metodología Compleja
+**Problema:** El diseño del estudio es complejo, pero solo tenés 2 diapositivas
+ 
+**Solución:**
 ```
-"Create a concise methodology summary:
-Slide 1: 'Study Overview' - Simple diagram of: Sample → Intervention → Outcome
-Slide 2: 'Methods' - Key details only (sample size, timeframe, main variables)
-Save detailed methodology for questions or appendix slides"
+"Crea un resumen conciso de la metodología:
+Diapositiva 1: 'Resumen del Estudio' - Diagrama simple de: Muestra → Intervención → Resultado
+Diapositiva 2: 'Métodos' - Solo detalles clave (tamaño de muestra, período, variables principales)
+Guarda la metodología detallada para preguntas o diapositivas de apéndice"
 ```
-
-### Challenge 3: Making Numbers Compelling
-**Problem:** Results are statistically significant but not visually dramatic
-
-**Solution:**
+ 
+### Desafío 3: Hacer que los Números Sean Convincentes
+**Problema:** Los resultados son estadísticamente significativos pero no visualmente impactantes
+ 
+**Solución:**
 ```
-"Convert statistical results into real-world impact:
-Instead of: 'p < 0.05, 95% CI: 1.2-3.4'
-Show: 'For every 100 patients: [X] with old approach, [Y] with our approach'
-Use context that clinicians care about (patient outcomes, cost, time)"
+"Convierte los resultados estadísticos en impacto del mundo real:
+En lugar de: 'p < 0.05, IC del 95%: 1.2-3.4'
+Muestra: 'Por cada 100 pacientes: [X] con el enfoque anterior, [Y] con nuestro enfoque'
+Usa un contexto que le importe a los clínicos (resultados de pacientes, costo, tiempo)"
 ```
-
-### Challenge 4: Balancing Rigor with Accessibility
-**Problem:** Audience includes experts and non-experts
-
-**Solution:**
+ 
+### Desafío 4: Equilibrar Rigor con Accesibilidad
+**Problema:** La audiencia incluye expertos y no expertos
+ 
+**Solución:**
 ```
-"Create two versions of key findings:
-Version 1 (Expert): Include statistics, confidence intervals
-Version 2 (Accessible): Focus on practical implications and real-world impact
-Choose which to present based on audience questions"
+"Crea dos versiones de los hallazgos clave:
+Versión 1 (Experto): Incluye estadísticas, intervalos de confianza
+Versión 2 (Accesible): Enfocada en implicancias prácticas e impacto del mundo real
+Elige cuál presentar según las preguntas de la audiencia"
 ```
-
+ 
 ---
-
-## Example Slide Specs (What You'll Create)
-
-### Slide 5: Key Finding #1
+ 
+## Especificaciones de Diapositivas de Ejemplo (Lo Que Vas a Crear)
+ 
+### Diapositiva 5: Hallazgo Clave N.º 1
 ```
-Title: "Algorithm Improved Diagnosis Speed by 40%"
-
-Content:
-- Previous process: 2.5 hours per case
-- AI-assisted process: 1.5 hours per case
-- Time saved per year: 8,000+ hours
-
-Visual: Side-by-side comparison chart showing time reduction
-
-Speaker Notes:
-"This 40% improvement means each clinician can review 40% more cases in a day.
-That translates to faster diagnosis for patients and better resource utilization.
-Important caveat: No reduction in accuracy—quality maintained at 98%."
-
-Timing: ~1:30
+Título: "El Algoritmo Mejoró la Velocidad de Diagnóstico en un 40%"
+ 
+Contenido:
+- Proceso anterior: 2.5 horas por caso
+- Proceso asistido por IA: 1.5 horas por caso
+- Tiempo ahorrado por año: más de 8,000 horas
+ 
+Visual: Gráfico comparativo lado a lado mostrando la reducción de tiempo
+ 
+Notas del Orador:
+"Esta mejora del 40% significa que cada clínico puede revisar un 40% más de casos por día.
+Esto se traduce en un diagnóstico más rápido para los pacientes y un mejor uso de los recursos.
+Salvedad importante: sin reducción en la precisión—la calidad se mantiene en el 98%."
+ 
+Tiempo: ~1:30
 ```
-
-### Slide 6: Key Finding #2
+ 
+### Diapositiva 6: Hallazgo Clave N.º 2
 ```
-Title: "Cost Savings: $150K per 1,000 Patients"
-
-Content:
-- Implementation cost: $50,000 (one-time)
-- Operating cost: $3/patient
-- Payback period: 10 months
-- 3-year savings: $450,000
-
-Visual: Stacked area chart showing cost reduction over time
-
-Speaker Notes:
-"From a healthcare economics perspective, this is significant.
-The investment pays for itself in less than a year,
-then provides ongoing savings through improved efficiency.
-This makes it attractive for healthcare systems with tight budgets."
-
-Timing: ~1:30
+Título: "Ahorro de Costos: $150K por cada 1,000 Pacientes"
+ 
+Contenido:
+- Costo de implementación: $50,000 (única vez)
+- Costo operativo: $3/paciente
+- Período de recuperación: 10 meses
+- Ahorro a 3 años: $450,000
+ 
+Visual: Gráfico de área apilada mostrando la reducción de costos a lo largo del tiempo
+ 
+Notas del Orador:
+"Desde una perspectiva de economía de la salud, esto es significativo.
+La inversión se recupera en menos de un año,
+y luego ofrece ahorros continuos a través de una mayor eficiencia.
+Esto lo hace atractivo para sistemas de salud con presupuestos ajustados."
+ 
+Tiempo: ~1:30
 ```
-
+ 
 ---
-
-## Final Checklist Before Presenting
-
-- [ ] All statistics are accurate and cited
-- [ ] Data visualizations are clear and simple
-- [ ] Every slide has a clear takeaway message
-- [ ] Transitions between sections are explicit
-- [ ] Speaker notes include timing cues
-- [ ] Key findings are visual, not text-heavy
-- [ ] Methodology is clear but not overwhelming
-- [ ] Limitations are addressed honestly
-- [ ] Implications are clear (so what?)
-- [ ] Closing slide prompts discussion
-- [ ] Font is readable from distance
-- [ ] Color scheme is professional
-- [ ] Practice with speaker notes
-- [ ] Have backup slides for detailed questions
-
+ 
+## Lista de Verificación Final Antes de Presentar
+ 
+- [ ] Todas las estadísticas son precisas y están citadas
+- [ ] Las visualizaciones de datos son claras y simples
+- [ ] Cada diapositiva tiene un mensaje claro para llevarse
+- [ ] Las transiciones entre secciones son explícitas
+- [ ] Las notas del orador incluyen indicaciones de tiempo
+- [ ] Los hallazgos clave son visuales, no cargados de texto
+- [ ] La metodología es clara pero no abrumadora
+- [ ] Las limitaciones se abordan con honestidad
+- [ ] Las implicancias son claras (¿y entonces?)
+- [ ] La diapositiva de cierre invita al debate
+- [ ] La tipografía es legible a distancia
+- [ ] La paleta de colores es profesional
+- [ ] Practicaste con las notas del orador
+- [ ] Tenés diapositivas de respaldo para preguntas detalladas
 ---
-
-## Time Estimate
-
-| Task | Time |
+ 
+## Estimación de Tiempo
+ 
+| Tarea | Tiempo |
 |------|------|
-| Upload materials + context | 5 min |
-| Initial NotebookLM generation | 15 min |
-| Review and 2-3 refinement rounds | 20-30 min |
-| Convert specs to actual slides (PowerPoint/Slides) | 20-30 min |
-| Practice + final polish | 15-20 min |
+| Subir materiales + contexto | 5 min |
+| Generación inicial en NotebookLM | 15 min |
+| Revisión y 2-3 rondas de refinamiento | 20-30 min |
+| Convertir especificaciones en diapositivas reales (PowerPoint/Slides) | 20-30 min |
+| Práctica + pulido final | 15-20 min |
 | **Total** | **60-90 min** |
-
+ 
 ---
-
-## Pro Tips from Experienced Presenters
-
-1. **Open with the problem, not your solution**
-   - Audience needs context before caring about your answer
-
-2. **Use the "rule of three"**
-   - Three key findings, three implications, three recommendations
-   - Our brains like patterns of three
-
-3. **Let data breathe**
-   - One key number per slide
-   - White space is your friend
-
-4. **Tell the "story" of your research**
-   - We found a problem → We investigated → We discovered → Here's what it means
-   - Not: Here's data, here's more data, here's more data
-
-5. **Anticipate skepticism**
-   - Address limitations before audience questions
-   - Shows honest, rigorous thinking
-
-6. **Practice out loud**
-   - Reading silently is different from speaking
-   - Find your pacing and transitions
-
+ 
+## Consejos Profesionales de Presentadores Experimentados
+ 
+1. **Empezá con el problema, no con tu solución**
+   - La audiencia necesita contexto antes de que le importe tu respuesta
+2. **Usá la "regla de tres"**
+   - Tres hallazgos clave, tres implicancias, tres recomendaciones
+   - A nuestros cerebros les gustan los patrones de a tres
+3. **Dejá que los datos respiren**
+   - Un número clave por diapositiva
+   - El espacio en blanco es tu amigo
+4. **Contá la "historia" de tu investigación**
+   - Encontramos un problema → Investigamos → Descubrimos → Esto es lo que significa
+   - No: acá hay datos, acá hay más datos, acá hay más datos
+5. **Anticipá el escepticismo**
+   - Abordá las limitaciones antes de las preguntas de la audiencia
+   - Demuestra un pensamiento honesto y riguroso
+6. **Practicá en voz alta**
+   - Leer en silencio es distinto a hablar
+   - Encontrá tu ritmo y tus transiciones
 ---
-
-## Next Steps After This Example
-
-1. **Try it yourself** with your own research
-2. **Customize the style** to match your institution
-3. **Iterate based on feedback** from colleagues
-4. **Record and share** as a learning resource
-5. **Contribute back** - Share your prompts if they worked well!
-
+ 
+## Próximos Pasos Después de Este Ejemplo
+ 
+1. **Probalo vos mismo** con tu propia investigación
+2. **Personalizá el estilo** para que coincida con tu institución
+3. **Iterá según el feedback** de tus colegas
+4. **Grabá y compartí** como recurso de aprendizaje
+5. **Contribuí de vuelta** - ¡Compartí tus prompts si funcionaron bien!
 ---
-
-**Questions?** See the main README or RESOURCES.md for more info.
-
-**Want to share your results?** Open an issue or PR - we'd love to see what works!
+ 
+**¿Preguntas?** Consultá el README principal o RESOURCES.md para más información.
+ 
+**¿Querés compartir tus resultados?** Abrí un issue o PR - ¡nos encantaría ver qué funciona!
+ 
