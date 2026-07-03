@@ -1,46 +1,43 @@
-# 🚀 How to Push This to GitHub
-
-Complete step-by-step guide for uploading your NotebookLM Prompts repository to GitHub.
-
+# 🚀 Cómo subir esto a GitHub
+ 
+Guía completa paso a paso para subir tu repositorio de NotebookLM Prompts a GitHub.
+ 
 ---
-
-## Prerequisites
-
-Before you start, make sure you have:
-- ✅ GitHub account (create at [github.com](https://github.com) if needed)
-- ✅ Git installed on your computer ([git-scm.com](https://git-scm.com/))
-- ✅ All repository files downloaded from this session
-
+ 
+## Requisitos previos
+ 
+Antes de empezar, asegurate de tener:
+- ✅ Cuenta de GitHub (creala en [github.com](https://github.com) si hace falta)
+- ✅ Git instalado en tu computadora ([git-scm.com](https://git-scm.com/))
+- ✅ Todos los archivos del repositorio descargados de esta sesión
 ---
-
-## Step-by-Step Guide
-
-### Step 1: Create a New Repository on GitHub
-
-1. **Go to GitHub** → [github.com/new](https://github.com/new)
-2. **Create a new repository:**
-   - Repository name: `awesome-notebooklm-prompts`
-   - Description: "A comprehensive collection of 150+ NotebookLM prompts for creating stunning presentation slide decks"
-   - Visibility: **Public** (so others can discover it)
-   - Initialize with: **DO NOT** check "Add a README file" (we have one)
-   - Click **Create repository**
-
-3. **Copy your repository URL**
-   - You'll see a URL like: `https://github.com/YOUR-USERNAME/awesome-notebooklm-prompts.git`
-   - Keep this handy for the next step
-
+ 
+## Guía paso a paso
+ 
+### Paso 1: Crear un nuevo repositorio en GitHub
+ 
+1. **Andá a GitHub** → [github.com/new](https://github.com/new)
+2. **Creá un nuevo repositorio:**
+   - Nombre del repositorio: `awesome-notebooklm-prompts`
+   - Descripción: "Una colección completa de más de 150 prompts de NotebookLM para crear presentaciones impactantes"
+   - Visibilidad: **Público** (para que otros puedan descubrirlo)
+   - Inicializar con: **NO** tildes "Add a README file" (ya tenemos uno)
+   - Hacé clic en **Create repository**
+3. **Copiá la URL de tu repositorio**
+   - Vas a ver una URL como: `https://github.com/TU-USUARIO/awesome-notebooklm-prompts.git`
+   - Guardala a mano para el siguiente paso
 ---
-
-### Step 2: Prepare Your Local Files
-
-1. **Create a folder on your computer:**
-   ```bash
+ 
+### Paso 2: Preparar tus archivos locales
+ 
+1. **Creá una carpeta en tu computadora:**
+```bash
    mkdir awesome-notebooklm-prompts
    cd awesome-notebooklm-prompts
-   ```
-
-2. **Copy all downloaded files into this folder:**
-   ```
+```
+ 
+2. **Copiá todos los archivos descargados dentro de esta carpeta:**
+```
    awesome-notebooklm-prompts/
    ├── README.md
    ├── CONTRIBUTING.md
@@ -52,392 +49,362 @@ Before you start, make sure you have:
    └── examples/
        ├── academic-conference-presentation.md
        └── investor-pitch-deck.md
-   ```
-
-3. **Make sure all files are in place:**
-   ```bash
+```
+ 
+3. **Asegurate de que todos los archivos estén en su lugar:**
+```bash
    ls -la
-   # Should show all files listed above
-   ```
-
+   # Debería mostrar todos los archivos listados arriba
+```
+ 
 ---
-
-### Step 3: Initialize Git & Push
-
-#### Option A: Using Command Line (Recommended for most)
-
-1. **Open terminal/command prompt** in the folder
-   ```bash
+ 
+### Paso 3: Inicializar Git y subir el repositorio
+ 
+#### Opción A: Usando la línea de comandos (recomendado para la mayoría)
+ 
+1. **Abrí la terminal/símbolo del sistema** en la carpeta
+```bash
    cd awesome-notebooklm-prompts
-   ```
-
-2. **Initialize Git:**
-   ```bash
+```
+ 
+2. **Inicializá Git:**
+```bash
    git init
-   ```
-
-3. **Add all files:**
-   ```bash
+```
+ 
+3. **Agregá todos los archivos:**
+```bash
    git add .
-   ```
-
-4. **Create first commit:**
-   ```bash
+```
+ 
+4. **Creá el primer commit:**
+```bash
    git commit -m "Initial commit: Add complete NotebookLM prompts library with 150+ prompts"
-   ```
-
-5. **Add remote repository** (replace with YOUR URL):
-   ```bash
-   git remote add origin https://github.com/YOUR-USERNAME/awesome-notebooklm-prompts.git
-   ```
-
-6. **Verify the remote was added:**
-   ```bash
+```
+ 
+5. **Agregá el repositorio remoto** (reemplazá con TU URL):
+```bash
+   git remote add origin https://github.com/TU-USUARIO/awesome-notebooklm-prompts.git
+```
+ 
+6. **Verificá que se haya agregado el remoto:**
+```bash
    git remote -v
-   # Should show your URL
-   ```
-
-7. **Push to GitHub:**
-   ```bash
+   # Debería mostrar tu URL
+```
+ 
+7. **Subí el repositorio a GitHub:**
+```bash
    git branch -M main
    git push -u origin main
-   ```
-
-8. **Enter your GitHub credentials** when prompted
-   - Username: Your GitHub username
-   - Password: Your GitHub personal access token (not your regular password)
-   
-   **Get a Personal Access Token:**
-   - Go to [github.com/settings/tokens](https://github.com/settings/tokens)
-   - Click "Generate new token"
-   - Select scopes: `repo` (full control of private repositories)
-   - Copy the token and use it as your password
-
-9. **Done!** 🎉
-   ```bash
-   # Go back to GitHub to verify it worked
-   # You should see all files at: github.com/YOUR-USERNAME/awesome-notebooklm-prompts
-   ```
-
-#### Option B: Using GitHub Desktop (Easier for beginners)
-
-1. **Download GitHub Desktop:** [desktop.github.com](https://desktop.github.com/)
-
-2. **Install and sign in** with your GitHub account
-
-3. **Create new repository:**
+```
+ 
+8. **Ingresá tus credenciales de GitHub** cuando te las pida
+   - Usuario: tu nombre de usuario de GitHub
+   - Contraseña: tu token de acceso personal de GitHub (no tu contraseña habitual)
+   **Cómo obtener un token de acceso personal:**
+   - Andá a [github.com/settings/tokens](https://github.com/settings/tokens)
+   - Hacé clic en "Generate new token"
+   - Seleccioná el alcance: `repo` (control total de repositorios privados)
+   - Copiá el token y usalo como contraseña
+9. **¡Listo!** 🎉
+```bash
+   # Volvé a GitHub para verificar que funcionó
+   # Deberías ver todos los archivos en: github.com/TU-USUARIO/awesome-notebooklm-prompts
+```
+ 
+#### Opción B: Usando GitHub Desktop (más fácil para principiantes)
+ 
+1. **Descargá GitHub Desktop:** [desktop.github.com](https://desktop.github.com/)
+2. **Instalalo e iniciá sesión** con tu cuenta de GitHub
+3. **Creá un nuevo repositorio:**
    - File → New Repository
-   - Name: `awesome-notebooklm-prompts`
-   - Local path: Choose the folder where your files are
-   - Click Create
-
-4. **Add files:**
-   - The files should auto-populate
-   - GitHub Desktop shows "Changes" tab
-   - Type commit message: "Initial commit: Add complete NotebookLM prompts library"
-   - Click Commit
-
-5. **Publish to GitHub:**
-   - Click "Publish repository" button
-   - Make it public (optional but recommended)
-   - Click Publish
-
-6. **Done!** 🎉
-
+   - Nombre: `awesome-notebooklm-prompts`
+   - Ruta local: elegí la carpeta donde están tus archivos
+   - Hacé clic en Create
+4. **Agregá los archivos:**
+   - Los archivos deberían aparecer automáticamente
+   - GitHub Desktop muestra la pestaña "Changes"
+   - Escribí el mensaje de commit: "Initial commit: Add complete NotebookLM prompts library"
+   - Hacé clic en Commit
+5. **Publicá en GitHub:**
+   - Hacé clic en el botón "Publish repository"
+   - Hacelo público (opcional pero recomendado)
+   - Hacé clic en Publish
+6. **¡Listo!** 🎉
 ---
-
-### Step 4: Verify Your Repository
-
-1. **Go to GitHub:**
-   ```
-   https://github.com/YOUR-USERNAME/awesome-notebooklm-prompts
-   ```
-
-2. **Check that you see:**
-   - ✅ README.md displaying nicely
-   - ✅ All files in the root folder
-   - ✅ `examples/` folder with 2 files
-   - ✅ File counts: 7 markdown files total
-
-3. **Make sure the README renders properly**
-   - GitHub should show your README at the bottom of the repository page
-   - All headings, links, and formatting should look good
-
+ 
+### Paso 4: Verificar tu repositorio
+ 
+1. **Andá a GitHub:**
+```
+   https://github.com/TU-USUARIO/awesome-notebooklm-prompts
+```
+ 
+2. **Comprobá que veas:**
+   - ✅ El README.md mostrándose correctamente
+   - ✅ Todos los archivos en la carpeta raíz
+   - ✅ La carpeta `examples/` con 2 archivos
+   - ✅ Cantidad de archivos: 7 archivos markdown en total
+3. **Asegurate de que el README se renderice bien**
+   - GitHub debería mostrar tu README en la parte inferior de la página del repositorio
+   - Todos los encabezados, enlaces y formato deberían verse bien
 ---
-
-## Next Steps After Publishing
-
-### 1. Add Badges to Your README
-
-GitHub badges show off your repo! Add these to the top of your README:
-
+ 
+## Próximos pasos después de publicar
+ 
+### 1. Agregar insignias (badges) a tu README
+ 
+¡Las insignias de GitHub lucen tu repo! Agregá estas al inicio de tu README:
+ 
 ```markdown
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/YOUR-USERNAME/awesome-notebooklm-prompts?style=social)]()
+[![Stars](https://img.shields.io/github/stars/TU-USUARIO/awesome-notebooklm-prompts?style=social)]()
 ```
-
-Just edit README.md on GitHub and replace `YOUR-USERNAME` with your actual username.
-
-### 2. Create Topics (Labels)
-
-Help people discover your repository:
-
-1. Go to your repository settings
-2. Under "Topics", add:
+ 
+Simplemente editá el README.md en GitHub y reemplazá `TU-USUARIO` con tu nombre de usuario real.
+ 
+### 2. Crear temas (topics/labels)
+ 
+Ayudá a que la gente descubra tu repositorio:
+ 
+1. Andá a la configuración de tu repositorio
+2. En "Topics", agregá:
    - `notebooklm`
    - `prompts`
    - `presentation`
    - `ai-tools`
    - `awesome-list`
    - `gemini`
-
-### 3. Add to Awesome Lists
-
-Now that you have a great repository, you can add it to existing awesome lists:
-
-1. Find "awesome" lists related to NotebookLM or prompts
-2. Fork the repository
-3. Add your repository to the list
-4. Submit a pull request
-
-Popular awesome lists to add to:
-- [serenakeyitan/awesome-notebookLM-prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - **Contact the maintainer**
+### 3. Agregarlo a listas "awesome"
+ 
+Ahora que tenés un buen repositorio, podés agregarlo a listas "awesome" existentes:
+ 
+1. Buscá listas "awesome" relacionadas con NotebookLM o prompts
+2. Hacé un fork del repositorio
+3. Agregá tu repositorio a la lista
+4. Enviá un pull request
+Listas "awesome" populares para sumarte:
+- [serenakeyitan/awesome-notebookLM-prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) - **Contactá al mantenedor**
 - [awesome-list](https://github.com/topics/awesome)
-- AI/Prompt-related awesome lists
-
-### 4. Share Your Repository
-
-Tell people about your work:
-
-**Share on:**
-- Twitter/X: `Just published "awesome-notebooklm-prompts" - 150+ field-tested prompts for creating stunning decks with NotebookLM 🚀`
-- LinkedIn: Post about your resource and why you created it
-- Reddit: Share in [r/notebooklm](https://www.reddit.com/r/notebooklm/)
-- Discord: Share in NotebookLM communities
-- Email: Send to interested communities
-
-**Example Tweet:**
+- Listas "awesome" relacionadas con IA/Prompts
+### 4. Compartir tu repositorio
+ 
+Contale a la gente sobre tu trabajo:
+ 
+**Compartí en:**
+- Twitter/X: `Acabo de publicar "awesome-notebooklm-prompts" - más de 150 prompts probados en la práctica para crear presentaciones impactantes con NotebookLM 🚀`
+- LinkedIn: publicá sobre tu recurso y por qué lo creaste
+- Reddit: compartilo en [r/notebooklm](https://www.reddit.com/r/notebooklm/)
+- Discord: compartilo en comunidades de NotebookLM
+- Email: enviaselo a comunidades interesadas
+**Ejemplo de tweet:**
 ```
-Just published awesome-notebooklm-prompts 🎨
-
-150+ field-tested prompts for creating stunning presentations:
-✨ 20+ design styles
-✨ 6 presentation formats  
-✨ Real-world examples
-✨ Quick-start guide
-
-Perfect for researchers, creators, entrepreneurs, and educators.
-
-github.com/YOUR-USERNAME/awesome-notebooklm-prompts
-
-#NotebookLM #AI #Presentations
+Acabo de publicar awesome-notebooklm-prompts 🎨
+ 
+Más de 150 prompts probados en la práctica para crear presentaciones impactantes:
+✨ Más de 20 estilos de diseño
+✨ 6 formatos de presentación
+✨ Ejemplos reales
+✨ Guía de inicio rápido
+ 
+Perfecto para investigadores, creadores, emprendedores y educadores.
+ 
+github.com/TU-USUARIO/awesome-notebooklm-prompts
+ 
+#NotebookLM #IA #Presentaciones
 ```
-
-### 5. Set Up GitHub Pages (Optional)
-
-Make a beautiful landing page for your repository:
-
-1. Go to Settings → Pages
-2. Set source to `main` branch
-3. Choose a theme
-4. Your site will be at: `YOUR-USERNAME.github.io/awesome-notebooklm-prompts`
-
+ 
+### 5. Configurar GitHub Pages (opcional)
+ 
+Armá una hermosa página de aterrizaje para tu repositorio:
+ 
+1. Andá a Settings → Pages
+2. Configurá la fuente en la rama `main`
+3. Elegí un tema
+4. Tu sitio va a estar en: `TU-USUARIO.github.io/awesome-notebooklm-prompts`
 ---
-
-## Updating Your Repository Later
-
-Once your repo is on GitHub, here's how to add updates:
-
-### Adding New Prompts
-
-1. **Edit the files locally:**
-   ```bash
-   # Open files, make edits
-   nano COMPLETE_PROMPTS.md
-   ```
-
-2. **Commit and push:**
-   ```bash
-   git add .
-   git commit -m "Add: [description of what you added]"
-   git push origin main
-   ```
-
-3. **Your changes appear on GitHub immediately** ✨
-
-### Accepting Contributions
-
-When people submit pull requests:
-
-1. GitHub notifies you of new PR
-2. Review the changes
-3. Click "Merge pull request" to accept
-4. The contributor gets credit!
-
----
-
-## Troubleshooting
-
-### "Authentication failed"
-- Make sure you're using a **Personal Access Token**, not your GitHub password
-- Generate one at: [github.com/settings/tokens](https://github.com/settings/tokens)
-
-### "Permission denied (publickey)"
-- Usually a SSH key issue
-- Use HTTPS URL instead: `https://github.com/YOUR-USERNAME/repo.git`
-- Or set up SSH: [github.com/settings/keys](https://github.com/settings/keys)
-
-### "Cannot push to remote"
-- Make sure you're in the right directory: `cd awesome-notebooklm-prompts`
-- Check remote URL: `git remote -v`
-- If wrong, fix it: `git remote set-url origin [correct-url]`
-
-### "README not showing"
-- Make sure the file is named exactly `README.md` (capital)
-- Commit and push: `git add README.md && git commit -m "Fix README" && git push`
-
-### Files look wrong on GitHub
-- Reload the page (hard refresh: Cmd+Shift+R or Ctrl+Shift+R)
-- Wait a few seconds for GitHub to process
-
----
-
-## Commands Cheat Sheet
-
+ 
+## Actualizar tu repositorio más adelante
+ 
+Una vez que tu repo esté en GitHub, así es como agregás actualizaciones:
+ 
+### Agregar nuevos prompts
+ 
+1. **Editá los archivos localmente:**
 ```bash
-# Initial setup
+   # Abrí los archivos, hacé los cambios
+   nano COMPLETE_PROMPTS.md
+```
+ 
+2. **Hacé commit y subí los cambios:**
+```bash
+   git add .
+   git commit -m "Add: [descripción de lo que agregaste]"
+   git push origin main
+```
+ 
+3. **Tus cambios aparecen en GitHub de inmediato** ✨
+### Aceptar contribuciones
+ 
+Cuando la gente envíe pull requests:
+ 
+1. GitHub te avisa sobre el nuevo PR
+2. Revisá los cambios
+3. Hacé clic en "Merge pull request" para aceptarlo
+4. ¡El contribuyente recibe el crédito!
+---
+ 
+## Solución de problemas
+ 
+### "Authentication failed" (falló la autenticación)
+- Asegurate de estar usando un **token de acceso personal**, no tu contraseña de GitHub
+- Generá uno en: [github.com/settings/tokens](https://github.com/settings/tokens)
+### "Permission denied (publickey)"
+- Generalmente es un problema con la clave SSH
+- Usá la URL HTTPS en su lugar: `https://github.com/TU-USUARIO/repo.git`
+- O configurá SSH: [github.com/settings/keys](https://github.com/settings/keys)
+### "Cannot push to remote" (no se puede subir al remoto)
+- Asegurate de estar en el directorio correcto: `cd awesome-notebooklm-prompts`
+- Verificá la URL remota: `git remote -v`
+- Si está mal, corregila: `git remote set-url origin [URL-correcta]`
+### "README not showing" (el README no se muestra)
+- Asegurate de que el archivo se llame exactamente `README.md` (con mayúscula)
+- Hacé commit y subilo: `git add README.md && git commit -m "Fix README" && git push`
+### Los archivos se ven mal en GitHub
+- Recargá la página (recarga forzada: Cmd+Shift+R o Ctrl+Shift+R)
+- Esperá unos segundos a que GitHub lo procese
+---
+ 
+## Chuleta de comandos
+ 
+```bash
+# Configuración inicial
 git init
 git add .
-git commit -m "Initial commit: message"
+git commit -m "Initial commit: mensaje"
 git branch -M main
-git remote add origin [YOUR-URL]
+git remote add origin [TU-URL]
 git push -u origin main
-
-# Daily updates
+ 
+# Actualizaciones diarias
 git add .
-git commit -m "Your message"
+git commit -m "Tu mensaje"
 git push
-
-# Check status
+ 
+# Verificar estado
 git status
 git log --oneline
-
-# View remote
+ 
+# Ver remoto
 git remote -v
-
-# Undo last commit (before push)
+ 
+# Deshacer el último commit (antes del push)
 git reset --soft HEAD~1
 ```
-
+ 
 ---
-
-## GitHub Stats (Cool to Watch)
-
-Once your repo is published, GitHub tracks:
-- ⭐ **Stars** - How many people love it
-- 👀 **Watchers** - Who's following updates
-- 🍴 **Forks** - How many people copied it to modify
-- 📊 **Traffic** - How many visits per day
-- 💬 **Discussions** - Community conversations
-- 🔔 **Issues** - Bug reports and feature requests
-
-You can view all this in the "Insights" tab of your repository.
-
+ 
+## Estadísticas de GitHub (interesantes para seguir)
+ 
+Una vez que tu repo esté publicado, GitHub registra:
+- ⭐ **Stars** - Cuánta gente lo valora
+- 👀 **Watchers** - Quién sigue las actualizaciones
+- 🍴 **Forks** - Cuánta gente lo copió para modificarlo
+- 📊 **Traffic** - Cuántas visitas hay por día
+- 💬 **Discussions** - Conversaciones de la comunidad
+- 🔔 **Issues** - Reportes de errores y pedidos de funcionalidades
+Podés ver todo esto en la pestaña "Insights" de tu repositorio.
+ 
 ---
-
-## Pro Tips
-
-### 1. Use Good Commit Messages
+ 
+## Consejos profesionales
+ 
+### 1. Usá buenos mensajes de commit
 ```
-✅ GOOD: "Add: Neo-Retro Dev Deck style with specifications"
-✅ GOOD: "Improve: Clarify Sharp-Edged Minimalism checklist"
-❌ BAD: "update"
-❌ BAD: "fix stuff"
+✅ BIEN: "Add: Neo-Retro Dev Deck style with specifications"
+✅ BIEN: "Improve: Clarify Sharp-Edged Minimalism checklist"
+❌ MAL: "update"
+❌ MAL: "fix stuff"
 ```
-
-### 2. Create a Release
-When you have a stable version:
-1. Go to "Releases" tab
-2. Click "Create a new release"
-3. Tag version (e.g., v1.0.0)
-4. Add release notes
-5. People can download specific versions
-
-### 3. Add a CHANGELOG
-Track changes over time:
+ 
+### 2. Creá un Release
+Cuando tengas una versión estable:
+1. Andá a la pestaña "Releases"
+2. Hacé clic en "Create a new release"
+3. Etiquetá la versión (por ejemplo, v1.0.0)
+4. Agregá notas de la versión
+5. La gente puede descargar versiones específicas
+### 3. Agregá un CHANGELOG
+Llevá registro de los cambios a lo largo del tiempo:
 ```markdown
 ## [1.0.0] - 2026-03-24
-### Added
-- Initial release with 150+ prompts
-- 20+ design styles with specifications
-- Quick reference guide
-- 2 detailed examples
-
-### Changed
-- Organized by presentation format
-
-### Fixed
-- Improved clarity in prompts
+### Agregado
+- Lanzamiento inicial con más de 150 prompts
+- Más de 20 estilos de diseño con especificaciones
+- Guía de referencia rápida
+- 2 ejemplos detallados
+ 
+### Cambiado
+- Organizado por formato de presentación
+ 
+### Corregido
+- Mejor claridad en los prompts
 ```
-
-### 4. Regular Updates
-- Add new prompts as you discover them
-- Fix typos and clarifications
-- Update examples with real results
-- Keep the community engaged
-
+ 
+### 4. Actualizaciones regulares
+- Agregá nuevos prompts a medida que los descubras
+- Corregí errores tipográficos y aclará contenidos
+- Actualizá los ejemplos con resultados reales
+- Mantené a la comunidad activa
 ---
-
-## Success! 🎉
-
-You now have:
-- ✅ GitHub repository created
-- ✅ All 150+ prompts published
-- ✅ Beautiful README documentation
-- ✅ Contributing guidelines for others
-- ✅ Ready for the community to discover
-
+ 
+## ¡Éxito! 🎉
+ 
+Ahora tenés:
+- ✅ Repositorio de GitHub creado
+- ✅ Más de 150 prompts publicados
+- ✅ Documentación README bien presentada
+- ✅ Guías de contribución para otros
+- ✅ Todo listo para que la comunidad lo descubra
 ---
-
-## Next: Share & Grow
-
-### Week 1: Setup & Share
-- [ ] Publish to GitHub (you did it!)
-- [ ] Share on social media
-- [ ] Add GitHub topics
-- [ ] Share in communities
-
-### Week 2-4: Engagement
-- [ ] Respond to questions/issues
-- [ ] Add more examples
-- [ ] Refine based on feedback
-- [ ] Thank contributors
-
-### Month 2+: Growth
-- [ ] Reach 100 stars
-- [ ] Get first community contributions
-- [ ] Expand with video tutorials
-- [ ] Build community around it
-
+ 
+## Siguiente paso: compartir y crecer
+ 
+### Semana 1: Configuración y difusión
+- [ ] Publicar en GitHub (¡ya lo hiciste!)
+- [ ] Compartir en redes sociales
+- [ ] Agregar topics de GitHub
+- [ ] Compartir en comunidades
+### Semanas 2-4: Interacción
+- [ ] Responder preguntas/issues
+- [ ] Agregar más ejemplos
+- [ ] Refinar según el feedback
+- [ ] Agradecer a los contribuyentes
+### Mes 2 en adelante: Crecimiento
+- [ ] Alcanzar 100 stars
+- [ ] Recibir las primeras contribuciones de la comunidad
+- [ ] Ampliar con tutoriales en video
+- [ ] Construir una comunidad alrededor del proyecto
 ---
-
-## Questions?
-
-If you get stuck:
-1. Check GitHub's own guides: [github.com/docs](https://github.com/docs)
-2. Search Stack Overflow for your error
-3. Ask in [r/github](https://www.reddit.com/r/github/)
-4. Check the CONTRIBUTING.md file
-
+ 
+## ¿Preguntas?
+ 
+Si te trabás:
+1. Revisá las guías oficiales de GitHub: [github.com/docs](https://github.com/docs)
+2. Buscá tu error en Stack Overflow
+3. Preguntá en [r/github](https://www.reddit.com/r/github/)
+4. Revisá el archivo CONTRIBUTING.md
 ---
-
-**Congratulations on publishing! You've created an incredible resource for the community.** 🚀
-
-Now go forth and help thousands of creators build stunning presentations with NotebookLM!
-
+ 
+**¡Felicitaciones por publicarlo! Creaste un recurso increíble para la comunidad.** 🚀
+ 
+Ahora andá y ayudá a miles de creadores a construir presentaciones impactantes con NotebookLM!
+ 
 ---
-
-**Version**: 1.0  
-**Last Updated**: March 24, 2026
+ 
+**Versión**: 1.0
+**Última actualización**: 24 de marzo de 2026
