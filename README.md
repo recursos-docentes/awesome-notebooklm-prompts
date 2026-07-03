@@ -1,488 +1,635 @@
-# Awesome NotebookLM Slide Decks Prompts 📊
+# Impresionantes Prompts para Crear Presentaciones en NotebookLM 📊
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
-[![Last Updated](https://img.shields.io/badge/last%20updated-March%202026-blue)]()
+[![Licencia: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![¡Contribuciones Bienvenidas!](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
+[![Última actualización](https://img.shields.io/badge/last%20updated-March%202026-blue)]()
 
-> A comprehensive, field-tested collection of **150+ NotebookLM prompts** for creating stunning presentation slide decks. Organized by design style, presentation format, and use case. Perfect for researchers, creators, entrepreneurs, educators, and anyone who needs to turn knowledge into compelling visuals.
+> Una colección completa y probada en escenarios reales de **más de 150 prompts para NotebookLM** destinada a crear impresionantes presentaciones. Organizada por estilo de diseño, formato de presentación y caso de uso. Ideal para investigadores, creadores, emprendedores, docentes y cualquier persona que necesite transformar conocimiento en presentaciones visuales impactantes.
 
-🎯 **Stop building slides manually. Let AI handle the heavy lifting—with the right prompt.**
-
----
-
-## Table of Contents
-
-- [What's Included](#whats-included)
-- [Quick Start](#quick-start)
-- [Features](#features)
-- [Repository Structure](#repository-structure)
-- [Design Styles Covered](#design-styles-covered)
-- [Presentation Formats](#presentation-formats)
-- [Usage Examples](#usage-examples)
-- [Best Practices](#best-practices)
-- [Contributing](#contributing)
-- [License](#license)
-- [Resources](#resources)
+🎯 **Deja de crear diapositivas manualmente. Permite que la IA haga el trabajo pesado con el prompt adecuado.**
 
 ---
 
-## What's Included
+# Tabla de Contenidos
 
-This repository contains:
-
-- [**Complete Prompts Library** (150+ prompts)](notebooklm_complete_prompts.md)
-  - [Editorial & Business Styles](notebooklm_complete_prompts.md#editorial--business-styles)
-  - [Pop, Youth & Street Styles](notebooklm_complete_prompts.md#pop-youth--street-styles)
-  - [Typography & Font-Driven Styles](notebooklm_complete_prompts.md#typography--font-driven-styles)
-  - [Artistic & Avant-Garde Styles](notebooklm_complete_prompts.md#artistic--avant-garde-styles)
-  - [Professional & Premium Styles](notebooklm_complete_prompts.md#professional--premium-styles)
-  - [Sports & High-Energy Styles](notebooklm_complete_prompts.md#sports--high-energy-styles)
-  - [Core Generation Prompts](notebooklm_complete_prompts.md#core-presentation-generation-prompts)
-  - [Data Visualization Prompts](notebooklm_complete_prompts.md#data-visualization--infographic-prompts)
-  - [Content Adaptation Prompts](notebooklm_complete_prompts.md#content-adaptation-prompts)
-  - [Advanced Workflow Prompts](notebooklm_complete_prompts.md#advanced-workflow-prompts)
-
-- [**Quick Reference Guide**](notebooklm_quick_reference.md)
-  - [Decision tree for choosing styles](notebooklm_quick_reference.md#quick-decision-tree-choose-your-style)
-  - [3-step prompt formula](notebooklm_quick_reference.md#fastest-path-3-step-prompt-formula)
-  - [Common prompts by situation](notebooklm_quick_reference.md#common-prompts-by-situation)
-  - [Style checklists](notebooklm_quick_reference.md#style-checklists)
-  - [Pro tips & best practices](notebooklm_quick_reference.md#pro-tips-for-better-outputs)
-
-- **Additional Resources**
-  - [Contributing guidelines](CONTRIBUTING.md)
-  - [License information](LICENSE)
-  - [Link to original sources](RESOURCES.md)
+- [¿Qué incluye?](#qué-incluye)
+- [Inicio rápido](#inicio-rápido)
+- [Características](#características)
+- [Estructura del repositorio](#estructura-del-repositorio)
+- [Estilos de diseño disponibles](#estilos-de-diseño-disponibles)
+- [Formatos de presentación](#formatos-de-presentación)
+- [Ejemplos de uso](#ejemplos-de-uso)
+- [Buenas prácticas](#buenas-prácticas)
+- [Cómo contribuir](#cómo-contribuir)
+- [Licencia](#licencia)
+- [Recursos](#recursos)
 
 ---
 
-## Quick Start
+# ¿Qué incluye?
 
-### For Complete Beginners
-1. Open [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md)
-2. Find your presentation type in the "Quick Decision Tree"
-3. Use the "3-Step Prompt Formula"
-4. Copy the example prompt
-5. Paste into NotebookLM + your sources
+Este repositorio contiene:
 
-### For Experienced Users
-1. Browse [`notebooklm_complete_prompts.md`](notebooklm_complete_prompts.md) by style
-2. Mix and match prompts from different sections
-3. Use [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md) for iterative refinement
+- **Biblioteca completa de prompts (150+)**
+  - Estilos editoriales y de negocios
+  - Estilos pop, juveniles y urbanos
+  - Estilos centrados en tipografía
+  - Estilos artísticos y vanguardistas
+  - Estilos profesionales y premium
+  - Estilos deportivos y de alta energía
+  - Prompts principales para generación de presentaciones
+  - Prompts para visualización de datos e infografías
+  - Prompts para adaptación de contenido
+  - Prompts para flujos de trabajo avanzados
 
-### Basic Formula
+- **Guía rápida de referencia**
+  - Árbol de decisión para elegir un estilo
+  - Fórmula de prompts en tres pasos
+  - Prompts habituales según la situación
+  - Listas de verificación por estilo
+  - Consejos profesionales y mejores prácticas
+
+- **Recursos adicionales**
+  - Guía para colaboradores
+  - Información sobre la licencia
+  - Enlaces a las fuentes originales
+
+---
+
+# Inicio rápido
+
+## Para principiantes
+
+1. Abre `notebooklm_quick_reference.md`.
+2. Busca el tipo de presentación que necesitas en el **Árbol de decisión rápido**.
+3. Utiliza la **Fórmula de prompts en 3 pasos**.
+4. Copia el prompt de ejemplo.
+5. Pégalo en NotebookLM junto con tus fuentes de información.
+
+## Para usuarios experimentados
+
+1. Explora `notebooklm_complete_prompts.md` por estilo.
+2. Combina prompts de distintas categorías.
+3. Utiliza la guía rápida para perfeccionar el resultado mediante iteraciones.
+
+## Fórmula básica
+
+```text
+"Crea una presentación de [NÚMERO] diapositivas sobre [TEMA] para [AUDIENCIA].
+
+Utiliza un estilo [ESTILO] con una paleta de colores [PALETA].
+
+Destaca [MENSAJE PRINCIPAL] e incluye [ENFOQUE VISUAL]."
 ```
-"Create a [NUMBER]-slide presentation on [TOPIC] for [AUDIENCE].
-Use a [STYLE] aesthetic with [COLOR PALETTE] colors.
-Emphasize [KEY MESSAGE] and include [VISUAL APPROACH]."
-```
 
-**Example:**
-```
-"Create a 10-slide presentation on AI in healthcare for hospital administrators.
-Use a sharp-edged minimalist aesthetic with white background and black/blue accents.
-Emphasize cost savings and include simple charts showing ROI comparisons."
+**Ejemplo**
+
+```text
+"Crea una presentación de 10 diapositivas sobre IA aplicada a la salud dirigida a administradores hospitalarios.
+
+Utiliza un estilo minimalista de bordes definidos con fondo blanco y detalles en negro y azul.
+
+Enfatiza el ahorro de costos e incluye gráficos sencillos que comparen el retorno de la inversión."
 ```
 
 ---
 
-## Features
+# Características
 
-✨ **150+ Field-Tested Prompts**
-- Sourced from design communities, Twitter/X, Reddit, GitHub, and industry professionals
-- Organized by use case, style, and presentation format
-- Copy-paste ready with clear examples
+## ✨ Más de 150 prompts probados
 
-🎨 **20+ Design Styles**
-- Modern Newspaper
-- Sharp-Edged Minimalism
-- Magazine Style (Mature-Cute Editorial)
-- Digital/Neo/Pop
+- Recopilados de comunidades de diseño, Twitter/X, Reddit, GitHub y profesionales del sector.
+- Organizados por caso de uso, estilo y formato de presentación.
+- Listos para copiar y pegar.
+
+## 🎨 Más de 20 estilos de diseño
+
+- Periódico moderno
+- Minimalismo de bordes definidos
+- Estilo revista (editorial elegante y juvenil)
+- Digital / Neo / Pop
 - Neo-Retro Dev Deck
-- Premium/Studio Mockup
-- Manga Style
-- Tech/Art/Neon (Constructivism)
-- Sports/Athletic/Energy
-- And more...
+- Premium / Studio Mockup
+- Estilo Manga
+- Tecnología / Arte / Neón (Constructivismo)
+- Deportivo / Atlético / Alta energía
+- Y muchos más.
 
-🎯 **6 Presentation Formats**
-- Academic (Conferences & Defenses)
-- Business (Board & Executive)
-- Investor (Pitch Decks)
-- Client (Proposals & Reports)
-- Education (Lectures & Training)
-- Lightning Talks (5-10 min)
+## 🎯 Seis formatos de presentación
 
-📚 **Complete Workflows**
-- Research → Slides
-- Long Documents → Slides
-- Photos → Stories
-- Rough Notes → Professional Decks
-- Data → Infographics
+- Académico (conferencias y defensas)
+- Empresarial (directivos y juntas)
+- Inversionistas (Pitch Deck)
+- Clientes (propuestas e informes)
+- Educación (clases y capacitación)
+- Lightning Talks (5–10 minutos)
 
-🔧 **Practical Tools**
-- Quick decision tree (find your style in 60 seconds)
-- 3-step prompt formula (fastest path to results)
-- Situation-specific prompts ("I have 30 minutes," "I need to convince my boss")
-- Style checklists (verify consistency)
-- Pre & post-generation checklists
-- Common mistakes & how to fix them
+## 📚 Flujos de trabajo completos
+
+- Investigación → Presentación
+- Documentos extensos → Presentación
+- Fotografías → Historias visuales
+- Notas preliminares → Presentaciones profesionales
+- Datos → Infografías
+
+## 🔧 Herramientas prácticas
+
+- Árbol de decisión rápido (elige un estilo en menos de un minuto)
+- Fórmula de prompts en tres pasos
+- Prompts según situaciones específicas ("Solo tengo 30 minutos", "Necesito convencer a mi jefe", etc.)
+- Listas de verificación para mantener coherencia visual
+- Checklists antes y después de generar la presentación
+- Errores comunes y cómo solucionarlos
 
 ---
 
-## Repository Structure
+## Estructura del repositorio
 
 ```
 awesome-notebooklm-prompts/
-├── README.md                          # You are here
-├── CONTRIBUTING.md                    # How to contribute
-├── LICENSE                            # MIT License
-├── notebooklm_complete_prompts.md     # All 150+ prompts organized by category
-├── notebooklm_quick_reference.md      # Quick-start guide with checklists
-├── RESOURCES.md                       # Links to original sources
+├── README.md                          # Estás aquí
+├── CONTRIBUTING.md                    # Cómo contribuir
+├── LICENSE                            # Licencia MIT
+├── notebooklm_complete_prompts.md     # Los más de 150 prompts organizados por categorías
+├── notebooklm_quick_reference.md      # Guía de inicio rápido con listas de verificación
+├── RESOURCES.md                       # Enlaces a las fuentes originales
 └── examples/
-    ├── academic-conference-presentation.md # Example: Conference talk
-    ├── investor-pitch-deck.md              # Example: Investor pitch
-    ├── training-deck.md                    # Example: Educational presentation (Coming Soon)
-    └── executive-summary.md                # Example: 5-minute executive brief (Coming Soon)
+    ├── academic-conference-presentation.md # Ejemplo: presentación para una conferencia
+    ├── investor-pitch-deck.md              # Ejemplo: presentación para inversionistas
+    ├── training-deck.md                    # Ejemplo: presentación de capacitación (Próximamente)
+    └── executive-summary.md                # Ejemplo: resumen ejecutivo de 5 minutos (Próximamente)
 ```
 
 ---
 
-## Design Styles Covered
+# Estilos de diseño incluidos
 
-### Editorial & Business
-- [x] [Modern Newspaper](notebooklm_complete_prompts.md#modern-newspaper-style)
-- [x] [Sharp-Edged Minimalism](notebooklm_complete_prompts.md#sharp-edged-minimalism)
-- [x] [Yellow × Black Editorial](notebooklm_complete_prompts.md#yellow--black-editorial)
-- [x] [Black × Orange Creative Agency](notebooklm_complete_prompts.md#black--orange-creative-agency)
-- [x] [For Seminar Use (Minimal Text)](notebooklm_complete_prompts.md#for-seminar-use-minimal-text)
+## Editorial y Empresarial
 
-### Pop, Youth & Street
-- [x] [Manga Style](notebooklm_complete_prompts.md#manga-style)
-- [x] [Magazine Style (Mature-Cute Editorial)](notebooklm_complete_prompts.md#magazine-style-mature-cute-editorial)
-- [x] [Pink Street-Style](notebooklm_complete_prompts.md#pink-street-style)
-- [x] [Digital / Neo / Pop](notebooklm_complete_prompts.md#digital--neo--pop)
-- [x] [Neo-Retro Dev Deck / Pixel-Infographic](notebooklm_complete_prompts.md#neo-retro-dev-deck--pixel-infographic-editorial)
+- [x] Periódico Moderno
+- [x] Minimalismo de Bordes Definidos
+- [x] Editorial Amarillo × Negro
+- [x] Agencia Creativa Negro × Naranja
+- [x] Para Seminarios (Texto Mínimo)
 
-### Typography & Artistic
-- [x] [Mincho Font + Handwritten Mix](notebooklm_complete_prompts.md#mincho-font--handwritten-mix)
-- [x] [Deformed Flat Persona](notebooklm_complete_prompts.md#deformed-flat-persona)
-- [x] [Royal Blue × Red Watercolor](notebooklm_complete_prompts.md#royal-blue--red-watercolor)
-- [x] [Classic / Pop (Sculpture × Vaporwave)](notebooklm_complete_prompts.md#classic--pop-sculpture--vaporwave)
-- [x] [Tech / Art / Neon (Constructivism)](notebooklm_complete_prompts.md#tech--art--neon-constructivism)
+## Pop, Juvenil y Urbano
 
-### Professional & Premium
-- [x] [Studio / Mockup / Premium](notebooklm_complete_prompts.md#studio--mockup--premium)
-- [x] [Sports / Athletic / Energy](notebooklm_complete_prompts.md#sports--athletic--energy)
+- [x] Estilo Manga
+- [x] Estilo Revista (Editorial Elegante y Juvenil)
+- [x] Pink Street Style
+- [x] Digital / Neo / Pop
+- [x] Neo-Retro Dev Deck / Pixel Infographic
+
+## Tipografía y Arte
+
+- [x] Fuente Mincho + Escritura a Mano
+- [x] Personajes Flat Deformados
+- [x] Acuarela Azul Real × Roja
+- [x] Clásico / Pop (Escultura × Vaporwave)
+- [x] Tecnología / Arte / Neón (Constructivismo)
+
+## Profesional y Premium
+
+- [x] Studio / Mockup / Premium
+- [x] Deportivo / Atlético / Energía
 - [x] Anti-Gravity / Living Artifact
-- [x] And more...
+- [x] Y muchos más...
 
-**Total: 20+ distinct visual styles with full specifications**
-
----
-
-## Presentation Formats
-
-| Format | Best For | Typical Slides | Priority |
-|--------|----------|---|---|
-| [**Academic**](notebooklm_complete_prompts.md#academic--research-presentations) | Conference talks, thesis defenses, research presentations | 15–25 | Methodology rigor |
-| [**Business**](notebooklm_complete_prompts.md#business--executive-presentations) | Quarterly reviews, strategic planning, board meetings | 8–12 | Strategic decisions |
-| [**Investor**](notebooklm_complete_prompts.md#investor--pitch-decks) | Fundraising pitches, partnership proposals | 10–15 | Story + urgency |
-| [**Client**](notebooklm_complete_prompts.md#client--proposal-presentations) | Proposals, project reports, recommendations | 12–20 | Results + next steps |
-| [**Education**](notebooklm_complete_prompts.md#education--training-presentations) | Lectures, workshops, training sessions | 20–40 | Progressive learning |
-| [**Lightning**](notebooklm_complete_prompts.md#lightning-talks--short-presentations) | 5–10 minute showcases, ignite talks | 5–12 | One idea, max impact |
+**Total:** más de **20 estilos visuales** completamente documentados.
 
 ---
 
-## Usage Examples
+# Formatos de presentación
 
-### Example 1: Research Paper → Presentation
-**Challenge:** Dense technical content, need to make it engaging
+| Formato | Ideal para | Diapositivas habituales | Prioridad |
+|----------|------------|------------------------|-----------|
+| **Académico** | Congresos, defensas de tesis, investigaciones | 15–25 | Rigor metodológico |
+| **Empresarial** | Reuniones ejecutivas, juntas directivas, planificación estratégica | 8–12 | Toma de decisiones |
+| **Inversionistas** | Pitch Decks, búsqueda de financiación | 10–15 | Historia + urgencia |
+| **Clientes** | Propuestas, informes y recomendaciones | 12–20 | Resultados + próximos pasos |
+| **Educación** | Clases, talleres y capacitación | 20–40 | Aprendizaje progresivo |
+| **Lightning Talks** | Presentaciones de 5 a 10 minutos | 5–12 | Una sola idea con máximo impacto |
 
-**Quick Prompt:**
-```
-"Convert these research findings into 8 slides for [AUDIENCE].
-Focus on: methodology (1), key findings (3), implications (2), conclusion (2).
-Use clear data visualization for complex concepts."
-```
+---
 
-**Best Style:** Sharp-Edged Minimalism or Tech/Art/Neon
+# Ejemplos de uso
 
-→ *See `examples/academic-conference-presentation.md` for full walkthrough*
+## Ejemplo 1: Artículo científico → Presentación
 
-### Example 2: Product Pitch Deck
-**Challenge:** Need urgency, emotion, AND credibility
+**Desafío:** contenido técnico complejo que debe resultar atractivo.
 
-**Quick Prompt:**
-```
-"Create a sales pitch deck (12 slides):
-Problem → Solution → Market → Traction → Ask structure.
-Tell a compelling story. Show urgency and opportunity.
-Use data and proof points. Include financial projections."
+### Prompt rápido
+
+```text
+"Convierte estos resultados de investigación en una presentación de 8 diapositivas para [AUDIENCIA].
+
+Enfócate en:
+
+- Metodología (1)
+- Hallazgos principales (3)
+- Implicaciones (2)
+- Conclusiones (2)
+
+Utiliza visualizaciones de datos claras para explicar conceptos complejos."
 ```
 
-**Best Style:** Neo-Retro Dev Deck or Sports/Athletic
+**Mejor estilo recomendado**
 
-→ *See `examples/investor-pitch-deck.md` for full walkthrough*
+- Minimalismo de Bordes Definidos
+- Tecnología / Arte / Neón
 
-### Example 3: Quick Executive Summary
-**Challenge:** Key decision-makers, minimal time
+> Consulta `examples/academic-conference-presentation.md` para ver el proceso completo.
 
-**Quick Prompt:**
-```
-"Create a 5-minute executive summary (8 slides):
-Situation → Problem → Solution → Results → Recommendation → Next Steps
-Use key numbers prominently. One idea per slide."
-```
+---
 
-**Best Style:** Premium/Studio Mockup
+## Ejemplo 2: Pitch Deck de un producto
 
-→ *See `examples/executive-summary.md` (Coming Soon) for full walkthrough*
+**Desafío:** transmitir urgencia, emoción y credibilidad.
 
-### Example 4: Educational Training Module
-**Challenge:** Learning objectives + engagement
+### Prompt rápido
 
-**Quick Prompt:**
-```
-"Create a training presentation (20 slides) with:
-Learning objectives → Content modules → Checkpoints → Summary → Next steps
-Include interactive elements and visual breaks.
-Magazine Style for engagement."
+```text
+"Crea un Pitch Deck comercial de 12 diapositivas siguiendo esta estructura:
+
+Problema → Solución → Mercado → Tracción → Solicitud.
+
+Cuenta una historia convincente.
+
+Genera sensación de urgencia y oportunidad.
+
+Incluye datos y evidencia junto con proyecciones financieras."
 ```
 
-**Best Style:** Magazine Style or Digital/Neo/Pop
+**Mejor estilo recomendado**
 
-→ *See `examples/training-deck.md` (Coming Soon) for full walkthrough*
+- Neo-Retro Dev Deck
+- Deportivo / Atlético
+
+> Consulta `examples/investor-pitch-deck.md` para ver el flujo completo.
 
 ---
 
-## Best Practices
+## Ejemplo 3: Resumen Ejecutivo
 
-### Before You Prompt ✓
-- [ ] Gather all source materials
-- [ ] Define your audience clearly
-- [ ] Clarify your main message
-- [ ] Choose presentation format
-- [ ] Select visual style
+**Desafío:** directivos con muy poco tiempo disponible.
 
-### Writing Effective Prompts
-1. **Be Specific** - Mention exact slide count, audience, and goals
-2. **Include Context** - Help NotebookLM understand your situation
-3. **Specify Style** - Use style names from this repository
-4. **Provide Examples** - Reference similar decks if available
-5. **Iterate Deliberately** - Refine in stages (structure → visuals → messaging)
+### Prompt rápido
 
-### Quick Refinement Loop
-```
-First Prompt   → Get structure right (narrative arc)
-Second Prompt  → Get visuals right (style and design)
-Third Prompt   → Get messaging right (emphasis and clarity)
-Fourth Prompt  → Get details right (polish and refinement)
+```text
+"Crea un resumen ejecutivo de 5 minutos (8 diapositivas):
+
+Situación → Problema → Solución → Resultados → Recomendación → Próximos pasos.
+
+Destaca los indicadores más importantes.
+
+Una sola idea por diapositiva."
 ```
 
-### Common Pitfalls to Avoid
-| Problem | Fix |
-|---------|-----|
-| Too much text | Specify "6 words max for titles" |
-| Generic design | Pick a specific style from this repo |
-| Weak narrative | Request specific structure (problem→solution) |
-| Inconsistent look | Use one of our style templates |
-| Missing context | Specify audience and their needs |
+**Mejor estilo recomendado**
+
+- Premium / Studio Mockup
+
+> Consulta `examples/executive-summary.md` (Próximamente).
 
 ---
 
-## Quick Decision Tree
+## Ejemplo 4: Capacitación
 
-**What type of presentation do you need?**
+**Desafío:** combinar aprendizaje con participación.
 
-```
-Business/Corporate?           → Sharp-Edged Minimalism or Premium/Studio
-Creative/Startup?             → Neo-Retro Dev Deck or Digital/Neo/Pop
-Academic/Research?            → Modern Newspaper or Tech/Art/Neon
-Education/Training?           → Magazine Style or Digital/Neo/Pop
-Fashion/Lifestyle?            → Magazine Style or Pink Street-Style
-High Energy/Sports?           → Sports/Athletic/Energy or Neo-Retro Dev
-Artistic/Conceptual?          → Tech/Art/Neon or Watercolor/Artistic
-Minimal/Professional?         → Sharp-Edged Minimalism or Studio/Premium
+### Prompt rápido
+
+```text
+"Crea una presentación de capacitación de 20 diapositivas con la siguiente estructura:
+
+Objetivos de aprendizaje → Módulos → Evaluaciones → Resumen → Próximos pasos.
+
+Incluye elementos interactivos y pausas visuales.
+
+Utiliza un estilo tipo Revista."
 ```
 
-👉 **See [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md) for the complete decision tree**
+**Mejor estilo recomendado**
+
+- Estilo Revista
+- Digital / Neo / Pop
+
+> Consulta `examples/training-deck.md` (Próximamente).
 
 ---
 
-## Contributing
+# Buenas prácticas
 
-We welcome contributions! If you have prompts that work well, design styles to add, or improvements to suggest:
+## Antes de escribir el prompt ✓
 
-1. Fork this repository
-2. Create a branch (`git checkout -b feature/my-new-prompts`)
-3. Add your content (see `CONTRIBUTING.md` for guidelines)
-4. Submit a pull request
-5. We'll review and merge
-
-**What we're looking for:**
-- New design styles with full specifications
-- Field-tested prompts from your experience
-- Use case examples
-- Bug reports or clarifications
-- Style improvements
-
-→ *See `CONTRIBUTING.md` for detailed guidelines*
+- [ ] Reúne todo el material fuente.
+- [ ] Define claramente tu audiencia.
+- [ ] Determina cuál es el mensaje principal.
+- [ ] Elige el formato de la presentación.
+- [ ] Selecciona el estilo visual más adecuado.
 
 ---
 
-## Resources
+## Cómo escribir prompts efectivos
 
-### Original Sources
-- **GitHub**: [serenakeyitan/awesome-notebookLM-prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts)
-- **GitHub**: [etewiah/awesome-notebooklm](https://github.com/etewiah/awesome-notebooklm)
-- **NimaMan**: [notebookLM Open Source Implementation](https://github.com/NimaMan/notebookLM)
-- **Prompts.chat**: [General Prompt Library](https://prompts.chat)
-
-### Official Documentation
-- **NotebookLM Guide**: [Slide Deck Generator](https://notebooklm-guide.com/notebooklm-slide-decks)
-- **Google Blog**: [8 Ways to Make the Most Out of Slide Decks](https://blog.google/innovation-and-ai/models-and-research/google-labs/8-ways-to-make-the-most-out-of-slide-decks-in-notebooklm)
-- **moiid.com**: [NotebookLM Prompts Guide](https://moiid.com/en/effortless-presentation-slides-how-to-use-notebooklm-prompts-for-fast-ai-powered-decks)
-
-### Community
-- **Reddit**: [r/notebooklm](https://www.reddit.com/r/notebooklm/)
-- **Discord**: NotebookLM Community Server
-- **Twitter/X**: [@notebooklm_pods](https://x.com/notebooklm_pods)
-
-→ *See `RESOURCES.md` for full links and descriptions*
+1. **Sé específico.** Indica el número de diapositivas, la audiencia y el objetivo de la presentación.
+2. **Proporciona contexto.** Cuanta más información tenga NotebookLM sobre tu situación, mejores serán los resultados.
+3. **Especifica el estilo.** Utiliza los nombres de estilos disponibles en este repositorio.
+4. **Incluye ejemplos.** Si existe una presentación similar a la que deseas, úsala como referencia.
+5. **Refina por etapas.** Primero la estructura, luego el diseño visual y finalmente el mensaje.
 
 ---
 
-## Tips for Maximum Success
+## Ciclo rápido de refinamiento
 
-### Quick Wins (5-15 minutes)
-- Use the 3-step prompt formula
-- Pick a style from the decision tree
-- Copy a prompt from your format section
-- Refine one round
-
-### Great Results (30-45 minutes)
-- Prepare all source materials first
-- Use the complete workflow prompts
-- Iterate 2-3 times
-- Polish with refinement prompts
-
-### Professional Results (45-90 minutes)
-- Deep research phase
-- Multiple iterations for structure, visuals, messaging
-- Audience versioning
-- Full branding application
+```text
+Primer prompt   → Obtener la estructura correcta (narrativa)
+Segundo prompt  → Mejorar el diseño visual (estilo)
+Tercer prompt   → Ajustar el mensaje (énfasis y claridad)
+Cuarto prompt   → Afinar los detalles (acabado final)
+```
 
 ---
 
-## License
+## Errores comunes y cómo evitarlos
 
-This project is licensed under the **MIT License** - see `LICENSE` file for details.
-
-**Summary:**
-- ✅ Personal & commercial use
-- ✅ Modify and distribute
-- ✅ Use in private projects
-- ⚠️ Include license copy
-- ⚠️ No liability/warranty
-
----
-
-## What's New?
-
-### Latest Updates (March 2026)
-- ✨ Added 15+ new design style specifications
-- ✨ Expanded data visualization section
-- ✨ Added professional use case examples
-- ✨ Created interactive quick reference guide
-- 🔧 Improved prompt clarity and accuracy
-- 🔧 Added time estimates for all workflows
-
-### Coming Soon
-- [ ] Video tutorials for each style
-- [ ] Example slide decks for reference
-- [ ] NotebookLM integration guide
-- [ ] Community prompt submissions
-- [ ] Style template library
-- [ ] Multilingual prompts
+| Problema | Solución |
+|----------|----------|
+| Demasiado texto | Especifica "máximo 6 palabras por título". |
+| Diseño genérico | Elige uno de los estilos de este repositorio. |
+| Narrativa débil | Solicita una estructura clara (Problema → Solución). |
+| Inconsistencia visual | Mantén un único estilo durante toda la presentación. |
+| Falta de contexto | Describe la audiencia y sus necesidades. |
 
 ---
 
-## FAQs
+# Árbol de decisión rápido
 
-### Q: Do I need to use these exactly as written?
-**A:** No! These are starting points. Adapt them to your content, audience, and goals.
+**¿Qué tipo de presentación necesitas?**
 
-### Q: Can I use these with other AI tools?
-**A:** Yes! These prompts work with NotebookLM, but many also work with other presentation AI tools.
+```text
+Empresarial / Corporativa
+    → Minimalismo de Bordes Definidos
+      o Premium / Studio
 
-### Q: How do I choose between styles?
-**A:** Use the Quick Decision Tree in [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md) based on your presentation type and audience.
+Startup / Creativa
+    → Neo-Retro Dev Deck
+      o Digital / Neo / Pop
 
-### Q: Can I mix styles?
-**A:** Absolutely! Combine elements from different styles. That's where creativity happens.
+Académica / Investigación
+    → Periódico Moderno
+      o Tecnología / Arte / Neón
 
-### Q: How long does it take to create a deck?
-**A:** 10-15 min for simple slides, 30-45 min for complex decks, including refinement. See time estimates in the guides.
+Educación / Capacitación
+    → Estilo Revista
+      o Digital / Neo / Pop
 
-### Q: Do these work for non-English presentations?
-**A:** Yes! Most prompts work in any language. Specify your language preference in the prompt.
+Moda / Lifestyle
+    → Estilo Revista
+      o Pink Street Style
 
----
+Alta energía / Deportes
+    → Deportivo / Atlético
+      o Neo-Retro Dev Deck
 
-## Support & Community
+Artística / Conceptual
+    → Tecnología / Arte / Neón
+      o Acuarela
 
-- **Questions?** Check the FAQs above or open an issue
-- **Found a bug?** Submit an issue with details
-- **Have a great prompt?** Open a PR or discussion
-- **Want to contribute?** See `CONTRIBUTING.md`
+Minimalista / Profesional
+    → Minimalismo de Bordes Definidos
+      o Studio / Premium
+```
 
----
-
-## Acknowledgments
-
-This repository is a curated collection from:
-- Design professionals and Twitter/X creators
-- GitHub open-source communities
-- Reddit discussions and real-world testing
-- Official Google NotebookLM documentation
-- AI prompt engineering community
-
-Special thanks to everyone who shared their effective prompts and design specifications.
+👉 Consulta **`notebooklm_quick_reference.md`** para ver el árbol de decisión completo.
 
 ---
 
-## Show Your Support
+# Cómo contribuir
 
-If this repository helps you create better presentations, please:
-- ⭐ **Star this repository** (helps others discover it)
-- 🔗 **Share with colleagues** (spread the knowledge)
-- 🤝 **Contribute** your best prompts (make it better)
-- 💬 **Give feedback** (help us improve)
+¡Las contribuciones son bienvenidas!
+
+Si tienes prompts que te hayan dado excelentes resultados, nuevos estilos de diseño o sugerencias para mejorar este repositorio, puedes colaborar siguiendo estos pasos:
+
+1. Haz un **Fork** del repositorio.
+2. Crea una nueva rama.
+
+```bash
+git checkout -b feature/mis-nuevos-prompts
+```
+
+3. Agrega tu contenido siguiendo las recomendaciones de `CONTRIBUTING.md`.
+4. Envía un **Pull Request**.
+5. El equipo revisará tu propuesta y, si corresponde, la incorporará al proyecto.
+
+### Buscamos especialmente
+
+- Nuevos estilos de diseño documentados.
+- Prompts probados en proyectos reales.
+- Ejemplos de casos de uso.
+- Reportes de errores.
+- Mejoras de redacción.
+- Nuevas ideas para ampliar la colección.
+
+Consulta **`CONTRIBUTING.md`** para conocer todas las pautas de colaboración.
 
 ---
 
-## Quick Links
+# Recursos
 
-| Resource | Link |
-|----------|------|
-| Complete Prompts | [`notebooklm_complete_prompts.md`](notebooklm_complete_prompts.md) |
-| Quick Reference | [`notebooklm_quick_reference.md`](notebooklm_quick_reference.md) |
-| Contributing Guide | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
-| External Resources | [`RESOURCES.md`](RESOURCES.md) |
-| License | [`LICENSE`](LICENSE) |
-| Examples | [`examples/`](examples/) |
+## Fuentes originales
+
+- **GitHub:** serenakeyitan/awesome-notebookLM-prompts
+- **GitHub:** etewiah/awesome-notebooklm
+- **NimaMan:** implementación Open Source de NotebookLM
+- **Prompts.chat:** biblioteca general de prompts
+
+---
+
+## Documentación oficial
+
+- Guía de NotebookLM: Slide Deck Generator
+- Blog oficial de Google
+- Guía de NotebookLM en moiid.com
+
+---
+
+## Comunidad
+
+- Reddit: r/notebooklm
+- Servidor de Discord de NotebookLM
+- Twitter/X: @notebooklm_pods
+
+Consulta **`RESOURCES.md`** para acceder a todos los enlaces.
+
+---
+
+# Consejos para obtener los mejores resultados
+
+## Resultados rápidos (5–15 minutos)
+
+- Utiliza la fórmula de prompts en tres pasos.
+- Escoge un estilo mediante el árbol de decisión.
+- Copia uno de los prompts disponibles.
+- Realiza una primera iteración.
+
+---
+
+## Resultados de gran calidad (30–45 minutos)
+
+- Prepara previamente todo el material.
+- Utiliza los flujos de trabajo completos.
+- Realiza entre dos y tres iteraciones.
+- Finaliza utilizando prompts de refinamiento.
+
+---
+
+## Resultados profesionales (45–90 minutos)
+
+- Dedica tiempo a la investigación.
+- Itera varias veces la estructura, el diseño y el mensaje.
+- Crea versiones para diferentes audiencias.
+- Aplica la identidad visual de tu organización.
+
+---
+
+# Licencia
+
+Este proyecto se distribuye bajo la **Licencia MIT**. Consulta el archivo `LICENSE` para conocer todos los detalles.
+
+### Resumen
+
+- ✅ Uso personal y comercial.
+- ✅ Modificación y redistribución permitidas.
+- ✅ Puede utilizarse en proyectos privados.
+- ⚠️ Debe conservarse la licencia original.
+- ⚠️ Sin garantías ni responsabilidad por parte de los autores.
+
+---
+
+# Novedades
+
+## Últimas actualizaciones (Marzo de 2026)
+
+- ✨ Se añadieron más de 15 nuevos estilos de diseño.
+- ✨ Se amplió la sección de visualización de datos.
+- ✨ Nuevos ejemplos de uso profesional.
+- ✨ Nueva guía rápida interactiva.
+- 🔧 Mejora de la claridad y precisión de los prompts.
+- 🔧 Incorporación de estimaciones de tiempo para todos los flujos de trabajo.
+
+## Próximamente
+
+- [ ] Tutoriales en vídeo para cada estilo.
+- [ ] Ejemplos completos de presentaciones.
+- [ ] Guía de integración con NotebookLM.
+- [ ] Prompts enviados por la comunidad.
+- [ ] Biblioteca de plantillas de estilos.
+- [ ] Prompts multilingües.
+---
+
+# Preguntas frecuentes (FAQ)
+
+## P: ¿Debo utilizar estos prompts exactamente como están escritos?
+
+**R:** No. Estos prompts son un punto de partida. Adáptalos a tu contenido, a tu audiencia y a los objetivos de tu presentación.
+
+---
+
+## P: ¿Puedo utilizar estos prompts con otras herramientas de IA?
+
+**R:** Sí. Aunque fueron diseñados para NotebookLM, muchos de ellos funcionan perfectamente con otras herramientas de IA para generar presentaciones.
+
+---
+
+## P: ¿Cómo elijo el estilo más adecuado?
+
+**R:** Utiliza el **Árbol de decisión rápido** disponible en `notebooklm_quick_reference.md`, teniendo en cuenta el tipo de presentación y el público al que va dirigida.
+
+---
+
+## P: ¿Puedo combinar varios estilos?
+
+**R:** ¡Por supuesto! Puedes mezclar elementos de diferentes estilos. De hecho, muchas de las mejores presentaciones surgen de combinar distintas referencias visuales de forma coherente.
+
+---
+
+## P: ¿Cuánto tiempo lleva crear una presentación?
+
+**R:** Depende de su complejidad.
+
+- Presentaciones sencillas: **10–15 minutos**.
+- Presentaciones completas: **30–45 minutos**.
+- Presentaciones profesionales con varias iteraciones: **45–90 minutos**.
+
+---
+
+## P: ¿Funcionan en otros idiomas?
+
+**R:** Sí. La mayoría de los prompts funcionan en cualquier idioma. Solo debes indicar explícitamente el idioma deseado dentro del prompt.
+
+---
+
+# Soporte y comunidad
+
+- **¿Tienes preguntas?** Consulta primero la sección de Preguntas Frecuentes o abre un *Issue*.
+- **¿Encontraste un error?** Envíanos un reporte con todos los detalles.
+- **¿Creaste un excelente prompt?** Compártelo mediante un Pull Request o una discusión.
+- **¿Quieres colaborar?** Consulta el archivo `CONTRIBUTING.md`.
+
+---
+
+# Agradecimientos
+
+Este repositorio reúne el trabajo y las ideas de numerosas personas y comunidades, entre ellas:
+
+- Profesionales del diseño y creadores de Twitter/X.
+- Comunidades Open Source de GitHub.
+- Aportes y pruebas compartidas en Reddit.
+- Documentación oficial de Google NotebookLM.
+- Comunidad especializada en Prompt Engineering.
+
+**Un agradecimiento especial** a todas las personas que compartieron sus prompts y especificaciones de diseño para que esta colección fuera posible.
+
+---
+
+# Apoya este proyecto
+
+Si este repositorio te ayuda a crear mejores presentaciones, puedes contribuir de varias maneras:
+
+- ⭐ Marcar el repositorio con una estrella.
+- 🔗 Compartirlo con colegas y amigos.
+- 🤝 Contribuir con tus mejores prompts.
+- 💬 Enviar comentarios y sugerencias de mejora.
+
+Cada contribución ayuda a que la colección siga creciendo y sea útil para más personas.
+
+---
+
+# Enlaces rápidos
+
+| Recurso | Archivo |
+|---------|---------|
+| Biblioteca completa de prompts | `notebooklm_complete_prompts.md` |
+| Guía rápida | `notebooklm_quick_reference.md` |
+| Guía para contribuir | `CONTRIBUTING.md` |
+| Recursos externos | `RESOURCES.md` |
+| Licencia | `LICENSE` |
+| Ejemplos | `examples/` |
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for creators, researchers, entrepreneurs, and everyone who needs to share ideas visually**
+## Hecho con ❤️ para creadores, investigadores, emprendedores, docentes y cualquier persona que necesite comunicar ideas de forma visual.
 
-`awesome-notebooklm-prompts` • [GitHub](https://github.com/) • [NotebookLM](https://notebooklm.google.com/)
+**awesome-notebooklm-prompts**
 
-Last Updated: March 2026 | v1.0.0
+GitHub • NotebookLM
+
+**Última actualización:** Marzo de 2026
+
+**Versión 1.0.0**
 
 </div>
