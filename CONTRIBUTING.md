@@ -1,451 +1,414 @@
-# Contributing to Awesome NotebookLM Slide Decks Prompts
-
-First off, thank you for considering contributing to this project! It's people like you that make this repository such a great resource.
-
-## Code of Conduct
-
-This project and everyone participating in it is governed by our Code of Conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to the maintainers.
-
-## How Can I Contribute?
-
-### 1. Add New Prompts
-Have a NotebookLM prompt that works really well? Share it!
-
-**What makes a good prompt contribution:**
-- ✅ Field-tested and proven to work
-- ✅ Clear, well-structured
-- ✅ Solves a real problem
-- ✅ Includes context and example
-- ✅ Fits into one of our categories
-
-**How to submit:**
-1. Edit `COMPLETE_PROMPTS.md`
-2. Add your prompt in the appropriate section (or create a new section if needed)
-3. Include a brief description of what the prompt does
-4. Add an example of how to use it
-5. Submit a PR with a clear description
-
-**Template for new prompts:**
+# Cómo contribuir a Awesome NotebookLM Slide Decks Prompts
+ 
+¡Antes que nada, gracias por considerar contribuir a este proyecto! Gente como vos es la que hace que este repositorio sea un recurso tan valioso.
+ 
+## Código de conducta
+ 
+Este proyecto y todos los que participan en él se rigen por nuestro Código de conducta. Al participar, se espera que respetes este código. Por favor, informá cualquier comportamiento inaceptable a los mantenedores.
+ 
+## ¿Cómo puedo contribuir?
+ 
+### 1. Agregar nuevos prompts
+¿Tenés un prompt de NotebookLM que funciona realmente bien? ¡Compartilo!
+ 
+**Qué hace que un prompt sea una buena contribución:**
+- ✅ Probado en la práctica y con eficacia comprobada
+- ✅ Claro y bien estructurado
+- ✅ Resuelve un problema real
+- ✅ Incluye contexto y ejemplo
+- ✅ Encaja en una de nuestras categorías
+**Cómo enviarlo:**
+1. Editá `COMPLETE_PROMPTS.md`
+2. Agregá tu prompt en la sección correspondiente (o creá una nueva sección si hace falta)
+3. Incluí una breve descripción de lo que hace el prompt
+4. Agregá un ejemplo de cómo usarlo
+5. Enviá un PR con una descripción clara
+**Plantilla para nuevos prompts:**
 ```markdown
-### [Prompt Name]
+### [Nombre del prompt]
 ```
-[Full prompt text here]
+[Texto completo del prompt acá]
 ```
-
-**When to use this:**
-[Describe the use case and situation]
-
-**Example:**
+ 
+**Cuándo usar esto:**
+[Describí el caso de uso y la situación]
+ 
+**Ejemplo:**
 ```
-[Show example with real content]
+[Mostrá un ejemplo con contenido real]
 ```
-
-**Tips for best results:**
-- [Any special tips]
+ 
+**Consejos para mejores resultados:**
+- [Cualquier consejo especial]
 ```
-### 2. Add New Design Styles
-Discovered a design style that produces amazing results? Document it!
-
-**What we need:**
-- ✅ Style name
-- ✅ Full prompt specification
-- ✅ Example image or description
-- ✅ When to use it
-- ✅ Color palette
-- ✅ Typography guidelines
-- ✅ Layout patterns
-
-**How to submit:**
-1. Create a detailed specification following our format
-2. Include the style in `COMPLETE_PROMPTS.md` under "Artistic & Avant-Garde Styles" or appropriate section
-3. Add a checklist for the style in `QUICK_REFERENCE.md`
-4. Submit PR with examples
-
-**Template for new styles:**
+### 2. Agregar nuevos estilos de diseño
+¿Descubriste un estilo de diseño que produce resultados increíbles? ¡Documentalo!
+ 
+**Qué necesitamos:**
+- ✅ Nombre del estilo
+- ✅ Especificación completa del prompt
+- ✅ Imagen o descripción de ejemplo
+- ✅ Cuándo usarlo
+- ✅ Paleta de colores
+- ✅ Pautas de tipografía
+- ✅ Patrones de diseño
+**Cómo enviarlo:**
+1. Creá una especificación detallada siguiendo nuestro formato
+2. Incluí el estilo en `COMPLETE_PROMPTS.md` dentro de "Artistic & Avant-Garde Styles" o la sección correspondiente
+3. Agregá un checklist para el estilo en `QUICK_REFERENCE.md`
+4. Enviá el PR con ejemplos
+**Plantilla para nuevos estilos:**
 ```markdown
-### [Style Name]
-
-[Brief description]
-
+### [Nombre del estilo]
+ 
+[Breve descripción]
+ 
 ```
-# [STYLE_NAME] Specification
-
-Visual Identity:
-- Colors: [list]
-- Typography: [describe]
-- Key Characteristics: [list]
-- Mood: [describe]
-
-Layout Patterns:
-- [Pattern 1]
-- [Pattern 2]
-- [Pattern 3]
-
-When to Use:
-- [Use case 1]
-- [Use case 2]
-
-Best For Audiences:
-- [Audience 1]
-- [Audience 2]
+# Especificación de [NOMBRE_DEL_ESTILO]
+ 
+Identidad visual:
+- Colores: [lista]
+- Tipografía: [describir]
+- Características clave: [lista]
+- Estado de ánimo: [describir]
+Patrones de diseño:
+- [Patrón 1]
+- [Patrón 2]
+- [Patrón 3]
+Cuándo usarlo:
+- [Caso de uso 1]
+- [Caso de uso 2]
+Ideal para las audiencias:
+- [Audiencia 1]
+- [Audiencia 2]
 ```
-
-Design Rules:
-- [Rule 1]
-- [Rule 2]
+ 
+Reglas de diseño:
+- [Regla 1]
+- [Regla 2]
 ```
-
-### 3. Create Usage Examples
-Show people how to actually use these prompts!
-
-**What we need:**
-- ✅ Real-world scenario
-- ✅ Step-by-step walkthrough
-- ✅ Actual prompt used
-- ✅ Tips and tricks
-- ✅ Common pitfalls to avoid
-
-**How to submit:**
-1. Create a new file in `examples/` folder
-2. Use format: `[type]-[purpose].md`
-3. Include: scenario, prompt, tips, refinements
-4. Add link to README.md
-5. Submit PR
-
-**Example file template:**
+ 
+### 3. Crear ejemplos de uso
+¡Mostrale a la gente cómo usar realmente estos prompts!
+ 
+**Qué necesitamos:**
+- ✅ Escenario del mundo real
+- ✅ Recorrido paso a paso
+- ✅ Prompt real utilizado
+- ✅ Consejos y trucos
+- ✅ Errores comunes a evitar
+**Cómo enviarlo:**
+1. Creá un nuevo archivo en la carpeta `examples/`
+2. Usá el formato: `[tipo]-[propósito].md`
+3. Incluí: escenario, prompt, consejos, refinamientos
+4. Agregá un enlace en README.md
+5. Enviá el PR
+**Plantilla de ejemplo de archivo:**
 ```markdown
-# Example: [Scenario]
-
-## Situation
-[Describe the real-world scenario]
-
-## Goal
-[What we're trying to achieve]
-
-## Initial Prompt
-[The actual prompt we use]
-
-## Sources Used
-[What materials we uploaded to NotebookLM]
-
-## Results
-[Describe what we got back]
-
-## Refinement Prompts
-[Follow-up prompts to improve it]
-
-## Pro Tips
-[What worked well]
-
-## Common Mistakes
-[What to avoid]
-
-## Time Estimate
-[How long this took]
+# Ejemplo: [Escenario]
+ 
+## Situación
+[Describí el escenario del mundo real]
+ 
+## Objetivo
+[Qué estamos tratando de lograr]
+ 
+## Prompt inicial
+[El prompt real que usamos]
+ 
+## Fuentes utilizadas
+[Qué materiales subimos a NotebookLM]
+ 
+## Resultados
+[Describí lo que obtuvimos]
+ 
+## Prompts de refinamiento
+[Prompts de seguimiento para mejorarlo]
+ 
+## Consejos profesionales
+[Qué funcionó bien]
+ 
+## Errores comunes
+[Qué evitar]
+ 
+## Estimación de tiempo
+[Cuánto tardó esto]
 ```
-
-### 4. Improve Documentation
-Help make the guides clearer and more useful!
-
-**What we need:**
-- ✅ Better explanations
-- ✅ Clearer examples
-- ✅ Fixed typos
-- ✅ Better organization
-- ✅ Additional context
-- ✅ Better formatting
-
-**How to submit:**
-1. Make your improvements
-2. Submit PR with clear description
-3. Explain what you improved and why
-
-### 5. Report Issues & Bugs
-Found a problem? Let us know!
-
-**Good bug reports include:**
-- ✅ Clear title
-- ✅ Step-by-step reproduction
-- ✅ What you expected to happen
-- ✅ What actually happened
-- ✅ Your environment (if relevant)
-- ✅ Screenshots or examples
-
-**How to submit:**
-1. Go to Issues tab
-2. Click "New Issue"
-3. Use the bug report template
-4. Provide all relevant details
-5. Submit
-
-### 6. Suggest Improvements
-Have an idea to make this better?
-
-**Good suggestions include:**
-- ✅ Clear problem statement
-- ✅ Proposed solution
-- ✅ Why this matters
-- ✅ Examples if relevant
-
-**How to submit:**
-1. Go to Issues/Discussions
-2. Describe your suggestion
-3. Explain the benefit
-4. Be open to feedback
-5. Submit
-
+ 
+### 4. Mejorar la documentación
+¡Ayudá a que las guías sean más claras y útiles!
+ 
+**Qué necesitamos:**
+- ✅ Mejores explicaciones
+- ✅ Ejemplos más claros
+- ✅ Corrección de errores tipográficos
+- ✅ Mejor organización
+- ✅ Contexto adicional
+- ✅ Mejor formato
+**Cómo enviarlo:**
+1. Hacé tus mejoras
+2. Enviá el PR con una descripción clara
+3. Explicá qué mejoraste y por qué
+### 5. Reportar problemas y errores
+¿Encontraste un problema? ¡Contanos!
+ 
+**Un buen reporte de error incluye:**
+- ✅ Título claro
+- ✅ Pasos para reproducirlo
+- ✅ Qué esperabas que pasara
+- ✅ Qué pasó realmente
+- ✅ Tu entorno (si es relevante)
+- ✅ Capturas de pantalla o ejemplos
+**Cómo enviarlo:**
+1. Andá a la pestaña Issues
+2. Hacé clic en "New Issue"
+3. Usá la plantilla de reporte de errores
+4. Proporcioná todos los detalles relevantes
+5. Enviá
+### 6. Sugerir mejoras
+¿Tenés una idea para mejorar esto?
+ 
+**Una buena sugerencia incluye:**
+- ✅ Planteamiento claro del problema
+- ✅ Solución propuesta
+- ✅ Por qué esto importa
+- ✅ Ejemplos si son relevantes
+**Cómo enviarlo:**
+1. Andá a Issues/Discussions
+2. Describí tu sugerencia
+3. Explicá el beneficio
+4. Estate abierto al feedback
+5. Enviá
 ---
-
-## Submission Guidelines
-
-### Pull Request Process
-
-1. **Fork the repository** on GitHub
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/awesome-notebooklm-prompts.git
+ 
+## Pautas para el envío
+ 
+### Proceso de Pull Request
+ 
+1. **Hacé un fork del repositorio** en GitHub
+```bash
+   git clone https://github.com/TU-USUARIO/awesome-notebooklm-prompts.git
    cd awesome-notebooklm-prompts
-   ```
-
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/your-contribution-name
-   ```
-
-3. **Make your changes**
-   - Edit files following the style guides below
-   - Test your prompts (actually use them in NotebookLM if possible)
-   - Ensure formatting is consistent
-   - Update README.md if adding major new content
-
-4. **Commit with clear messages**
-   ```bash
+```
+ 
+2. **Creá una rama de funcionalidad**
+```bash
+   git checkout -b feature/nombre-de-tu-contribucion
+```
+ 
+3. **Hacé tus cambios**
+   - Editá los archivos siguiendo las guías de estilo de abajo
+   - Probá tus prompts (usalos realmente en NotebookLM si es posible)
+   - Asegurate de que el formato sea consistente
+   - Actualizá README.md si agregás contenido nuevo importante
+4. **Hacé commit con mensajes claros**
+```bash
    git add .
-   git commit -m "Add: [clear description of what you added]"
-   # Examples:
+   git commit -m "Add: [descripción clara de lo que agregaste]"
+   # Ejemplos:
    # git commit -m "Add: Watercolor design style with full specification"
    # git commit -m "Add: Example - Conference talk workflow"
    # git commit -m "Improve: Clearer explanation in Sharp-Edged Minimalism section"
-   ```
-
-5. **Push to your fork**
-   ```bash
-   git push origin feature/your-contribution-name
-   ```
-
-6. **Open a Pull Request**
-   - Provide a clear title
-   - Describe what you added/changed
-   - Link any related issues
-   - Explain why this contribution is valuable
-   - Be ready for discussion/feedback
-
-### Style Guide for Contributions
-
-#### Markdown Formatting
-- Use clear headers (##, ###, ####)
-- Use bullet points for lists
-- Use code blocks for prompts (```markdown)
-- Bold important terms (**term**)
-- Include links where relevant
-
-#### Prompt Guidelines
-- **Clarity**: Use clear, direct language
-- **Completeness**: Include all necessary context
-- **Testability**: Should work as written
-- **Flexibility**: Allow for customization
-- **Examples**: Show how to use it
-
-#### Writing Style
-- Write for clarity, not fancy language
-- Assume some NotebookLM experience, but explain basics
-- Use active voice where possible
-- Keep sentences concise
-- Proofread before submitting
-
-#### File Naming
 ```
-examples/[type]-[purpose].md
-# Examples:
+ 
+5. **Subilo a tu fork**
+```bash
+   git push origin feature/nombre-de-tu-contribucion
+```
+ 
+6. **Abrí un Pull Request**
+   - Proporcioná un título claro
+   - Describí qué agregaste/cambiaste
+   - Enlazá cualquier issue relacionado
+   - Explicá por qué esta contribución es valiosa
+   - Estate preparado para la discusión/feedback
+### Guía de estilo para las contribuciones
+ 
+#### Formato Markdown
+- Usá encabezados claros (##, ###, ####)
+- Usá viñetas para las listas
+- Usá bloques de código para los prompts (```markdown)
+- Poné en negrita los términos importantes (**término**)
+- Incluí enlaces donde sea relevante
+#### Pautas para los prompts
+- **Claridad**: usá un lenguaje claro y directo
+- **Completitud**: incluí todo el contexto necesario
+- **Comprobabilidad**: debe funcionar tal como está escrito
+- **Flexibilidad**: permitir la personalización
+- **Ejemplos**: mostrar cómo usarlo
+#### Estilo de escritura
+- Escribí con claridad, no con lenguaje rebuscado
+- Asumí algo de experiencia con NotebookLM, pero explicá lo básico
+- Usá voz activa cuando sea posible
+- Mantené las oraciones concisas
+- Corregí antes de enviar
+#### Nomenclatura de archivos
+```
+examples/[tipo]-[propósito].md
+# Ejemplos:
 examples/academic-conference-talk.md
 examples/sales-investor-pitch.md
 examples/training-educational-module.md
 ```
-
-#### Section Organization
-- New design styles → `COMPLETE_PROMPTS.md`
-- New use cases → Add example file to `examples/`
-- New best practices → `QUICK_REFERENCE.md`
-- New resources → `RESOURCES.md`
-- New sections → Update `README.md` table of contents
-
+ 
+#### Organización de secciones
+- Nuevos estilos de diseño → `COMPLETE_PROMPTS.md`
+- Nuevos casos de uso → Agregar archivo de ejemplo a `examples/`
+- Nuevas mejores prácticas → `QUICK_REFERENCE.md`
+- Nuevos recursos → `RESOURCES.md`
+- Nuevas secciones → Actualizar el índice de `README.md`
 ---
-
-## Content Quality Standards
-
-### For Prompts
-- [ ] Actually tested with NotebookLM
-- [ ] Produces reliable results
-- [ ] Clear and unambiguous
-- [ ] Includes context needed
-- [ ] Well-formatted
-- [ ] Example provided
-
-### For Design Styles
-- [ ] Full specification included
-- [ ] Color palette defined
-- [ ] Typography guidelines clear
-- [ ] Layout patterns described
-- [ ] Use cases identified
-- [ ] Design rules listed
-
-### For Examples
-- [ ] Real-world scenario
-- [ ] Step-by-step walkthrough
-- [ ] Actual prompt shown
-- [ ] Results described
-- [ ] Tips included
-- [ ] Common mistakes noted
-
-### For Documentation
-- [ ] Clear and concise
-- [ ] Well-organized
-- [ ] Correct links
-- [ ] Proper formatting
-- [ ] Examples included
-- [ ] Proofread
-
+ 
+## Estándares de calidad del contenido
+ 
+### Para los prompts
+- [ ] Probado realmente con NotebookLM
+- [ ] Produce resultados confiables
+- [ ] Claro y sin ambigüedades
+- [ ] Incluye el contexto necesario
+- [ ] Bien formateado
+- [ ] Ejemplo proporcionado
+### Para los estilos de diseño
+- [ ] Especificación completa incluida
+- [ ] Paleta de colores definida
+- [ ] Pautas de tipografía claras
+- [ ] Patrones de diseño descritos
+- [ ] Casos de uso identificados
+- [ ] Reglas de diseño enumeradas
+### Para los ejemplos
+- [ ] Escenario del mundo real
+- [ ] Recorrido paso a paso
+- [ ] Prompt real mostrado
+- [ ] Resultados descritos
+- [ ] Consejos incluidos
+- [ ] Errores comunes señalados
+### Para la documentación
+- [ ] Clara y concisa
+- [ ] Bien organizada
+- [ ] Enlaces correctos
+- [ ] Formato adecuado
+- [ ] Ejemplos incluidos
+- [ ] Corregida
 ---
-
-## Community Guidelines
-
-### Be Respectful
-- Assume good intent
-- Provide constructive feedback
-- Respect different opinions
-- Be welcoming to newcomers
-
-### Be Helpful
-- Help others with their contributions
-- Share knowledge generously
-- Provide detailed feedback
-- Suggest improvements thoughtfully
-
-### Be Honest
-- Acknowledge limitations
-- Be transparent about testing
-- Admit when you don't know something
-- Share both successes and failures
-
-### Be Professional
-- Follow the Code of Conduct
-- Keep discussions on-topic
-- Respect others' time
-- Give credit where due
-
+ 
+## Pautas de la comunidad
+ 
+### Sé respetuoso
+- Asumí buena intención
+- Dá feedback constructivo
+- Respetá las diferentes opiniones
+- Sé acogedor con los recién llegados
+### Sé útil
+- Ayudá a otros con sus contribuciones
+- Compartí conocimiento generosamente
+- Dá feedback detallado
+- Sugerí mejoras con criterio
+### Sé honesto
+- Reconocé las limitaciones
+- Sé transparente sobre las pruebas realizadas
+- Admití cuando no sabés algo
+- Compartí tanto los éxitos como los fracasos
+### Sé profesional
+- Seguí el Código de conducta
+- Mantené las discusiones en tema
+- Respetá el tiempo de los demás
+- Dá crédito cuando corresponda
 ---
-
-## Recognition
-
-Contributors will be recognized in:
-- ✅ README.md (Contributors section)
-- ✅ PR acknowledgment
-- ✅ Release notes (for major contributions)
-- ✅ Repository insights
-
-We value all contributions, from new prompts to typo fixes!
-
+ 
+## Reconocimiento
+ 
+Los contribuyentes serán reconocidos en:
+- ✅ README.md (sección de Contribuyentes)
+- ✅ Agradecimiento en el PR
+- ✅ Notas de la versión (para contribuciones importantes)
+- ✅ Estadísticas del repositorio
+¡Valoramos todas las contribuciones, desde nuevos prompts hasta correcciones de errores tipográficos!
+ 
 ---
-
-## Development Setup
-
-### To work locally:
-
-1. **Clone the repository**
-   ```bash
+ 
+## Configuración para el desarrollo
+ 
+### Para trabajar localmente:
+ 
+1. **Cloná el repositorio**
+```bash
    git clone https://github.com/awesome-notebooklm-prompts.git
    cd awesome-notebooklm-prompts
-   ```
-
-2. **Make changes to files**
-   - Markdown files are plain text, use any editor
-   - Follow the style guides above
-   - Test thoroughly
-
-3. **Preview your changes**
-   - Use a Markdown preview tool
-   - Check formatting looks good
-   - Verify links work
-
-4. **Commit and push**
-   ```bash
+```
+ 
+2. **Hacé cambios en los archivos**
+   - Los archivos markdown son texto plano, usá cualquier editor
+   - Seguí las guías de estilo de arriba
+   - Probá exhaustivamente
+3. **Previsualizá tus cambios**
+   - Usá una herramienta de vista previa de Markdown
+   - Verificá que el formato se vea bien
+   - Comprobá que los enlaces funcionen
+4. **Hacé commit y subilo**
+```bash
    git add .
-   git commit -m "Your clear commit message"
-   git push origin your-branch-name
-   ```
-
+   git commit -m "Tu mensaje de commit claro"
+   git push origin nombre-de-tu-rama
+```
+ 
 ---
-
-## Getting Help
-
-### Questions?
-- 💬 Open a Discussion
-- 📧 Check existing issues/PRs first
-- 📚 Read the existing documentation
-- 🎓 Check the examples
-
-### Stuck?
-- Break it into smaller steps
-- Look at similar contributions
-- Ask in the discussion thread
-- No such thing as a dumb question!
-
+ 
+## Cómo obtener ayuda
+ 
+### ¿Preguntas?
+- 💬 Abrí una Discussion
+- 📧 Revisá primero los issues/PRs existentes
+- 📚 Leé la documentación existente
+- 🎓 Revisá los ejemplos
+### ¿Estás trabado?
+- Dividilo en pasos más pequeños
+- Mirá contribuciones similares
+- Preguntá en el hilo de discusión
+- ¡No existen las preguntas tontas!
 ---
-
-## Review Process
-
-### What we look for:
-1. **Quality** - Does it meet our standards?
-2. **Relevance** - Fits the repository's scope?
-3. **Accuracy** - Is it correct/tested?
-4. **Clarity** - Easy to understand?
-5. **Value** - Helps the community?
-
-### Timeline:
-- Reviews typically within 3-7 days
-- Maintainers may ask for changes
-- We'll provide constructive feedback
-- Merged when ready!
-
+ 
+## Proceso de revisión
+ 
+### Qué buscamos:
+1. **Calidad** - ¿Cumple con nuestros estándares?
+2. **Relevancia** - ¿Encaja en el alcance del repositorio?
+3. **Precisión** - ¿Es correcto/está probado?
+4. **Claridad** - ¿Es fácil de entender?
+5. **Valor** - ¿Ayuda a la comunidad?
+### Cronograma:
+- Las revisiones suelen tardar entre 3 y 7 días
+- Los mantenedores pueden pedir cambios
+- Te daremos feedback constructivo
+- ¡Se fusiona (merge) cuando esté listo!
 ---
-
-## Attribution
-
-When contributing, you agree that:
-- Your contribution can be used under the MIT License
-- You have the right to contribute this content
-- You're not violating anyone's rights
-- You're comfortable with it being public and freely used
-
+ 
+## Atribución
+ 
+Al contribuir, aceptás que:
+- Tu contribución puede usarse bajo la Licencia MIT
+- Tenés el derecho de contribuir con este contenido
+- No estás violando los derechos de nadie
+- Estás cómodo con que sea público y de uso libre
 ---
-
-## Questions or Need Help?
-
-- 📖 Read the README.md
-- 🔍 Check existing Issues/PRs
-- 💬 Open a Discussion
-- 📧 DM if needed
-
+ 
+## ¿Preguntas o necesitás ayuda?
+ 
+- 📖 Leé el README.md
+- 🔍 Revisá los Issues/PRs existentes
+- 💬 Abrí una Discussion
+- 📧 Escribime un DM si hace falta
 ---
-
-## Thank You! 🙏
-
-Every contribution—whether it's a single prompt, an improvement, or feedback—helps make this resource better for everyone. Thank you for being part of the community!
-
+ 
+## ¡Gracias! 🙏
+ 
+Cada contribución —ya sea un solo prompt, una mejora o un feedback— ayuda a que este recurso sea mejor para todos. ¡Gracias por ser parte de la comunidad!
+ 
 ---
-
-**Happy Contributing!**
-
-For more info, see:
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [License](LICENSE)
+ 
+**¡Feliz contribución!**
+ 
+Para más información, consultá:
+- [Código de conducta](CODE_OF_CONDUCT.md)
+- [Licencia](LICENSE)
 - [README](README.md)
+ 
