@@ -1,553 +1,539 @@
-# Example: Investor Pitch Deck (Fundraising)
-
-## Situation
-
-You're a founder pitching your AI startup to VCs. You have:
-- A working product/MVP
-- Customer traction and early metrics
-- A compelling vision for the market
-- 15-20 minutes for the pitch
-- Need to raise Series A funding
-
-**Challenge:** How do you tell a compelling investment story that hooks VCs while demonstrating business fundamentals?
-
+# Ejemplo: Pitch Deck para Inversores (Recaudación de Fondos)
+ 
+## Situación
+ 
+Sos el fundador de una startup de IA presentando tu proyecto a VCs (fondos de capital de riesgo). Contás con:
+- Un producto/MVP funcional
+- Tracción de clientes y métricas iniciales
+- Una visión convincente del mercado
+- 15-20 minutos para la presentación
+- Necesidad de recaudar una ronda Serie A
+**Desafío:** ¿Cómo contar una historia de inversión convincente que enganche a los VCs mientras se demuestran los fundamentos del negocio?
+ 
 ---
-
-## Goal
-
-Create an investor pitch deck that:
-- ✅ Captures attention in the first 30 seconds
-- ✅ Makes the problem crystal clear
-- ✅ Shows your unique solution
-- ✅ Demonstrates market opportunity
-- ✅ Proves traction with real metrics
-- ✅ Shows path to profitability
-- ✅ Creates urgency and conviction
-- ✅ Tells a coherent narrative (not just data dumps)
-
+ 
+## Objetivo
+ 
+Crear un pitch deck para inversores que:
+- ✅ Capte la atención en los primeros 30 segundos
+- ✅ Deje clarísimo el problema
+- ✅ Muestre la solución única
+- ✅ Demuestre la oportunidad de mercado
+- ✅ Pruebe tracción con métricas reales
+- ✅ Muestre el camino hacia la rentabilidad
+- ✅ Genere urgencia y convicción
+- ✅ Cuente una narrativa coherente (no solo una descarga de datos)
 ---
-
-## Preparation
-
-### Materials to Upload to NotebookLM
-1. **Product description** (what does it do?)
-2. **Customer metrics** (revenue, growth, retention)
-3. **Market research** (TAM, SAM, SOM)
-4. **Team bios** (why you're the right team?)
-5. **Competitive landscape** (how are you different?)
-6. **Financial projections** (path to profitability)
-7. **Use case examples** (customer stories)
-
-### Investor Profile
-- Sector VCs interested in AI/SaaS
-- Familiar with growth metrics
-- Want evidence of product-market fit
-- Focused on exit potential
-- Time-pressed (will decide quickly)
-
-### Core Narrative
-"We're solving [problem] that costs enterprises $[X]B annually.
-Our approach is [unique because]. We've already [proof point].
-This market is growing [growth rate] and we're positioned to capture [% opportunity]."
-
+ 
+## Preparación
+ 
+### Materiales para subir a NotebookLM
+1. **Descripción del producto** (¿qué hace?)
+2. **Métricas de clientes** (ingresos, crecimiento, retención)
+3. **Investigación de mercado** (TAM, SAM, SOM)
+4. **Biografías del equipo** (¿por qué son el equipo indicado?)
+5. **Panorama competitivo** (¿en qué te diferenciás?)
+6. **Proyecciones financieras** (camino hacia la rentabilidad)
+7. **Ejemplos de casos de uso** (historias de clientes)
+### Perfil del inversor
+- VCs sectoriales interesados en IA/SaaS
+- Familiarizados con métricas de crecimiento
+- Buscan evidencia de encaje producto-mercado (product-market fit)
+- Enfocados en el potencial de salida (exit)
+- Con poco tiempo (decidirán rápido)
+### Narrativa central
+"Estamos resolviendo [problema] que le cuesta a las empresas $[X]B anuales.
+Nuestro enfoque es [único porque]. Ya logramos [punto de prueba].
+Este mercado crece [tasa de crecimiento] y estamos posicionados para capturar [% de oportunidad]."
+ 
 ---
-
-## Initial Prompt
-
+ 
+## Prompt inicial
+ 
 ```
-Create a Series A investor pitch deck (12-15 slides) optimized for VCs.
-
-Structure (Problem → Solution → Traction → Ask):
-1. Hook/Title (1)
-2. Problem Statement (1)
-3. Market Opportunity (1)
-4. Your Solution (2)
-5. Competitive Advantage (1)
-6. Traction/Proof (3)
-7. Business Model (1)
-8. Go-to-Market (1)
-9. Team (1)
-10. Financial Projections (1)
-11. The Ask (1)
-
-Design: Neo-Retro Dev Deck style
-- Cream/off-white grid background
-- High-contrast color blocks with black borders
-- Bold, confident typography
-- Specific numbers and metrics prominently displayed
-- Energetic but professional tone
-
-Key Requirements:
-- Every claim backed by data
-- Specific numbers (not "growing fast")
-- Real customer quotes or logos if possible
-- Clear competitive differentiation
-- Honest acknowledgment of challenges
-- Compelling vision of the future
+Creá un pitch deck de inversores para Serie A (12-15 diapositivas) optimizado para VCs.
+ 
+Estructura (Problema → Solución → Tracción → Pedido):
+1. Gancho/Título (1)
+2. Planteamiento del problema (1)
+3. Oportunidad de mercado (1)
+4. Tu solución (2)
+5. Ventaja competitiva (1)
+6. Tracción/Prueba (3)
+7. Modelo de negocio (1)
+8. Estrategia de entrada al mercado (Go-to-Market) (1)
+9. Equipo (1)
+10. Proyecciones financieras (1)
+11. El pedido (1)
+ 
+Diseño: estilo Neo-Retro Dev Deck
+- Fondo tipo grilla color crema/blanco roto
+- Bloques de color de alto contraste con bordes negros
+- Tipografía audaz y segura
+- Números y métricas específicos destacados de forma prominente
+- Tono enérgico pero profesional
+ 
+Requisitos clave:
+- Cada afirmación respaldada por datos
+- Números específicos (no "creciendo rápido")
+- Citas reales de clientes o logos si es posible
+- Diferenciación competitiva clara
+- Reconocimiento honesto de los desafíos
+- Visión convincente del futuro
 ```
-
+ 
 ---
-
-## What NotebookLM Generates
-
+ 
+## Lo que genera NotebookLM
+ 
 ```
-SLIDE 1: Hook
-Title: "The Future of [Your Category]"
-Subtitle: One compelling statistic that shows the problem
-Visual: Bold, simple, memorable
-Goal: Get them to listen to the next slide
-
-SLIDE 2: The Problem
-Title: "Enterprises waste $2B annually on [inefficient process]"
-Key Points:
-- Current solutions take X hours/cost $Y/have Z limitations
-- 80% of users report frustration with existing approach
-- This is a top-3 pain point for CTOs
-Visual: Problem visualized (gap, friction, cost)
-Speaker Note: Make the problem real and relatable
-
-SLIDE 3: Market Size
-Title: "Total Addressable Market: $50B"
-Numbers:
-- TAM: $50B (total market if you win everything)
-- SAM: $5B (realistic if you do well)
-- SOM: $10M (your year-3 realistic target)
-Visual: Market breakdown or growth trajectory
-Speaker Note: Show this is a big enough opportunity to warrant funding
-
-SLIDE 4: Our Solution (High-Level)
-Title: "What We Built: [One-liner]"
-Explanation:
-- Simple, intuitive description
-- How it's different from competitors
-- Why now? (tech, timing, team)
-Visual: Simple product demo screenshot or diagram
-Speaker Note: Don't get too technical; focus on value
-
-SLIDE 5: Our Solution (How It Works)
-Title: "[Solution] Workflow"
-Show:
-- Step 1: Customer input
-- Step 2: Our AI processes
-- Step 3: Business result
-Visual: Simple flow diagram or before/after
-Speaker Note: Help them visualize the customer experience
-
-SLIDE 6: Competitive Landscape
-Title: "Why We Win"
-Matrix:
-- You vs. 3-4 main competitors
-- Key dimensions: Price, Speed, Accuracy, Ease-of-use
-- You're in the top-right (best on everything that matters)
-Visual: Simple competitive matrix
-Speaker Note: Be fair to competitors but clear about advantages
-
-SLIDE 7: Traction - Revenue
-Title: "Revenue Growth: 250% YoY"
-Metrics:
-- Year 1: $50K
-- Year 2: $125K
-- Projected Year 3: $312K
-- Current MRR: $15K
-- Customer acquisition cost: $3K (payback: 4 months)
-Visual: Upward trajectory chart (your best looking graph)
-Speaker Note: Real revenue is the best traction metric
-
-SLIDE 8: Traction - Customers
-Title: "12 Enterprise Customers, 95% Retention"
-Show:
-- Customer logos (if publicly releasable)
-- Customer testimonial quote
-- Case study: [Customer] achieved [result]
-Visual: Logo logos or testimonial graphics
-Speaker Note: Social proof is powerful
-
-SLIDE 9: Traction - Usage
-Title: "Product Engagement: 40% Weekly Active Users"
-Metrics:
-- [X] transactions per day
-- [X] average session duration
-- [X] features usage rate
-- NPS: [X] (enterprise benchmark: 50)
-Visual: Key engagement metrics highlighted
-Speaker Note: Show people are actually using it
-
-SLIDE 10: Business Model
-Title: "Proven Unit Economics"
-Model:
-- SaaS: $[X] per month per customer
-- Customer acquisition cost: $Y
-- Lifetime value: $Z
-- Payback period: 4 months
-Visual: Simple LTV/CAC visualization
-Speaker Note: Show the economics work
-
-SLIDE 11: Go-to-Market
-Title: "Scaling to $100M"
-Strategy:
-- Sales force (start: 2, Year 3: 10)
-- Partner channel (enterprise integration partners)
-- Community/word-of-mouth (already happening)
-- Timeline: Year 1 (land), Year 2 (expand), Year 3 (dominate)
-Visual: Timeline or marketing funnel
-Speaker Note: Show how you'll grow efficiently
-
-SLIDE 12: The Team
-Title: "Built by Experts in [Industry]"
-Team members:
-- CEO: [Background] | 10 years [relevant experience]
-- CTO: [Background] | Former engineer at [company]
-- VP Sales: [Background] | Built $100M product line
-Why we'll win: [Specific insight from team's background]
-Visual: Team photos and brief bios
-Speaker Note: VCs invest in teams; make them believe in yours
-
-SLIDE 13: Financial Projections
-Title: "Path to Profitability"
-Show:
-- Year 1: $500K revenue, -$200K net
-- Year 2: $2M revenue, break-even
-- Year 3: $8M revenue, 40% net margin
-Visual: Revenue and profit line crossing profitability
-Speaker Note: Show you'll be a sustainable business
-
-SLIDE 14: The Ask
-Title: "$2M Series A"
-Use of funds:
-- Sales team: $500K
-- Engineering (build): $700K
-- Operations/infrastructure: $400K
-- Buffer/runway: $400K
-Timeline: 18 months to Series B at [valuation]
-Visual: Simple allocation pie chart
-Speaker Note: Specific ask is credible
-
-SLIDE 15: Vision
-Title: "The Future: [Inspiring Vision]"
-Paint a picture:
-- Year 5: [Realistic milestone]
-- Year 10: [Category leadership]
-- Why it matters: [Societal/business impact]
-Visual: Inspiring image or statement
-Speaker Note: End with conviction and vision
+DIAPOSITIVA 1: Gancho
+Título: "El futuro de [tu categoría]"
+Subtítulo: Una estadística contundente que muestre el problema
+Visual: Audaz, simple, memorable
+Objetivo: Lograr que escuchen la siguiente diapositiva
+ 
+DIAPOSITIVA 2: El problema
+Título: "Las empresas desperdician $2B anuales en [proceso ineficiente]"
+Puntos clave:
+- Las soluciones actuales toman X horas/cuestan $Y/tienen limitaciones Z
+- El 80% de los usuarios reporta frustración con el enfoque actual
+- Este es uno de los 3 principales dolores de cabeza para los CTOs
+Visual: El problema visualizado (brecha, fricción, costo)
+Nota del orador: Hacer que el problema se sienta real y cercano
+ 
+DIAPOSITIVA 3: Tamaño de mercado
+Título: "Mercado total direccionable (TAM): $50B"
+Números:
+- TAM: $50B (mercado total si ganás todo)
+- SAM: $5B (realista si te va bien)
+- SOM: $10M (tu objetivo realista al año 3)
+Visual: Desglose de mercado o trayectoria de crecimiento
+Nota del orador: Mostrar que es una oportunidad suficientemente grande como para justificar la inversión
+ 
+DIAPOSITIVA 4: Nuestra solución (visión general)
+Título: "Lo que construimos: [Frase resumen]"
+Explicación:
+- Descripción simple e intuitiva
+- En qué se diferencia de la competencia
+- ¿Por qué ahora? (tecnología, momento, equipo)
+Visual: Captura simple de demo del producto o diagrama
+Nota del orador: No entrar demasiado en lo técnico; enfocarse en el valor
+ 
+DIAPOSITIVA 5: Nuestra solución (cómo funciona)
+Título: "Flujo de trabajo de [Solución]"
+Mostrar:
+- Paso 1: Entrada del cliente
+- Paso 2: Nuestra IA procesa
+- Paso 3: Resultado de negocio
+Visual: Diagrama de flujo simple o antes/después
+Nota del orador: Ayudarlos a visualizar la experiencia del cliente
+ 
+DIAPOSITIVA 6: Panorama competitivo
+Título: "Por qué ganamos"
+Matriz:
+- Vos vs. 3-4 competidores principales
+- Dimensiones clave: precio, velocidad, precisión, facilidad de uso
+- Estás en la esquina superior derecha (el mejor en todo lo que importa)
+Visual: Matriz competitiva simple
+Nota del orador: Ser justo con los competidores pero claro respecto a las ventajas
+ 
+DIAPOSITIVA 7: Tracción - Ingresos
+Título: "Crecimiento de ingresos: 250% interanual"
+Métricas:
+- Año 1: $50K
+- Año 2: $125K
+- Proyección año 3: $312K
+- MRR actual: $15K
+- Costo de adquisición de clientes: $3K (recuperación: 4 meses)
+Visual: Gráfico de trayectoria ascendente (tu gráfico más atractivo)
+Nota del orador: Los ingresos reales son la mejor métrica de tracción
+ 
+DIAPOSITIVA 8: Tracción - Clientes
+Título: "12 clientes empresariales, 95% de retención"
+Mostrar:
+- Logos de clientes (si se pueden publicar)
+- Cita testimonial de un cliente
+- Caso de estudio: [Cliente] logró [resultado]
+Visual: Logos o gráficos con testimonios
+Nota del orador: La prueba social es poderosa
+ 
+DIAPOSITIVA 9: Tracción - Uso
+Título: "Engagement del producto: 40% de usuarios activos semanales"
+Métricas:
+- [X] transacciones por día
+- [X] duración promedio de sesión
+- [X] tasa de uso de funcionalidades
+- NPS: [X] (referencia empresarial: 50)
+Visual: Métricas de engagement clave destacadas
+Nota del orador: Mostrar que la gente realmente lo está usando
+ 
+DIAPOSITIVA 10: Modelo de negocio
+Título: "Economía unitaria comprobada"
+Modelo:
+- SaaS: $[X] por mes por cliente
+- Costo de adquisición de clientes: $Y
+- Valor de vida del cliente (LTV): $Z
+- Período de recuperación: 4 meses
+Visual: Visualización simple de LTV/CAC
+Nota del orador: Mostrar que la economía funciona
+ 
+DIAPOSITIVA 11: Estrategia de entrada al mercado
+Título: "Escalando hacia $100M"
+Estrategia:
+- Fuerza de ventas (inicio: 2, año 3: 10)
+- Canal de socios (socios de integración empresarial)
+- Comunidad/boca en boca (ya está sucediendo)
+Cronograma: Año 1 (conquistar), Año 2 (expandir), Año 3 (dominar)
+Visual: Línea de tiempo o embudo de marketing
+Nota del orador: Mostrar cómo vas a crecer de forma eficiente
+ 
+DIAPOSITIVA 12: El equipo
+Título: "Construido por expertos en [industria]"
+Miembros del equipo:
+- CEO: [Trayectoria] | 10 años de experiencia relevante en [área]
+- CTO: [Trayectoria] | Ex ingeniero en [empresa]
+- VP de Ventas: [Trayectoria] | Construyó una línea de productos de $100M
+Por qué vamos a ganar: [Insight específico de la trayectoria del equipo]
+Visual: Fotos del equipo y biografías breves
+Nota del orador: Los VCs invierten en equipos; hacé que crean en el tuyo
+ 
+DIAPOSITIVA 13: Proyecciones financieras
+Título: "Camino hacia la rentabilidad"
+Mostrar:
+- Año 1: $500K de ingresos, -$200K neto
+- Año 2: $2M de ingresos, punto de equilibrio
+- Año 3: $8M de ingresos, 40% de margen neto
+Visual: Líneas de ingresos y ganancias cruzándose hacia la rentabilidad
+Nota del orador: Mostrar que vas a ser un negocio sostenible
+ 
+DIAPOSITIVA 14: El pedido
+Título: "$2M de Serie A"
+Uso de los fondos:
+- Equipo de ventas: $500K
+- Ingeniería (desarrollo): $700K
+- Operaciones/infraestructura: $400K
+- Colchón/runway: $400K
+Cronograma: 18 meses hasta la Serie B a [valuación]
+Visual: Gráfico circular simple de asignación
+Nota del orador: Un pedido específico resulta creíble
+ 
+DIAPOSITIVA 15: Visión
+Título: "El futuro: [Visión inspiradora]"
+Pintar un panorama:
+- Año 5: [Hito realista]
+- Año 10: [Liderazgo de categoría]
+- Por qué importa: [Impacto social/de negocio]
+Visual: Imagen o declaración inspiradora
+Nota del orador: Terminar con convicción y visión
 ```
-
+ 
 ---
-
-## Refinement Prompts
-
-### Refinement 1: Strengthen the Narrative
+ 
+## Prompts de refinamiento
+ 
+### Refinamiento 1: Fortalecer la narrativa
 ```
-"Review the deck flow:
-1. Does each slide follow from the previous?
-2. Are transitions logical and compelling?
-3. Does it tell a story or just list information?
-
-Rewrite any content that doesn't advance the narrative.
-Add transition statements between major sections."
+"Revisá el flujo del deck:
+1. ¿Cada diapositiva se desprende de la anterior?
+2. ¿Las transiciones son lógicas y convincentes?
+3. ¿Cuenta una historia o solo enumera información?
+ 
+Reescribí cualquier contenido que no haga avanzar la narrativa.
+Agregá frases de transición entre las secciones principales."
 ```
-
-### Refinement 2: Emphasize Traction
+ 
+### Refinamiento 2: Enfatizar la tracción
 ```
-"The traction section is your most credible moment.
-For each metric:
-1. Why this matters to investors
-2. How it compares to benchmarks
-3. What it proves about your business
-
-Make the traction section your strongest part of the deck."
+"La sección de tracción es tu momento más creíble.
+Para cada métrica:
+1. Por qué le importa esto a los inversores
+2. Cómo se compara con las referencias del sector
+3. Qué demuestra sobre tu negocio
+ 
+Hacé que la sección de tracción sea la parte más fuerte del deck."
 ```
-
-### Refinement 3: Address Investor Concerns
+ 
+### Refinamiento 3: Abordar las preocupaciones de los inversores
 ```
-"Anticipate the top 5 investor concerns:
-1. Market size - Is it big enough?
-2. Competition - Why do you win?
-3. Unit economics - Do the numbers work?
-4. Team - Can they execute?
-5. Risk - What could go wrong?
-
-For each concern, add a line or sub-point that addresses it."
+"Anticipá las 5 principales preocupaciones de los inversores:
+1. Tamaño de mercado - ¿Es suficientemente grande?
+2. Competencia - ¿Por qué ganás vos?
+3. Economía unitaria - ¿Los números cierran?
+4. Equipo - ¿Pueden ejecutar?
+5. Riesgo - ¿Qué podría salir mal?
+ 
+Para cada preocupación, agregá una línea o subpunto que la aborde."
 ```
-
-### Refinement 4: Create Urgency
+ 
+### Refinamiento 4: Generar urgencia
 ```
-"VCs invest when they see:
-1. Huge market opportunity
-2. Strong team
-3. Real product-market fit
-4. Momentum/traction
-
-Add elements that create urgency:
-- Competitive threats
-- Customer demand signals
-- Timeline to Series B at what valuation
-- Why now?"
+"Los VCs invierten cuando ven:
+1. Una oportunidad de mercado enorme
+2. Un equipo sólido
+3. Encaje producto-mercado real
+4. Impulso/tracción
+ 
+Agregá elementos que generen urgencia:
+- Amenazas competitivas
+- Señales de demanda de clientes
+- Cronograma hacia la Serie B y a qué valuación
+- ¿Por qué ahora?"
 ```
-
+ 
 ---
-
-## Pro Tips for Investor Pitches
-
-### The Opening 30 Seconds ⏱️
-**Make or break moment.**
+ 
+## Consejos profesionales para pitches a inversores
+ 
+### Los primeros 30 segundos ⏱️
+**El momento que define todo.**
 ```
-"You could open:
-
-Option 1 (Problem-focused):
-'Enterprise teams waste 40 hours per week on manual [task].
-We cut that to 4 hours. We're already saving customers $500K/year.'
-
-Option 2 (Vision-focused):
-'In 5 years, every [industry] will use AI for [task].
-We're building the platform that makes that possible.'
-
-Option 3 (Traction-focused):
-'We've gone from $0 to $500K in revenue in 12 months.
-Every customer we acquire grows 250% in their first year.
-We're here because we're overbooked.'"
+"Podrías abrir así:
+ 
+Opción 1 (enfocada en el problema):
+'Los equipos empresariales desperdician 40 horas por semana en [tarea] manual.
+Nosotros reducimos eso a 4 horas. Ya estamos ahorrándoles $500K/año a nuestros clientes.'
+ 
+Opción 2 (enfocada en la visión):
+'En 5 años, todas las empresas de [industria] usarán IA para [tarea].
+Estamos construyendo la plataforma que hace eso posible.'
+ 
+Opción 3 (enfocada en la tracción):
+'Pasamos de $0 a $500K en ingresos en 12 meses.
+Cada cliente que adquirimos crece un 250% en su primer año.
+Estamos acá porque tenemos más demanda de la que podemos atender.'"
 ```
-
-### Data Density ✅
-- Use numbers strategically
-- Don't overload with metrics
-- Every number should support your narrative
-- "Boring but believable" beats "exciting but vague"
-
-### The "Why Now?" ✅
-- VCs see many good ideas
-- Why this company wins now?
-- What changed in the market/technology?
-- Why did you start this now?
-
-### Competitive Positioning ✅
-- **Avoid:** "There's no competition" (red flag)
-- **Avoid:** "We're 10x better" (unrealistic)
-- **Say:** "Here's the competitive landscape. We're different because..."
-- Use a 2x2 matrix to show positioning clearly
-
-### Handle Skepticism ✅
-- VCs will push back
-- Confident, honest answers > defensive
-- Acknowledge real risks
-- Show you've thought through concerns
-
-### Closing Strong ✅
-- Vision + clear ask = powerful combo
-- "We're raising $2M to [specific use]"
-- "This puts us on track to [milestone]"
-- "We'd love your partnership in building this"
-
+ 
+### Densidad de datos ✅
+- Usá los números de forma estratégica
+- No sobrecargues con métricas
+- Cada número debe respaldar tu narrativa
+- "Aburrido pero creíble" le gana a "emocionante pero vago"
+### El "¿Por qué ahora?" ✅
+- Los VCs ven muchas buenas ideas
+- ¿Por qué esta empresa gana ahora?
+- ¿Qué cambió en el mercado/la tecnología?
+- ¿Por qué empezaste esto justo ahora?
+### Posicionamiento competitivo ✅
+- **Evitá:** "No hay competencia" (señal de alerta)
+- **Evitá:** "Somos 10 veces mejores" (poco realista)
+- **Decí:** "Este es el panorama competitivo. Somos diferentes porque..."
+- Usá una matriz 2x2 para mostrar el posicionamiento con claridad
+### Manejar el escepticismo ✅
+- Los VCs van a cuestionarte
+- Respuestas seguras y honestas > respuestas defensivas
+- Reconocé los riesgos reales
+- Mostrá que pensaste bien las objeciones
+### Cerrar con fuerza ✅
+- Visión + pedido claro = combinación poderosa
+- "Estamos recaudando $2M para [uso específico]"
+- "Esto nos pone en camino hacia [hito]"
+- "Nos encantaría contar con su apoyo para construir esto"
 ---
-
-## Example Specific Prompts (Real-World)
-
-### Session 1: Structure & Story
+ 
+## Ejemplos de prompts específicos (casos reales)
+ 
+### Sesión 1: Estructura y narrativa
 ```
-"Create a 12-slide investor pitch deck for Series A fundraising.
-
-My company: [Your company]
-What we do: [Your solution]
-Customer validation: [Proof of traction]
-
-Create a compelling narrative:
-1. Hook them with the problem
-2. Show that we've solved it
-3. Prove it with real metrics
-4. Show path to significant exit
-5. Ask clearly
-
-Style: Neo-Retro Dev Deck - bold, confident, clear numbers
-Focus: Every claim must be backed by data"
+"Creá un pitch deck de inversores de 12 diapositivas para una recaudación Serie A.
+ 
+Mi empresa: [Tu empresa]
+Qué hacemos: [Tu solución]
+Validación de clientes: [Prueba de tracción]
+ 
+Creá una narrativa convincente:
+1. Enganchalos con el problema
+2. Mostrá que lo resolvimos
+3. Probalo con métricas reales
+4. Mostrá el camino hacia una salida (exit) significativa
+5. Pedí con claridad
+ 
+Estilo: Neo-Retro Dev Deck - audaz, seguro, números claros
+Enfoque: Cada afirmación debe estar respaldada por datos"
 ```
-
-### Session 2: Competitive Differentiation
+ 
+### Sesión 2: Diferenciación competitiva
 ```
-"Create a competitive positioning section.
-
-Our competitors:
-- [Competitor 1] - strengths: X, weaknesses: Y
-- [Competitor 2] - strengths: A, weaknesses: B
-- [Competitor 3] - strengths: P, weaknesses: Q
-
-Why we win:
-[Your unique advantage]
-
-Format: 2x2 matrix with dimensions that favor us
-Be honest but clear about our competitive advantage"
+"Creá una sección de posicionamiento competitivo.
+ 
+Nuestros competidores:
+- [Competidor 1] - fortalezas: X, debilidades: Y
+- [Competidor 2] - fortalezas: A, debilidades: B
+- [Competidor 3] - fortalezas: P, debilidades: Q
+ 
+Por qué ganamos:
+[Tu ventaja única]
+ 
+Formato: matriz 2x2 con dimensiones que nos favorezcan
+Sé honesto pero claro respecto a nuestra ventaja competitiva"
 ```
-
-### Session 3: Traction Emphasis
+ 
+### Sesión 3: Énfasis en la tracción
 ```
-"Make the traction section compelling.
-
-Our metrics:
-- Revenue: [Numbers]
-- Customer growth: [Rate]
-- Retention: [%]
-- Customer testimonial: '[Quote]'
-
-For each metric:
-1. What it proves
-2. How it compares to benchmarks
-3. Why investors should care
-
-Make this section your strongest visual and narrative."
+"Hacé que la sección de tracción sea convincente.
+ 
+Nuestras métricas:
+- Ingresos: [Números]
+- Crecimiento de clientes: [Tasa]
+- Retención: [%]
+- Testimonio de cliente: '[Cita]'
+ 
+Para cada métrica:
+1. Qué demuestra
+2. Cómo se compara con las referencias del sector
+3. Por qué debería importarle a los inversores
+ 
+Hacé que esta sección sea la más fuerte visual y narrativamente."
 ```
-
+ 
 ---
-
-## Common Pitch Mistakes & Fixes
-
-| Mistake | Problem | Fix |
+ 
+## Errores comunes en los pitches y cómo corregirlos
+ 
+| Error | Problema | Solución |
 |---------|---------|-----|
-| No revenue | Too early stage | Lead with usage, engagement, waitlist |
-| Vague numbers | Sounds made up | Use specific metrics, cite sources |
-| No competitive mention | Seems naive | Show competitive landscape, differentiation |
-| Too much detail | Gets boring | One key number per slide |
-| Vision without traction | No credibility | Prove it works first, then paint vision |
-| Small ask | Seems unambitious | Right-sized ask with clear use of funds |
-| Team slide minimal | They invest in teams | Show credentials, track record, why you'll win |
-
+| Sin ingresos | Etapa demasiado temprana | Liderar con uso, engagement, lista de espera |
+| Números vagos | Suena inventado | Usar métricas específicas, citar fuentes |
+| Sin mención de la competencia | Parece ingenuo | Mostrar el panorama competitivo, la diferenciación |
+| Demasiado detalle | Se vuelve aburrido | Un número clave por diapositiva |
+| Visión sin tracción | Sin credibilidad | Probar primero que funciona, luego pintar la visión |
+| Pedido pequeño | Parece poco ambicioso | Pedido de tamaño adecuado con uso claro de los fondos |
+| Diapositiva de equipo mínima | Invierten en equipos | Mostrar credenciales, trayectoria, por qué van a ganar |
+ 
 ---
-
-## Actual Pitch Deck Example (Skeleton)
-
-### Slide 1: Hook
+ 
+## Ejemplo real de pitch deck (esqueleto)
+ 
+### Diapositiva 1: Gancho
 ```
-TITLE: "AI for Enterprise Scheduling"
-SUBTITLE: "Saving teams 10 hours per week"
-VISUAL: One compelling statistic or customer quote
-TIMING: 30 seconds to get their attention
+TÍTULO: "IA para la planificación empresarial"
+SUBTÍTULO: "Ahorrando a los equipos 10 horas por semana"
+VISUAL: Una estadística contundente o una cita de cliente
+TIEMPO: 30 segundos para captar su atención
 ```
-
-### Slide 2: Problem
+ 
+### Diapositiva 2: Problema
 ```
-TITLE: "Enterprise Teams Waste $1M+ Annually"
-DATA:
-- Scheduling takes 10+ hours/week per manager
-- 40% of meeting requests are declined or reschedule
-- Integration across tools is manual and error-prone
-VISUAL: Simple chart showing problem scale
-TIMING: 1 minute - make them feel the pain
+TÍTULO: "Los equipos empresariales desperdician más de $1M anuales"
+DATOS:
+- La planificación de horarios toma más de 10 horas/semana por gerente
+- El 40% de las solicitudes de reunión se rechazan o reprograman
+- La integración entre herramientas es manual y propensa a errores
+VISUAL: Gráfico simple que muestre la magnitud del problema
+TIEMPO: 1 minuto - hacer que sientan el dolor
 ```
-
-### Slide 3: Solution
+ 
+### Diapositiva 3: Solución
 ```
-TITLE: "Intelligent Scheduling Platform"
-KEY POINTS:
-- Natural language scheduling requests
-- AI optimizes for all participants
-- Integrates with Outlook, Google, Slack
-- Takes 30 seconds vs. 10 minutes
-VISUAL: Quick product demo or interface screenshot
-TIMING: 1 minute - show it's elegant
+TÍTULO: "Plataforma de planificación inteligente"
+PUNTOS CLAVE:
+- Solicitudes de agenda en lenguaje natural
+- La IA optimiza para todos los participantes
+- Se integra con Outlook, Google, Slack
+- Toma 30 segundos en vez de 10 minutos
+VISUAL: Demo rápida del producto o captura de la interfaz
+TIEMPO: 1 minuto - mostrar que es elegante
 ```
-
-### Slide 4: Traction
+ 
+### Diapositiva 4: Tracción
 ```
-TITLE: "Real Customer Results"
-DATA:
-- 50 companies using (logos shown)
-- 10 hours saved per user per week
-- $250K total ACV (Annual Contract Value)
-- 95% NPS
-TESTIMONIAL: "[Customer] achieved [result]"
-TIMING: 1.5 minutes - let this sink in
+TÍTULO: "Resultados reales de clientes"
+DATOS:
+- 50 empresas usándolo (logos mostrados)
+- 10 horas ahorradas por usuario por semana
+- $250K de ACV total (Valor de Contrato Anual)
+- 95% de NPS
+TESTIMONIO: "[Cliente] logró [resultado]"
+TIEMPO: 1.5 minutos - dejar que esto se asimile
 ```
-
-### Slide 5: Ask
+ 
+### Diapositiva 5: Pedido
 ```
-TITLE: "Series A: $2M Investment"
-USE OF FUNDS:
-- Sales team: $700K
-- Engineering: $800K
-- Operations: $300K
+TÍTULO: "Serie A: inversión de $2M"
+USO DE LOS FONDOS:
+- Equipo de ventas: $700K
+- Ingeniería: $800K
+- Operaciones: $300K
 - Runway: $200K
-
-TIMELINE: 18 months to Series B at $20M ARR
-VISION: Building the OS for enterprise time management
-TIMING: 1 minute - clear and specific
+ 
+CRONOGRAMA: 18 meses hasta la Serie B con $20M de ARR
+VISIÓN: Construir el sistema operativo para la gestión del tiempo empresarial
+TIEMPO: 1 minuto - claro y específico
 ```
-
+ 
 ---
-
-## Pre-Pitch Checklist
-
-- [ ] Every number is real (no projections disguised as facts)
-- [ ] Traction section is ironclad (best proof you have)
-- [ ] Vision is compelling but grounded in reality
-- [ ] Team slide shows relevant expertise
-- [ ] Business model is clear and sound
-- [ ] Competitive positioning is honest and strong
-- [ ] Ask is specific with clear use of funds
-- [ ] Story flows logically from slide to slide
-- [ ] No technical jargon that excludes non-technical VCs
-- [ ] Design is clean, not gimmicky
-- [ ] Numbers are readable from distance
-- [ ] Each slide takes ~1-2 minutes to present
-- [ ] Practice with actual timing
-- [ ] Have backup/detail slides for Q&A
-
+ 
+## Checklist previo al pitch
+ 
+- [ ] Cada número es real (sin proyecciones disfrazadas de hechos)
+- [ ] La sección de tracción es sólida (tu mejor prueba)
+- [ ] La visión es convincente pero realista
+- [ ] La diapositiva del equipo muestra experiencia relevante
+- [ ] El modelo de negocio es claro y sólido
+- [ ] El posicionamiento competitivo es honesto y fuerte
+- [ ] El pedido es específico con un uso claro de los fondos
+- [ ] La historia fluye lógicamente de una diapositiva a otra
+- [ ] No hay jerga técnica que excluya a VCs no técnicos
+- [ ] El diseño es limpio, no artificioso
+- [ ] Los números se leen bien a distancia
+- [ ] Cada diapositiva toma entre 1 y 2 minutos de presentación
+- [ ] Se practicó con el tiempo real
+- [ ] Hay diapositivas de respaldo/detalle para las preguntas
 ---
-
-## Pitch Delivery Tips
-
-### The Room
-- Arrive early, test tech
-- Make eye contact with key decision-makers
-- Speak confidently but not arrogantly
-- Pause after big numbers (let them sink in)
-- Smile - you believe in this!
-
-### Handling Questions
-- **"Why now?"** → Market timing + technology + team
-- **"Who's your competition?"** → Name them, show why you win
-- **"What could go wrong?"** → Be honest, show you've thought it through
-- **"What's your gross margin?"** → Show unit economics work
-- **"Why do you think you'll win?"** → It's about the team + timing + execution
-
-### The Close
-- Thank them for their time
-- Remind them of your ask: "$2M Series A"
-- Show your conviction: "We're going to do this with or without you"
-- Next steps: "We'll stay in touch, hoping to move this forward next month"
-
+ 
+## Consejos para la presentación del pitch
+ 
+### La sala
+- Llegar temprano, probar la tecnología
+- Hacer contacto visual con quienes toman las decisiones clave
+- Hablar con seguridad pero sin arrogancia
+- Hacer una pausa después de números grandes (dejar que se asimilen)
+- Sonreír: ¡creés en esto!
+### Manejo de preguntas
+- **"¿Por qué ahora?"** → Momento de mercado + tecnología + equipo
+- **"¿Quién es tu competencia?"** → Nombralos, mostrá por qué ganás
+- **"¿Qué podría salir mal?"** → Sé honesto, mostrá que lo pensaste bien
+- **"¿Cuál es tu margen bruto?"** → Mostrá que la economía unitaria funciona
+- **"¿Por qué creés que vas a ganar?"** → Se trata del equipo + el momento + la ejecución
+### El cierre
+- Agradecerles su tiempo
+- Recordarles tu pedido: "$2M de Serie A"
+- Mostrar tu convicción: "Vamos a hacer esto con o sin ustedes"
+- Próximos pasos: "Seguimos en contacto, con la esperanza de avanzar el mes que viene"
 ---
-
-## Time Estimates
-
-| Task | Time |
+ 
+## Estimaciones de tiempo
+ 
+| Tarea | Tiempo |
 |------|------|
-| Prepare source materials | 5-10 min |
-| Initial NotebookLM generation | 15-20 min |
-| Refinement rounds (2-3x) | 15-25 min |
-| Convert to slides (design) | 30-45 min |
-| Practice and refine | 20-30 min |
+| Preparar materiales de origen | 5-10 min |
+| Generación inicial en NotebookLM | 15-20 min |
+| Rondas de refinamiento (2-3x) | 15-25 min |
+| Convertir a diapositivas (diseño) | 30-45 min |
+| Practicar y refinar | 20-30 min |
 | **Total** | **90-150 min** |
-
+ 
 ---
-
-## Follow-Up After Pitch
-
-- Send thank you with 1-page deck summary
-- Follow up with detailed metrics (if requested)
-- Keep them posted on progress
-- Build relationship regardless of immediate decision
-- Learn from feedback (even if they pass)
-
+ 
+## Seguimiento después del pitch
+ 
+- Enviar agradecimiento con un resumen del deck de 1 página
+- Hacer seguimiento con métricas detalladas (si las piden)
+- Mantenerlos al tanto del progreso
+- Construir la relación más allá de la decisión inmediata
+- Aprender del feedback (incluso si no avanzan)
 ---
-
-## Next Steps
-
-1. **Try it** with your own company story
-2. **Iterate** based on investor feedback
-3. **Practice** out loud with real investors
-4. **Refine** based on what questions come up
-5. **Share** your prompts if they work well
-
+ 
+## Próximos pasos
+ 
+1. **Probalo** con la historia de tu propia empresa
+2. **Iterá** según el feedback de los inversores
+3. **Practicá** en voz alta con inversores reales
+4. **Refiná** según las preguntas que surjan
+5. **Compartí** tus prompts si funcionan bien
 ---
-
-**Questions?** See the main README for more resources.
-
-**Want to contribute your pitch deck prompts?** We'd love to learn what works!
+ 
+**¿Preguntas?** Consultá el README principal para más recursos.
+ 
+**¿Querés aportar tus propios prompts de pitch deck?** ¡Nos encantaría saber qué funciona!
+ 
